@@ -1,0 +1,121 @@
+[author]
+one = "Autor"
+other = "Autores"
+
+[by]
+other = "por"
+
+[cancel]
+other = "Cancelar"
+
+[cancelComment]
+other = "Cancelar comentario"
+
+[category]
+one = "Categoría"
+other = "Categorías"
+
+[comment]
+other = "Comment"
+
+[commentSubmissionErrorMessage]
+other = "Ocurrió un error y no pudimos guardar un comentario. Por favor intentalo de nuevo."
+
+[commentSubmissionErrorTitle]
+other = "Oops, perdón!"
+
+[commentSubmissionSuccessMessage]
+other = "Tu comentario fue guardado. Aparecerá en la página pronto!"
+
+[commentSubmissionSuccessTitle]
+other = "Gracias!"
+
+[commentsOnEntry]
+one = "Sólo {{ .Count }} comentario en {{ .Title }}"
+other = "{{ .Count }} comentarios en {{ .Title }}"
+
+[contactViaEmail]
+other = "Contacto vía Email"
+
+[currentPage]
+other = "Página actual"
+
+[Email]
+other = "Email"
+
+[gopher]
+other = "Gopher"
+
+[goHome]
+other = "Ir al Inicio..."
+
+[leaveAComment]
+other = "Dejá un comentario"
+
+[mainMenu]
+other = "Menú principal"
+
+[name]
+other = "Nombre"
+
+[next]
+other = "Siguiente"
+
+[nextPage]
+other = "Página siguiente"
+
+[nextPost]
+other = "Post siguiente"
+
+[noTerm]
+other = "Ni un sólo {{ .Term }}!"
+
+[openAccountInNewTab]
+other = "Abrir cuenta de {{ .Platform }} en una nueva pestaña"
+
+[page]
+other = "Página"
+
+[previous]
+other = "Anterior"
+
+[previousPage]
+other = "Página anterior"
+
+[previousPost]
+other = "Post anterior"
+
+[postedOn]
+other = "Posteado en"
+
+[readingTime]
+one = "Lectura de un minuto"
+other = "{{ .Count }} minutos de lectura"
+
+[recentPosts]
+other = "Posts recientes"
+
+[skipToContent]
+other = "Saltar a Contenido"
+
+[skipToMainMenu]
+other = "Saltar al Menú principal"
+
+[socialMenu]
+other = "Social"
+
+[submitComment]
+other = "Comentá!"
+
+[tableOfContents]
+other = "Tabla de Contenidos"
+
+[tag]
+one = "Tag"
+other = "Tags"
+
+[toggleSidebar]
+other = "Alternar barra lateral"
+
+[website]
+other = "Página web"
