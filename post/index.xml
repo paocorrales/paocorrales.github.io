@@ -19,14 +19,5 @@
       <description>Proximamente… algo de lo que hago y haré con R, Python, el doctorado, la educación en ciencia o la vida.</description>
     </item>
     
-    <item>
-      <title>Test</title>
-      <link>https://paocorrales.github.io/post/test/</link>
-      <pubDate>Sat, 31 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://paocorrales.github.io/post/test/</guid>
-      <description>Algunas cosas por acá para probar si anda todo</description>
-    </item>
-    
   </channel>
 </rss>
