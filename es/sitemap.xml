@@ -3,77 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/es/authors/</loc>
+    <loc>http://www.example.com/es/authors/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/authors/"
+                href="http://www.example.com/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/authors/"
+                href="http://www.example.com/es/authors/"
                 />
   </url>
   
   <url>
-    <loc>/es/categories/</loc>
+    <loc>http://www.example.com/es/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="http://www.example.com/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/categories/"
+                href="http://www.example.com/es/categories/"
                 />
   </url>
   
   <url>
-    <loc>/es/</loc>
+    <loc>http://www.example.com/es/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="http://www.example.com/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/"
+                href="http://www.example.com/es/"
                 />
   </url>
   
   <url>
-    <loc>/es/series/</loc>
+    <loc>http://www.example.com/es/series/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/series/"
+                href="http://www.example.com/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/series/"
+                href="http://www.example.com/es/series/"
                 />
   </url>
   
   <url>
-    <loc>/es/tags/</loc>
+    <loc>http://www.example.com/es/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="http://www.example.com/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tags/"
+                href="http://www.example.com/es/tags/"
                 />
   </url>
   

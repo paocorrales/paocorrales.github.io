@@ -3,103 +3,103 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/</loc>
+    <loc>http://www.example.com/</loc>
     <lastmod>2018-03-30T21:13:14-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/"
+                href="http://www.example.com/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/"
+                href="http://www.example.com/"
                 />
   </url>
   
   <url>
-    <loc>/post/</loc>
+    <loc>http://www.example.com/post/</loc>
     <lastmod>2018-03-30T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/sobre-esta-p%C3%A1gina/</loc>
+    <loc>http://www.example.com/sobre-esta-p%C3%A1gina/</loc>
   </url>
   
   <url>
-    <loc>/post/2015-07-23-hello-word/</loc>
+    <loc>http://www.example.com/post/2015-07-23-hello-word/</loc>
     <lastmod>2018-03-30T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>/authors/</loc>
+    <loc>http://www.example.com/authors/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/authors/"
+                href="http://www.example.com/es/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/authors/"
+                href="http://www.example.com/authors/"
                 />
   </url>
   
   <url>
-    <loc>/categories/</loc>
+    <loc>http://www.example.com/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/categories/"
+                href="http://www.example.com/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/categories/"
+                href="http://www.example.com/categories/"
                 />
   </url>
   
   <url>
-    <loc>/tags/config/</loc>
+    <loc>http://www.example.com/tags/config/</loc>
   </url>
   
   <url>
-    <loc>/tags/og/</loc>
+    <loc>http://www.example.com/tags/og/</loc>
   </url>
   
   <url>
-    <loc>/page/</loc>
+    <loc>http://www.example.com/page/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/series/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="/es/series/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="/series/"
-                />
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
+    <loc>http://www.example.com/series/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/es/tags/"
+                href="http://www.example.com/es/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/tags/"
+                href="http://www.example.com/series/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://www.example.com/tags/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://www.example.com/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.example.com/tags/"
                 />
   </url>
   
