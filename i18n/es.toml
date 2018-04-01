@@ -16,7 +16,7 @@ one = "Categoría"
 other = "Categorías"
 
 [comment]
-other = "Comment"
+other = "Enviar"
 
 [commentSubmissionErrorMessage]
 other = "Ocurrió un error y no pudimos guardar un comentario. Por favor intentalo de nuevo."
