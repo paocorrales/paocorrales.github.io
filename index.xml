@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inicio on Pao Corrales</title>
-    <link>http://www.example.com/</link>
+    <link>https://paocorrales.github.io/</link>
     <description>Recent content in Inicio on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 30 Mar 2018 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="http://www.example.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://paocorrales.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Sobre esta página</title>
-      <link>http://www.example.com/sobre-esta-p%C3%A1gina/</link>
+      <link>https://paocorrales.github.io/sobre-esta-p%C3%A1gina/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/sobre-esta-p%C3%A1gina/</guid>
+      <guid>https://paocorrales.github.io/sobre-esta-p%C3%A1gina/</guid>
       <description>Mi primera página web hecha con Blogdown + Hugo para aprender a usar éstas herramientas y de paso compartir lo que hago.</description>
     </item>
     
     <item>
       <title>Hello Word</title>
-      <link>http://www.example.com/post/2015-07-23-hello-word/</link>
+      <link>https://paocorrales.github.io/post/2015-07-23-hello-word/</link>
       <pubDate>Fri, 30 Mar 2018 21:13:14 -0500</pubDate>
       
-      <guid>http://www.example.com/post/2015-07-23-hello-word/</guid>
+      <guid>https://paocorrales.github.io/post/2015-07-23-hello-word/</guid>
       <description>Proximamente… algo de lo que hago y haré con R, Python, el doctorado, la educación en ciencia o la vida.</description>
     </item>
     

@@ -3,77 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.example.com/es/authors/</loc>
+    <loc>https://paocorrales.github.io/es/authors/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/authors/"
+                href="https://paocorrales.github.io/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/es/authors/"
+                href="https://paocorrales.github.io/es/authors/"
                 />
   </url>
   
   <url>
-    <loc>http://www.example.com/es/categories/</loc>
+    <loc>https://paocorrales.github.io/es/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/categories/"
+                href="https://paocorrales.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/es/categories/"
+                href="https://paocorrales.github.io/es/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://www.example.com/es/</loc>
+    <loc>https://paocorrales.github.io/es/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/"
+                href="https://paocorrales.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/es/"
+                href="https://paocorrales.github.io/es/"
                 />
   </url>
   
   <url>
-    <loc>http://www.example.com/es/series/</loc>
+    <loc>https://paocorrales.github.io/es/series/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/series/"
+                href="https://paocorrales.github.io/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/es/series/"
+                href="https://paocorrales.github.io/es/series/"
                 />
   </url>
   
   <url>
-    <loc>http://www.example.com/es/tags/</loc>
+    <loc>https://paocorrales.github.io/es/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://www.example.com/tags/"
+                href="https://paocorrales.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://www.example.com/es/tags/"
+                href="https://paocorrales.github.io/es/tags/"
                 />
   </url>
   
