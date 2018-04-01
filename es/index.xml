@@ -2,11 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pao Corrales</title>
-    <link>https://paocorrales.github.io/es/</link>
+    <link>/es/</link>
     <description>Recent content on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="https://paocorrales.github.io/es/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/es/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

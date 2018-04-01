@@ -1,0 +1,10 @@
+---
+title: Test
+author: Pao Corrales
+date: '2018-03-31'
+slug: test
+categories: []
+tags: []
+---
+
+Algunas cosas por acá para probar si anda todo
