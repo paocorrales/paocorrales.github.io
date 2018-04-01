@@ -1,5 +1,6 @@
 comments:
-  allowedFields: ["name", "email", "site", "content", "permalink"]
+  allowedFields: ["name", "email", "site", "content"]
+  allowedOrigins: ["localhost", "paocorrales.github.io"]
   branch: "master"
   commitMessage: "add [comment]: by {fields.author} <Staticman>\n\n{fields.permalink}#comment-{@id}"
   filename: "{@id}"
@@ -10,8 +11,8 @@ comments:
       options:
         format: "timestamp"
   moderation: false
-  name: "paocorrales"
+  name: "Pao Corrales"
   path: "data/comments/{options.postId}"
-  requiredFields: ["name", "email", "permalink"]
+  requiredFields: ["name", "email"]
   transforms:
     email: md5
