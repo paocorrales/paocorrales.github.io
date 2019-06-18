@@ -68,7 +68,7 @@ other = "Página siguiente"
 other = "Post siguiente"
 
 [noTerm]
-other = "Ni un sólo {{ .Term }}!"
+other = "Ni una sóla {{ .Term }}!"
 
 [openAccountInNewTab]
 other = "Abrir cuenta de {{ .Platform }} en una nueva pestaña"

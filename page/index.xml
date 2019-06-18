@@ -10,12 +10,12 @@
     
     
     <item>
-      <title>Sobre esta página</title>
-      <link>https://paocorrales.github.io/sobre-esta-p%C3%A1gina/</link>
+      <title>Search</title>
+      <link>https://paocorrales.github.io/search/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://paocorrales.github.io/sobre-esta-p%C3%A1gina/</guid>
-      <description>Mi primera página web hecha con Blogdown + Hugo para aprender a usar estas herramientas y de paso compartir lo que hago.</description>
+      <guid>https://paocorrales.github.io/search/</guid>
+      <description></description>
     </item>
     
   </channel>
