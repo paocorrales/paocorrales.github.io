@@ -80,18 +80,18 @@
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/taller/</loc>
-    <lastmod>2018-12-03T21:13:14-05:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://paocorrales.github.io/talleresycharlas/2018_rladies_blogdown/</loc>
     <lastmod>2018-12-03T21:13:14-05:00</lastmod>
   </url>
   
   <url>
     <loc>https://paocorrales.github.io/authors/paocorrales/</loc>
+    <lastmod>2018-12-03T21:13:14-05:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://paocorrales.github.io/tags/taller/</loc>
     <lastmod>2018-12-03T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
