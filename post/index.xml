@@ -2,29 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Post on Pao Corrales</title>
-    <link>https://paocorrales.github.io/post/</link>
+    <link>/post/</link>
     <description>Recent content in Post on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 30 Mar 2018 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://paocorrales.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>rvad o cómo calcular el viento </title>
+      <link>/post/rvad-o-como-calcular-el-viento/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/rvad-o-como-calcular-el-viento/</guid>
+      <description>rvad Cómo parte de mi tesis de licenciatura implementé un algorítmo para calcular el viento horizontal a partir de observaciones de radares. Lo escribí en python y era super lento, seguramente por mi culpa! La buena noticia es que este año pasé el código al lado del bien y ahora hay un paquete de R.
+El objetivo del paquete rvad es aproximar las componentes del viento horizontal a partir del viento radial medido por un radar Doppler usando el método Velocity Azimith Displya o VAD de Browning and Wexler (1968).</description>
+    </item>
+    
+    <item>
       <title>Hello Word</title>
-      <link>https://paocorrales.github.io/post/2015-07-23-hello-word/</link>
+      <link>/post/2015-07-23-hello-word/</link>
       <pubDate>Fri, 30 Mar 2018 21:13:14 -0500</pubDate>
       
-      <guid>https://paocorrales.github.io/post/2015-07-23-hello-word/</guid>
+      <guid>/post/2015-07-23-hello-word/</guid>
       <description>Proximamente… algo de lo que hago y haré con R, Python, el doctorado, la educación en ciencia o la vida.</description>
     </item>
     
     <item>
       <title>Sobre esta página</title>
-      <link>https://paocorrales.github.io/post/about/</link>
+      <link>/post/about/</link>
       <pubDate>Fri, 30 Mar 2018 21:13:14 -0500</pubDate>
       
-      <guid>https://paocorrales.github.io/post/about/</guid>
+      <guid>/post/about/</guid>
       <description>Mi primera página web hecha con Blogdown + Hugo usando el tema Mínimo para aprender a usar estas herramientas y de paso compartir lo que hago.
 Si querés generar tu propia página web, podés revisar los materiales del Taller de Blogdown que dimos con Elio Campitelli para RLadies BA y R en Buenos Aires. Pero además deberías leer la biblia de Blogdown.</description>
     </item>

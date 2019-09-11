@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>visualización on Pao Corrales</title>
-    <link>https://paocorrales.github.io/tags/visualizaci%C3%B3n/</link>
+    <link>/tags/visualizaci%C3%B3n/</link>
     <description>Recent content in visualización on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Mon, 30 Oct 2017 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="https://paocorrales.github.io/tags/visualizaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/visualizaci%C3%B3n/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>R para meteorología</title>
-      <link>https://paocorrales.github.io/talleresycharlas/2017_r_para_meteorologos/</link>
+      <link>/talleresycharlas/2017_r_para_meteorologos/</link>
       <pubDate>Mon, 30 Oct 2017 21:13:14 -0500</pubDate>
       
-      <guid>https://paocorrales.github.io/talleresycharlas/2017_r_para_meteorologos/</guid>
+      <guid>/talleresycharlas/2017_r_para_meteorologos/</guid>
       <description>Hace unos años con Elio Campitelli armamos un taller de 3 encuentros para estudiantes de Ciencias de la Atmósfera y Oceanografía de la Facultad de Ciencias Exactas y Naturales de la UBA. El objetivo era contar lo que aún siendo estudiantes habíamos aprendido con todos los aciertos y errores.
 Aún le seguimos dando vueltas al asunto para mejorar y adaptar el material a nuestro área de estudio. Por ejemplo, Elio creó el paquete metR para manipular &amp;ldquo;fácilmente&amp;rdquo; datos meteorológicos y en mi caso tengo un intento de paquete que implementa algunas de las cosas que hice durante mi tesis de licenciatura.</description>
     </item>
     
     <item>
       <title>R y Radares: muchos datos y algunos resultados</title>
-      <link>https://paocorrales.github.io/talleresycharlas/2017_rladies_radares/</link>
+      <link>/talleresycharlas/2017_rladies_radares/</link>
       <pubDate>Sat, 01 Jul 2017 21:13:14 -0500</pubDate>
       
-      <guid>https://paocorrales.github.io/talleresycharlas/2017_rladies_radares/</guid>
+      <guid>/talleresycharlas/2017_rladies_radares/</guid>
       <description>Muy poquito tiempo después de conocer a RLadies Buenos Aires, me invitaron a dar una charla y contar lo que estaba haciendo en mi trabajo de tesis aun en pañales. Fue mi primer charla por fuera de la facultad y para un público muy diverso, así que intenté mostrar un poquito de cada cosa y que cada persona se lleve algo.
 En la charla les presento los radares meteorológicos, para que se usan y como funcionan.</description>
     </item>

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Authors on Pao Corrales</title>
-    <link>https://paocorrales.github.io/authors/</link>
+    <link>/authors/</link>
     <description>Recent content in Authors on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Dec 2018 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 10 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://paocorrales.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/authors/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>paocorrales</title>
-      <link>https://paocorrales.github.io/authors/paocorrales/</link>
-      <pubDate>Mon, 03 Dec 2018 21:13:14 -0500</pubDate>
+      <link>/authors/paocorrales/</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://paocorrales.github.io/authors/paocorrales/</guid>
+      <guid>/authors/paocorrales/</guid>
       <description></description>
     </item>
     

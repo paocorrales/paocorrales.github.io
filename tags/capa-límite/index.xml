@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>capa límite on Pao Corrales</title>
-    <link>https://paocorrales.github.io/tags/capa-l%C3%ADmite/</link>
+    <link>/tags/capa-l%C3%ADmite/</link>
     <description>Recent content in capa límite on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Wed, 17 Oct 2018 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="https://paocorrales.github.io/tags/capa-l%C3%ADmite/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/capa-l%C3%ADmite/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Óptica en la Atmósfera</title>
-      <link>https://paocorrales.github.io/publicaciones/2018_presentaci%C3%B3n_vientopbl/</link>
+      <link>/publicaciones/2018_presentaci%C3%B3n_vientopbl/</link>
       <pubDate>Wed, 17 Oct 2018 21:13:14 -0500</pubDate>
       
-      <guid>https://paocorrales.github.io/publicaciones/2018_presentaci%C3%B3n_vientopbl/</guid>
+      <guid>/publicaciones/2018_presentaci%C3%B3n_vientopbl/</guid>
       <description>En octubre de 2018 di una presentación oral en el CONGREMET XIII contando algunos de los resultados de mi tesis de licenciatura extendidos a nuevas simulaciones numéricas.
 Podés encontrar el resumen extendido acá y la presentación acá.</description>
     </item>
