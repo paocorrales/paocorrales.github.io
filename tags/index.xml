@@ -5,15 +5,24 @@
     <link>/tags/</link>
     <description>Recent content in Tags on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 10 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>LatinR2019</title>
+      <link>/tags/latinr2019/</link>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/latinr2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
       <description></description>
@@ -22,7 +31,7 @@
     <item>
       <title>VAD</title>
       <link>/tags/vad/</link>
-      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/vad/</guid>
       <description></description>
@@ -31,7 +40,7 @@
     <item>
       <title>meteorología</title>
       <link>/tags/meteorolog%C3%ADa/</link>
-      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/meteorolog%C3%ADa/</guid>
       <description></description>
@@ -40,7 +49,7 @@
     <item>
       <title>paquete</title>
       <link>/tags/paquete/</link>
-      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
       <guid>/tags/paquete/</guid>
       <description></description>
