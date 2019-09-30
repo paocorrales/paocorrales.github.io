@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>viento on Pao Corrales</title>
-    <link>/tags/viento/</link>
+    <link>https://paocorrales.github.io/tags/viento/</link>
     <description>Recent content in viento on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Tue, 10 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/viento/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://paocorrales.github.io/tags/viento/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>rvad o cómo calcular el viento </title>
-      <link>/post/rvad-o-como-calcular-el-viento/</link>
+      <link>https://paocorrales.github.io/post/rvad-o-como-calcular-el-viento/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/rvad-o-como-calcular-el-viento/</guid>
+      <guid>https://paocorrales.github.io/post/rvad-o-como-calcular-el-viento/</guid>
       <description>Cómo parte de mi tesis de licenciatura implementé un algorítmo para calcular el viento horizontal a partir de observaciones de radares. Lo escribí en python y era super lento, seguramente por mi culpa! La buena noticia es que este año pasé el código al lado del bien y ahora hay un paquete de R.
 El objetivo del paquete rvad es aproximar las componentes del viento horizontal a partir del viento radial medido por un radar Doppler usando el método Velocity Azimith Displya o VAD de Browning and Wexler (1968).</description>
     </item>
     
     <item>
       <title>Óptica en la Atmósfera</title>
-      <link>/publicaciones/2018_presentaci%C3%B3n_vientopbl/</link>
+      <link>https://paocorrales.github.io/publicaciones/2018_presentaci%C3%B3n_vientopbl/</link>
       <pubDate>Wed, 17 Oct 2018 21:13:14 -0500</pubDate>
       
-      <guid>/publicaciones/2018_presentaci%C3%B3n_vientopbl/</guid>
+      <guid>https://paocorrales.github.io/publicaciones/2018_presentaci%C3%B3n_vientopbl/</guid>
       <description>En octubre de 2018 di una presentación oral en el CONGREMET XIII contando algunos de los resultados de mi tesis de licenciatura extendidos a nuevas simulaciones numéricas.
 Podés encontrar el resumen extendido acá y la presentación acá.</description>
     </item>

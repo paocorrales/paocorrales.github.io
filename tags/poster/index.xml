@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>poster on Pao Corrales</title>
-    <link>/tags/poster/</link>
+    <link>https://paocorrales.github.io/tags/poster/</link>
     <description>Recent content in poster on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 22 Mar 2015 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/tags/poster/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://paocorrales.github.io/tags/poster/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Análisis del ciclo semanal en el Rango de Temperatura Diaria para Sudamerica</title>
-      <link>/publicaciones/2015_poster_ciclosenamal/</link>
+      <link>https://paocorrales.github.io/publicaciones/2015_poster_ciclosenamal/</link>
       <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
       
-      <guid>/publicaciones/2015_poster_ciclosenamal/</guid>
+      <guid>https://paocorrales.github.io/publicaciones/2015_poster_ciclosenamal/</guid>
       <description>En 2014 casi de casualidad descrubrí los cursos de Data Science de la Universidad Johns Hopkins en Coursera y con esos cursos mi primer acercamiento a R. En la misma época con Elio Campitelli empezamos a pensar en un trabajo para presentar en el CONGREMET XII (el único congreso de meteorología en Argentina) para no ir con las manos vacías.
 Y así, sabiendo muy poquito de R analizamos una base de datos de estaciones meteorológicas en Argentina y paises limítrofes con la intención de buscar una relación entre el rango de temperatura (la temperatura máxima menos la temperatura mínima) y los días de la semana.</description>
     </item>
     
     <item>
       <title>Óptica en la Atmósfera</title>
-      <link>/publicaciones/2015_porter_optica/</link>
+      <link>https://paocorrales.github.io/publicaciones/2015_porter_optica/</link>
       <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
       
-      <guid>/publicaciones/2015_porter_optica/</guid>
+      <guid>https://paocorrales.github.io/publicaciones/2015_porter_optica/</guid>
       <description>En el Departamento de Ciencias de la Atmósfera y los Oceanos donde estudie (y estudio) hacemos un esfuerzo enorme para divulgar nuestros trabajos y lo que sabemos sobre como funciona el mar y la atmósfera. Y hacemos esto porque por un lado es nuestro trabajo como científicos pero por el otro porque somos pocos y nos encantaría que más personas estudien estas carreras.
 Con esa intención en 2013 con Elio Campitelli y Martín Rugna armamos dos experiencias para que estudiantes y púplico general puedan entender como se forman los arco iris y los espejísmos en la atmósfera.</description>
     </item>

@@ -3,77 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/en/authors/</loc>
+    <loc>https://paocorrales.github.io/en/authors/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/authors/"
+                href="https://paocorrales.github.io/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/authors/"
+                href="https://paocorrales.github.io/en/authors/"
                 />
   </url>
   
   <url>
-    <loc>/en/categories/</loc>
+    <loc>https://paocorrales.github.io/en/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/categories/"
+                href="https://paocorrales.github.io/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/categories/"
+                href="https://paocorrales.github.io/en/categories/"
                 />
   </url>
   
   <url>
-    <loc>/en/</loc>
+    <loc>https://paocorrales.github.io/en/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/"
+                href="https://paocorrales.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/"
+                href="https://paocorrales.github.io/en/"
                 />
   </url>
   
   <url>
-    <loc>/en/series/</loc>
+    <loc>https://paocorrales.github.io/en/series/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/series/"
+                href="https://paocorrales.github.io/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/series/"
+                href="https://paocorrales.github.io/en/series/"
                 />
   </url>
   
   <url>
-    <loc>/en/tags/</loc>
+    <loc>https://paocorrales.github.io/en/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="/tags/"
+                href="https://paocorrales.github.io/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="/en/tags/"
+                href="https://paocorrales.github.io/en/tags/"
                 />
   </url>
   

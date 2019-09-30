@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>general on Pao Corrales</title>
-    <link>/tags/general/</link>
+    <link>https://paocorrales.github.io/tags/general/</link>
     <description>Recent content in general on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Fri, 30 Mar 2018 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/tags/general/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://paocorrales.github.io/tags/general/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello Word</title>
-      <link>/post/2015-07-23-hello-word/</link>
+      <link>https://paocorrales.github.io/post/2015-07-23-hello-word/</link>
       <pubDate>Fri, 30 Mar 2018 21:13:14 -0500</pubDate>
       
-      <guid>/post/2015-07-23-hello-word/</guid>
+      <guid>https://paocorrales.github.io/post/2015-07-23-hello-word/</guid>
       <description>Proximamente… algo de lo que hago y haré con R, Python, el doctorado, la educación en ciencia o la vida.</description>
     </item>
     

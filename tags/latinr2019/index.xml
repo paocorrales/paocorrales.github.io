@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>LatinR2019 on Pao Corrales</title>
-    <link>/tags/latinr2019/</link>
+    <link>https://paocorrales.github.io/tags/latinr2019/</link>
     <description>Recent content in LatinR2019 on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 29 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/latinr2019/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://paocorrales.github.io/tags/latinr2019/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LatinR 2019: Teaching Data Science por Mine</title>
-      <link>/post/latinr-2019-teaching-data-science-por-mine/</link>
+      <link>https://paocorrales.github.io/post/latinr-2019-teaching-data-science-por-mine/</link>
       <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/latinr-2019-teaching-data-science-por-mine/</guid>
+      <guid>https://paocorrales.github.io/post/latinr-2019-teaching-data-science-por-mine/</guid>
       <description>LatinR 2019 tuvo cosas maravillosas, una de esas fue el taller Teaching Data Science de Mine Çetinkaya-Rundel.
 Muy pronto mis notas y links a los materiales que compartió.</description>
     </item>
     
     <item>
       <title>Mi charla en LatinR 2019</title>
-      <link>/post/mi-charla-en-latinr-2019/</link>
+      <link>https://paocorrales.github.io/post/mi-charla-en-latinr-2019/</link>
       <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/mi-charla-en-latinr-2019/</guid>
-      <description>En esta segundo edición de (LatinR 2019)[] tuve la chance de presentar por primera vez en un congreso de R, ¡qué gran experiencia!
+      <guid>https://paocorrales.github.io/post/mi-charla-en-latinr-2019/</guid>
+      <description>En esta segundo edición de LatinR 2019 tuve la chance de presentar por primera vez en un congreso de R, ¡qué gran experiencia!
 Aproveché la oportunidad para presentar mi primer paquete rvad para el procesamiento de datos de viento medidos por radares Doppler pero también mi experiencia armando un paquete.
 Si te interesa el tema, podés encontrar la presentación acá y el repositorio con el paquete por acá. De yapa, hace un tiempito escribí un post sobre como usar el paquete acá.</description>
     </item>

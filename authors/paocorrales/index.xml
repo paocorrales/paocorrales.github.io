@@ -2,139 +2,139 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>paocorrales on Pao Corrales</title>
-    <link>/authors/paocorrales/</link>
+    <link>https://paocorrales.github.io/authors/paocorrales/</link>
     <description>Recent content in paocorrales on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 29 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/authors/paocorrales/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://paocorrales.github.io/authors/paocorrales/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>LatinR 2019: Teaching Data Science por Mine</title>
-      <link>/post/latinr-2019-teaching-data-science-por-mine/</link>
+      <link>https://paocorrales.github.io/post/latinr-2019-teaching-data-science-por-mine/</link>
       <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/latinr-2019-teaching-data-science-por-mine/</guid>
+      <guid>https://paocorrales.github.io/post/latinr-2019-teaching-data-science-por-mine/</guid>
       <description>LatinR 2019 tuvo cosas maravillosas, una de esas fue el taller Teaching Data Science de Mine Çetinkaya-Rundel.
 Muy pronto mis notas y links a los materiales que compartió.</description>
     </item>
     
     <item>
       <title>Mi charla en LatinR 2019</title>
-      <link>/post/mi-charla-en-latinr-2019/</link>
+      <link>https://paocorrales.github.io/post/mi-charla-en-latinr-2019/</link>
       <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/mi-charla-en-latinr-2019/</guid>
-      <description>En esta segundo edición de (LatinR 2019)[] tuve la chance de presentar por primera vez en un congreso de R, ¡qué gran experiencia!
+      <guid>https://paocorrales.github.io/post/mi-charla-en-latinr-2019/</guid>
+      <description>En esta segundo edición de LatinR 2019 tuve la chance de presentar por primera vez en un congreso de R, ¡qué gran experiencia!
 Aproveché la oportunidad para presentar mi primer paquete rvad para el procesamiento de datos de viento medidos por radares Doppler pero también mi experiencia armando un paquete.
 Si te interesa el tema, podés encontrar la presentación acá y el repositorio con el paquete por acá. De yapa, hace un tiempito escribí un post sobre como usar el paquete acá.</description>
     </item>
     
     <item>
       <title>rvad o cómo calcular el viento </title>
-      <link>/post/rvad-o-como-calcular-el-viento/</link>
+      <link>https://paocorrales.github.io/post/rvad-o-como-calcular-el-viento/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>/post/rvad-o-como-calcular-el-viento/</guid>
+      <guid>https://paocorrales.github.io/post/rvad-o-como-calcular-el-viento/</guid>
       <description>Cómo parte de mi tesis de licenciatura implementé un algorítmo para calcular el viento horizontal a partir de observaciones de radares. Lo escribí en python y era super lento, seguramente por mi culpa! La buena noticia es que este año pasé el código al lado del bien y ahora hay un paquete de R.
 El objetivo del paquete rvad es aproximar las componentes del viento horizontal a partir del viento radial medido por un radar Doppler usando el método Velocity Azimith Displya o VAD de Browning and Wexler (1968).</description>
     </item>
     
     <item>
       <title>Taller de Blogdown</title>
-      <link>/talleresycharlas/2018_rladies_blogdown/</link>
+      <link>https://paocorrales.github.io/talleresycharlas/2018_rladies_blogdown/</link>
       <pubDate>Mon, 03 Dec 2018 21:13:14 -0500</pubDate>
       
-      <guid>/talleresycharlas/2018_rladies_blogdown/</guid>
+      <guid>https://paocorrales.github.io/talleresycharlas/2018_rladies_blogdown/</guid>
       <description>Cerramos el año de meetups de RLadies Buenos Aires junto con la nueva comunidad R en Buenos Aires. Con Elio Campitelli (por R en Buenos Aires ) y yo (por RLadies BA) armamos un taller sobre Blogdown a partir de nuestra experiencia. El énfalis está en el armado de la página y no tanto en la publicación pero dejamos links a recursos geniales para continuar desde ahí.
 Las slides están acá, justo con los materiales para seguir el taller y el video de todo el encuentro acá.</description>
     </item>
     
     <item>
       <title>Taller de RMarkdown RLadies Santa Fe</title>
-      <link>/talleresycharlas/2018_rladies_rmarkdown/</link>
+      <link>https://paocorrales.github.io/talleresycharlas/2018_rladies_rmarkdown/</link>
       <pubDate>Thu, 18 Oct 2018 21:13:14 -0500</pubDate>
       
-      <guid>/talleresycharlas/2018_rladies_rmarkdown/</guid>
+      <guid>https://paocorrales.github.io/talleresycharlas/2018_rladies_rmarkdown/</guid>
       <description>En octubre de 2017 con Juliana Benitez viajamos a Santa Fe y repetimos el taller de RMarkdown que dimos para RLadies Buenos Aires y sumamos algunas slides sobre Blogdown y Bookdown.
 Acá los materiales.</description>
     </item>
     
     <item>
       <title>Óptica en la Atmósfera</title>
-      <link>/publicaciones/2018_presentaci%C3%B3n_vientopbl/</link>
+      <link>https://paocorrales.github.io/publicaciones/2018_presentaci%C3%B3n_vientopbl/</link>
       <pubDate>Wed, 17 Oct 2018 21:13:14 -0500</pubDate>
       
-      <guid>/publicaciones/2018_presentaci%C3%B3n_vientopbl/</guid>
+      <guid>https://paocorrales.github.io/publicaciones/2018_presentaci%C3%B3n_vientopbl/</guid>
       <description>En octubre de 2018 di una presentación oral en el CONGREMET XIII contando algunos de los resultados de mi tesis de licenciatura extendidos a nuevas simulaciones numéricas.
 Podés encontrar el resumen extendido acá y la presentación acá.</description>
     </item>
     
     <item>
       <title>Hello Word</title>
-      <link>/post/2015-07-23-hello-word/</link>
+      <link>https://paocorrales.github.io/post/2015-07-23-hello-word/</link>
       <pubDate>Fri, 30 Mar 2018 21:13:14 -0500</pubDate>
       
-      <guid>/post/2015-07-23-hello-word/</guid>
+      <guid>https://paocorrales.github.io/post/2015-07-23-hello-word/</guid>
       <description>Proximamente… algo de lo que hago y haré con R, Python, el doctorado, la educación en ciencia o la vida.</description>
     </item>
     
     <item>
       <title>Mi tesis: Validación de parametrizaciones de capa límite utilizando datos de radar.</title>
-      <link>/publicaciones/2018_tesis/</link>
+      <link>https://paocorrales.github.io/publicaciones/2018_tesis/</link>
       <pubDate>Thu, 22 Mar 2018 21:13:14 -0500</pubDate>
       
-      <guid>/publicaciones/2018_tesis/</guid>
+      <guid>https://paocorrales.github.io/publicaciones/2018_tesis/</guid>
       <description>En marzo de 2018 defedí mi tesis de licenciatura después de muchísimo trabajo y tiempo invertido y acompañada de dos grandes directores Juan Ruiz y Marisa Gassmann. En algún momento llegué a la conclusión de que uno nunca termina la tesis, el deadline la termina por vos. Está escrita 100% en RMarkdown y el código está disponible en un repositorio (aunque no los datos por el tamaño, pero si te interesa escribime) porque si es reproducible, es mejor.</description>
     </item>
     
     <item>
       <title>Taller de RMarkdown RLadies Buenos Aires</title>
-      <link>/talleresycharlas/2017_rladies_rmarkdown/</link>
+      <link>https://paocorrales.github.io/talleresycharlas/2017_rladies_rmarkdown/</link>
       <pubDate>Mon, 27 Nov 2017 21:13:14 -0500</pubDate>
       
-      <guid>/talleresycharlas/2017_rladies_rmarkdown/</guid>
+      <guid>https://paocorrales.github.io/talleresycharlas/2017_rladies_rmarkdown/</guid>
       <description>En 2017 cerramos el año de meetups de RLadies Buenos Aires con un taller de RMarkdown que armamos con Laura Acion y Julienta Benitez.
 Es una breve introducción con algún ejercicio para crear tu primer archivo en este formato y &amp;ldquo;knitearlo&amp;rdquo; a un archivo de texto. Está orientado principalmente a que cada persona pueda usar este formato en el trabajo diario, como bitácora y regalo para el futuro (y con futuro quiero decir, la semana que viene cuando necesite recordar que hice el viernes pasado).</description>
     </item>
     
     <item>
       <title>R para meteorología</title>
-      <link>/talleresycharlas/2017_r_para_meteorologos/</link>
+      <link>https://paocorrales.github.io/talleresycharlas/2017_r_para_meteorologos/</link>
       <pubDate>Mon, 30 Oct 2017 21:13:14 -0500</pubDate>
       
-      <guid>/talleresycharlas/2017_r_para_meteorologos/</guid>
+      <guid>https://paocorrales.github.io/talleresycharlas/2017_r_para_meteorologos/</guid>
       <description>Hace unos años con Elio Campitelli armamos un taller de 3 encuentros para estudiantes de Ciencias de la Atmósfera y Oceanografía de la Facultad de Ciencias Exactas y Naturales de la UBA. El objetivo era contar lo que aún siendo estudiantes habíamos aprendido con todos los aciertos y errores.
 Aún le seguimos dando vueltas al asunto para mejorar y adaptar el material a nuestro área de estudio. Por ejemplo, Elio creó el paquete metR para manipular &amp;ldquo;fácilmente&amp;rdquo; datos meteorológicos y en mi caso tengo un intento de paquete que implementa algunas de las cosas que hice durante mi tesis de licenciatura.</description>
     </item>
     
     <item>
       <title>R y Radares: muchos datos y algunos resultados</title>
-      <link>/talleresycharlas/2017_rladies_radares/</link>
+      <link>https://paocorrales.github.io/talleresycharlas/2017_rladies_radares/</link>
       <pubDate>Sat, 01 Jul 2017 21:13:14 -0500</pubDate>
       
-      <guid>/talleresycharlas/2017_rladies_radares/</guid>
+      <guid>https://paocorrales.github.io/talleresycharlas/2017_rladies_radares/</guid>
       <description>Muy poquito tiempo después de conocer a RLadies Buenos Aires, me invitaron a dar una charla y contar lo que estaba haciendo en mi trabajo de tesis aun en pañales. Fue mi primer charla por fuera de la facultad y para un público muy diverso, así que intenté mostrar un poquito de cada cosa y que cada persona se lleve algo.
 En la charla les presento los radares meteorológicos, para que se usan y como funcionan.</description>
     </item>
     
     <item>
       <title>Análisis del ciclo semanal en el Rango de Temperatura Diaria para Sudamerica</title>
-      <link>/publicaciones/2015_poster_ciclosenamal/</link>
+      <link>https://paocorrales.github.io/publicaciones/2015_poster_ciclosenamal/</link>
       <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
       
-      <guid>/publicaciones/2015_poster_ciclosenamal/</guid>
+      <guid>https://paocorrales.github.io/publicaciones/2015_poster_ciclosenamal/</guid>
       <description>En 2014 casi de casualidad descrubrí los cursos de Data Science de la Universidad Johns Hopkins en Coursera y con esos cursos mi primer acercamiento a R. En la misma época con Elio Campitelli empezamos a pensar en un trabajo para presentar en el CONGREMET XII (el único congreso de meteorología en Argentina) para no ir con las manos vacías.
 Y así, sabiendo muy poquito de R analizamos una base de datos de estaciones meteorológicas en Argentina y paises limítrofes con la intención de buscar una relación entre el rango de temperatura (la temperatura máxima menos la temperatura mínima) y los días de la semana.</description>
     </item>
     
     <item>
       <title>Óptica en la Atmósfera</title>
-      <link>/publicaciones/2015_porter_optica/</link>
+      <link>https://paocorrales.github.io/publicaciones/2015_porter_optica/</link>
       <pubDate>Sun, 22 Mar 2015 21:13:14 -0500</pubDate>
       
-      <guid>/publicaciones/2015_porter_optica/</guid>
+      <guid>https://paocorrales.github.io/publicaciones/2015_porter_optica/</guid>
       <description>En el Departamento de Ciencias de la Atmósfera y los Oceanos donde estudie (y estudio) hacemos un esfuerzo enorme para divulgar nuestros trabajos y lo que sabemos sobre como funciona el mar y la atmósfera. Y hacemos esto porque por un lado es nuestro trabajo como científicos pero por el otro porque somos pocos y nos encantaría que más personas estudien estas carreras.
 Con esa intención en 2013 con Elio Campitelli y Martín Rugna armamos dos experiencias para que estudiantes y púplico general puedan entender como se forman los arco iris y los espejísmos en la atmósfera.</description>
     </item>
