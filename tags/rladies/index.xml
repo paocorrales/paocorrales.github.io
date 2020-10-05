@@ -1,51 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>RLadies on Pao Corrales</title>
-    <link>https://paocorrales.github.io/tags/rladies/</link>
+    <link>/tags/rladies/</link>
     <description>Recent content in RLadies on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Mon, 03 Dec 2018 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://paocorrales.github.io/tags/rladies/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/rladies/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Un taller de R desde cero en nerdearla</title>
+      <link>/post/un-taller-de-r-desde-cero-en-nerdearla/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/un-taller-de-r-desde-cero-en-nerdearla/</guid>
+      <description>Hace un par de días tuve la super gran oportunidad de probar algunas prácticas que fui descubriendo en los últimos meses gracias a los materiales de The Carpentries y el workshop de Mine Çetinkaya-Rundel en LatinR.
+¿Dónde? Todos los años se organiza el evento NERDEARLA, una mezcla de charlas, tallares y networking. Y este año desde RLadies Buenos Aires aceptamos la invitación de participar con un taller de R para principiantes.</description>
+    </item>
+    
+    <item>
       <title>Taller de Blogdown</title>
-      <link>https://paocorrales.github.io/talleresycharlas/2018_rladies_blogdown/</link>
+      <link>/talleresycharlas/2018_rladies_blogdown/</link>
       <pubDate>Mon, 03 Dec 2018 21:13:14 -0500</pubDate>
       
-      <guid>https://paocorrales.github.io/talleresycharlas/2018_rladies_blogdown/</guid>
+      <guid>/talleresycharlas/2018_rladies_blogdown/</guid>
       <description>Cerramos el año de meetups de RLadies Buenos Aires junto con la nueva comunidad R en Buenos Aires. Con Elio Campitelli (por R en Buenos Aires ) y yo (por RLadies BA) armamos un taller sobre Blogdown a partir de nuestra experiencia. El énfalis está en el armado de la página y no tanto en la publicación pero dejamos links a recursos geniales para continuar desde ahí.
 Las slides están acá, justo con los materiales para seguir el taller y el video de todo el encuentro acá.</description>
     </item>
     
     <item>
       <title>Taller de RMarkdown RLadies Santa Fe</title>
-      <link>https://paocorrales.github.io/talleresycharlas/2018_rladies_rmarkdown/</link>
+      <link>/talleresycharlas/2018_rladies_rmarkdown/</link>
       <pubDate>Thu, 18 Oct 2018 21:13:14 -0500</pubDate>
       
-      <guid>https://paocorrales.github.io/talleresycharlas/2018_rladies_rmarkdown/</guid>
+      <guid>/talleresycharlas/2018_rladies_rmarkdown/</guid>
       <description>En octubre de 2017 con Juliana Benitez viajamos a Santa Fe y repetimos el taller de RMarkdown que dimos para RLadies Buenos Aires y sumamos algunas slides sobre Blogdown y Bookdown.
 Acá los materiales.</description>
     </item>
     
     <item>
       <title>Taller de RMarkdown RLadies Buenos Aires</title>
-      <link>https://paocorrales.github.io/talleresycharlas/2017_rladies_rmarkdown/</link>
+      <link>/talleresycharlas/2017_rladies_rmarkdown/</link>
       <pubDate>Mon, 27 Nov 2017 21:13:14 -0500</pubDate>
       
-      <guid>https://paocorrales.github.io/talleresycharlas/2017_rladies_rmarkdown/</guid>
+      <guid>/talleresycharlas/2017_rladies_rmarkdown/</guid>
       <description>En 2017 cerramos el año de meetups de RLadies Buenos Aires con un taller de RMarkdown que armamos con Laura Acion y Julienta Benitez.
 Es una breve introducción con algún ejercicio para crear tu primer archivo en este formato y &amp;ldquo;knitearlo&amp;rdquo; a un archivo de texto. Está orientado principalmente a que cada persona pueda usar este formato en el trabajo diario, como bitácora y regalo para el futuro (y con futuro quiero decir, la semana que viene cuando necesite recordar que hice el viernes pasado).</description>
     </item>
     
     <item>
       <title>R y Radares: muchos datos y algunos resultados</title>
-      <link>https://paocorrales.github.io/talleresycharlas/2017_rladies_radares/</link>
+      <link>/talleresycharlas/2017_rladies_radares/</link>
       <pubDate>Sat, 01 Jul 2017 21:13:14 -0500</pubDate>
       
-      <guid>https://paocorrales.github.io/talleresycharlas/2017_rladies_radares/</guid>
+      <guid>/talleresycharlas/2017_rladies_radares/</guid>
       <description>Muy poquito tiempo después de conocer a RLadies Buenos Aires, me invitaron a dar una charla y contar lo que estaba haciendo en mi trabajo de tesis aun en pañales. Fue mi primer charla por fuera de la facultad y para un público muy diverso, así que intenté mostrar un poquito de cada cosa y que cada persona se lleve algo.
 En la charla les presento los radares meteorológicos, para que se usan y como funcionan.</description>
     </item>

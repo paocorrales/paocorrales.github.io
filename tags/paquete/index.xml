@@ -1,21 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>paquete on Pao Corrales</title>
-    <link>https://paocorrales.github.io/tags/paquete/</link>
+    <link>/tags/paquete/</link>
     <description>Recent content in paquete on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 29 Sep 2019 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://paocorrales.github.io/tags/paquete/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/paquete/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mi charla en LatinR 2019</title>
-      <link>https://paocorrales.github.io/post/mi-charla-en-latinr-2019/</link>
+      <link>/post/mi-charla-en-latinr-2019/</link>
       <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://paocorrales.github.io/post/mi-charla-en-latinr-2019/</guid>
+      <guid>/post/mi-charla-en-latinr-2019/</guid>
       <description>En esta segundo edición de LatinR 2019 tuve la chance de presentar por primera vez en un congreso de R, ¡qué gran experiencia!
 Aproveché la oportunidad para presentar mi primer paquete rvad para el procesamiento de datos de viento medidos por radares Doppler pero también mi experiencia armando un paquete.
 Si te interesa el tema, podés encontrar la presentación acá y el repositorio con el paquete por acá. De yapa, hace un tiempito escribí un post sobre como usar el paquete acá.</description>
@@ -23,10 +23,10 @@ Si te interesa el tema, podés encontrar la presentación acá y el repositorio 
     
     <item>
       <title>rvad o cómo calcular el viento </title>
-      <link>https://paocorrales.github.io/post/rvad-o-como-calcular-el-viento/</link>
+      <link>/post/rvad-o-como-calcular-el-viento/</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
       
-      <guid>https://paocorrales.github.io/post/rvad-o-como-calcular-el-viento/</guid>
+      <guid>/post/rvad-o-como-calcular-el-viento/</guid>
       <description>Cómo parte de mi tesis de licenciatura implementé un algorítmo para calcular el viento horizontal a partir de observaciones de radares. Lo escribí en python y era super lento, seguramente por mi culpa! La buena noticia es que este año pasé el código al lado del bien y ahora hay un paquete de R.
 El objetivo del paquete rvad es aproximar las componentes del viento horizontal a partir del viento radial medido por un radar Doppler usando el método Velocity Azimith Displya o VAD de Browning and Wexler (1968).</description>
     </item>
