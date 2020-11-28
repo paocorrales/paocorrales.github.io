@@ -3,320 +3,320 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://paocorrales.github.io/</loc>
+    <loc>/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://paocorrales.github.io/en/"
+                href="/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://paocorrales.github.io/"
+                href="/"
                 />
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/cursos/</loc>
+    <loc>/cursos/</loc>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/talleresycharlas/</loc>
+    <loc>/talleresycharlas/</loc>
     <lastmod>2020-10-05T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/publicaciones/</loc>
+    <loc>/publicaciones/</loc>
     <lastmod>2018-10-17T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/post/</loc>
+    <loc>/post/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/search/</loc>
+    <loc>/search/</loc>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/blogdown/</loc>
+    <loc>/tags/blogdown/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/</loc>
+    <loc>/tags/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://paocorrales.github.io/en/tags/"
+                href="/en/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://paocorrales.github.io/tags/"
+                href="/tags/"
                 />
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/taller/</loc>
+    <loc>/tags/taller/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/post/webs-con-rmarkdown/</loc>
+    <loc>/post/webs-con-rmarkdown/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/authors/</loc>
+    <loc>/authors/</loc>
     <lastmod>2020-10-05T21:13:14-05:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://paocorrales.github.io/en/authors/"
+                href="/en/authors/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://paocorrales.github.io/authors/"
+                href="/authors/"
                 />
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/latinr/</loc>
+    <loc>/tags/latinr/</loc>
     <lastmod>2020-10-05T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/learnr/</loc>
+    <loc>/tags/learnr/</loc>
     <lastmod>2020-10-05T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/authors/paocorrales/</loc>
+    <loc>/authors/paocorrales/</loc>
     <lastmod>2020-10-05T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/rmarkdown/</loc>
+    <loc>/tags/rmarkdown/</loc>
     <lastmod>2020-10-05T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/talleresycharlas/2020_latinr_learnr/</loc>
+    <loc>/talleresycharlas/2020_latinr_learnr/</loc>
     <lastmod>2020-10-05T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/rladies/</loc>
+    <loc>/tags/rladies/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/post/un-taller-de-r-desde-cero-en-nerdearla/</loc>
+    <loc>/post/un-taller-de-r-desde-cero-en-nerdearla/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/visualizaci%C3%B3n/</loc>
+    <loc>/tags/visualizaci%C3%B3n/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/post/latinr-2019-teaching-data-science-por-mine/</loc>
+    <loc>/post/latinr-2019-teaching-data-science-por-mine/</loc>
     <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/latinr2019/</loc>
+    <loc>/tags/latinr2019/</loc>
     <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/meteorolog%C3%ADa/</loc>
+    <loc>/tags/meteorolog%C3%ADa/</loc>
     <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/post/mi-charla-en-latinr-2019/</loc>
+    <loc>/post/mi-charla-en-latinr-2019/</loc>
     <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/paquete/</loc>
+    <loc>/tags/paquete/</loc>
     <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/vad/</loc>
+    <loc>/tags/vad/</loc>
     <lastmod>2019-09-29T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/post/rvad-o-como-calcular-el-viento/</loc>
+    <loc>/post/rvad-o-como-calcular-el-viento/</loc>
     <lastmod>2019-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/viento/</loc>
+    <loc>/tags/viento/</loc>
     <lastmod>2019-09-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/talleresycharlas/2018_rladies_blogdown/</loc>
+    <loc>/talleresycharlas/2018_rladies_blogdown/</loc>
     <lastmod>2018-12-03T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/talleresycharlas/2018_rladies_rmarkdown/</loc>
+    <loc>/talleresycharlas/2018_rladies_rmarkdown/</loc>
     <lastmod>2018-10-18T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/capa-l%C3%ADmite/</loc>
+    <loc>/tags/capa-l%C3%ADmite/</loc>
     <lastmod>2018-10-17T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/presentaci%C3%B3n/</loc>
+    <loc>/tags/presentaci%C3%B3n/</loc>
     <lastmod>2018-10-17T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/publicaciones/2018_presentaci%C3%B3n_vientopbl/</loc>
+    <loc>/publicaciones/2018_presentaci%C3%B3n_vientopbl/</loc>
     <lastmod>2018-10-17T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/general/</loc>
+    <loc>/tags/general/</loc>
     <lastmod>2018-03-30T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/post/2015-07-23-hello-word/</loc>
+    <loc>/post/2015-07-23-hello-word/</loc>
     <lastmod>2018-03-30T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/post/about/</loc>
+    <loc>/post/about/</loc>
     <lastmod>2018-03-30T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/meterolog%C3%ADa/</loc>
+    <loc>/tags/meterolog%C3%ADa/</loc>
     <lastmod>2018-03-22T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/publicaciones/2018_tesis/</loc>
+    <loc>/publicaciones/2018_tesis/</loc>
     <lastmod>2018-03-22T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/modelado/</loc>
+    <loc>/tags/modelado/</loc>
     <lastmod>2018-03-22T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/tesis/</loc>
+    <loc>/tags/tesis/</loc>
     <lastmod>2018-03-22T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/talleresycharlas/2017_rladies_rmarkdown/</loc>
+    <loc>/talleresycharlas/2017_rladies_rmarkdown/</loc>
     <lastmod>2017-11-27T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/talleresycharlas/2017_r_para_meteorologos/</loc>
+    <loc>/talleresycharlas/2017_r_para_meteorologos/</loc>
     <lastmod>2017-10-30T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/charla/</loc>
+    <loc>/tags/charla/</loc>
     <lastmod>2017-07-01T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/datos/</loc>
+    <loc>/tags/datos/</loc>
     <lastmod>2017-07-01T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/talleresycharlas/2017_rladies_radares/</loc>
+    <loc>/talleresycharlas/2017_rladies_radares/</loc>
     <lastmod>2017-07-01T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/publicaciones/2015_poster_ciclosenamal/</loc>
+    <loc>/publicaciones/2015_poster_ciclosenamal/</loc>
     <lastmod>2015-03-22T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/divulgaci%C3%B3n/</loc>
+    <loc>/tags/divulgaci%C3%B3n/</loc>
     <lastmod>2015-03-22T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/optica/</loc>
+    <loc>/tags/optica/</loc>
     <lastmod>2015-03-22T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/poster/</loc>
+    <loc>/tags/poster/</loc>
     <lastmod>2015-03-22T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/publicaciones/2015_porter_optica/</loc>
+    <loc>/publicaciones/2015_porter_optica/</loc>
     <lastmod>2015-03-22T21:13:14-05:00</lastmod>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/categories/</loc>
+    <loc>/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://paocorrales.github.io/en/categories/"
+                href="/en/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://paocorrales.github.io/categories/"
+                href="/categories/"
                 />
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/config/</loc>
+    <loc>/tags/config/</loc>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/tags/og/</loc>
+    <loc>/tags/og/</loc>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/page/</loc>
+    <loc>/page/</loc>
   </url>
   
   <url>
-    <loc>https://paocorrales.github.io/series/</loc>
+    <loc>/series/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://paocorrales.github.io/en/series/"
+                href="/en/series/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="https://paocorrales.github.io/series/"
+                href="/series/"
                 />
   </url>
   

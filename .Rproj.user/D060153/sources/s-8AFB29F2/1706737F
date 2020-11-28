@@ -5,14 +5,14 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1624443591",
+    "hash" : "0",
     "id" : "1706737F",
-    "lastKnownWriteTime" : 1606585973,
-    "last_content_update" : 1606585973702,
+    "lastKnownWriteTime" : 1606589274,
+    "last_content_update" : 1606589274725,
     "path" : "~/Website/config.toml",
     "project_path" : "config.toml",
     "properties" : {
-        "cursorPosition" : "10,18",
+        "cursorPosition" : "0,13",
         "scrollLine" : "0"
     },
     "read_only" : false,
