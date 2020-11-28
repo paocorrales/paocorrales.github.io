@@ -1,0 +1,9 @@
+{
+    "path" : "~/Website/content/publicaciones",
+    "sortOrder" : [
+        {
+            "ascending" : true,
+            "columnIndex" : 2
+        }
+    ]
+}

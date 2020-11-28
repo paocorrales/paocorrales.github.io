@@ -1,0 +1,21 @@
+---
+title: "Mi tesis: Validación de parametrizaciones de capa límite utilizando datos de radar."
+authors: 
+- "paocorrales"
+date: 2018-03-22T21:13:14-05:00
+tags:
+  - tesis
+  - VAD
+  - meterología
+  - modelado
+---
+
+
+En marzo de 2018 defedí mi tesis de licenciatura después de muchísimo trabajo y tiempo invertido y acompañada de dos grandes directores Juan Ruiz y Marisa Gassmann. 
+En algún momento llegué a la conclusión de que uno nunca termina la tesis, el deadline la termina por vos. Está escrita 100% en RMarkdown y el código está disponible en un [repositorio](https://github.com/paocorrales/tesis-VAD) (aunque no los datos por el tamaño, pero si te interesa escribime) porque si es reproducible, es mejor. 
+
+Podés descargar el pdf de [acá](https://github.com/paocorrales/tesis-VAD/blob/master/Tesis/Tesis.pdf) o leer el resumen.
+
+## Resumen
+
+Para analizar procesos asociados a la capa límite planetaria (CLP) se utilizaron datos del radar Doppler INTA Paraná y se desarrolló un algoritmo basado en la Visualización Azimutal de la Velocidad (VAD) que permitió obtener perfiles verticales de la velocidad del viento horizontal a partir de la velocidad radial. La validación de la técnica de VAD mostró un buen desempeño aunque más datos faltantes generaron un aumento en los errores. Se analizaron 3 casos, de 24 horas de duracion cada uno, correspondientes a días de verano con condiciones de cielo despejado. En los tres casos se observó el desarrollo del LLJ durante las horas nocturnas con el máximo viento entre 15 y 16 m/s y entre 200 y 400 m de altura que coincidió cualitativamente con el modelo de oscilación inercial propuesto por Van de Wiel et al. (2010). Además se observó el desarrollo de la capa mezclada posterior a la salida del sol con perfiles de viento constantes con la altura. Las distintas estimaciones de la altura de la capa límite fueron consistentes con lo esperado teóricamente. Posteriormente se realizaron simulaciones numéricas de uno de los casos caso con el modelo regional WRF utilizando tres parametrizaciones de CLP: YSU, MYJ y ACM2. Todas las simulaciones lograron representar el LLJ aunque se observó más intenso y abarcando una capa menos profunda respecto a lo observado. El perfil homogneo típico de la capa mezclada fue bien simulado. En términos generales las tres simulaciones tuvieron un mejor desempeño en los primeros 600 a 1000 m de altura. La estimación de la altura de la CLP coincidió con lo observado principalmente durante la noche. Los perfiles verticales de los coeficientes de difusividad turbulenta más intensos durante la noche se asociaron a LLJ más débiles mientras que la mayor extensión de estos perfiles se asociaron a una CLP más profunda.

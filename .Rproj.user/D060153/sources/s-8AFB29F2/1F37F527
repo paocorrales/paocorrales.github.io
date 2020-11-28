@@ -1,0 +1,25 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1606584780353.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "1F37F527",
+    "lastKnownWriteTime" : 1606585557,
+    "last_content_update" : 1606585557814,
+    "path" : "~/Website/content/post/2020-11-28-más-allá-de-rmarkdown/index.es.Rmd",
+    "project_path" : "content/post/2020-11-28-más-allá-de-rmarkdown/index.es.Rmd",
+    "properties" : {
+        "cursorPosition" : "51,117",
+        "scrollLine" : "49"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

@@ -1,0 +1,10 @@
+---
+title: "Hello Word"
+authors: 
+  - "paocorrales"
+date: 2018-03-30T21:13:14-05:00
+tags:
+  - general
+---
+
+Proximamente... algo de lo que hago y haré con R, Python, el doctorado, la educación en ciencia o la vida.

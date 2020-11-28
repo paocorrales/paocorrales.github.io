@@ -1,0 +1,74 @@
+---
+title: Webs con RMarkdown
+author: 
+  - "paocorrales"
+date: '2020-11-28'
+slug: webs-con-rmarkdown
+tags:
+  - Blogdown
+  - R
+  - taller
+---
+
+<link href="{{< relref "post/2020-11-28-más-allá-de-rmarkdown/index.es.html" >}}index.es_files/anchor-sections/anchor-sections.css" rel="stylesheet" />
+<script src="{{< relref "post/2020-11-28-más-allá-de-rmarkdown/index.es.html" >}}index.es_files/anchor-sections/anchor-sections.js"></script>
+
+
+<p>Querés compartir tus resultados y tenés un archivo RMarkdown en el que estuviste trabajando. Podrías compartir la carpeta del proyecto o un link a un repositorio pero sería ideal que cualquier persona pueda ver esos hermosos resultados sin necesidad de correr código. La otra alternativa es knitear el documento para compartir un PDF o archivo de Word. Las opciones no terminan ahí, Rmarkdown abre un mundo de posibilidades para trabajar con código de R, texto y además compartir los resultados (y cualquier otra cosa!).<br />
+</p>
+<div id="un-único-.rmd" class="section level4">
+<h4>Un único .Rmd</h4>
+<p>Podés publicar como web el contenido de un único archivo .Rmd aprovechando las características y posibilidades de {rmarkdown}. Un ejemplo de eso lo encontras en:</p>
+<p><a href="https://01-webs-rmarkdown.netlify.app/">https://01-webs-rmarkdown.netlify.app/</a></p>
+<p>Y podés revisar el código fuente <a href="https://github.com/paocorrales/01_Webs-RMarkdown">acá</a>.</p>
+<div class="figure">
+<img src="images/01-web.png" alt="Ejemplo de web con un solo rmd en https://01-webs-rmarkdown.netlify.app/" />
+<p class="caption">Ejemplo de web con un solo rmd en <a href="https://01-webs-rmarkdown.netlify.app/" class="uri">https://01-webs-rmarkdown.netlify.app/</a></p>
+</div>
+<p><br />
+</p>
+</div>
+<div id="muchos-.rmd" class="section level4">
+<h4>Muchos .Rmd</h4>
+<p>Pero tal vez el contenido que querés mostrar es más complejo y poner todo en un único .Rmd no termina de funcionar. {rmarkdown} también permite generar una web con estructura compleja (una barra de navegación con botones y menues entre otras maravillas) a partir de un archivo de configuración y todos los .rmd que necesites. El ejemplo de una web de este estilo se encuenta en:</p>
+<p><a href="https://02-webs-rmarkdown.netlify.app/">https://02-webs-rmarkdown.netlify.app/</a></p>
+<p>Y el código fuente <a href="https://github.com/paocorrales/02_Webs-RMarkdown">acá</a>.</p>
+<div class="figure">
+<img src="images/02-web.png" alt="Ejemplo de web con muchos rmd en https://02-webs-rmarkdown.netlify.app/" />
+<p class="caption">Ejemplo de web con muchos rmd en <a href="https://02-webs-rmarkdown.netlify.app/" class="uri">https://02-webs-rmarkdown.netlify.app/</a></p>
+</div>
+<p><br />
+</p>
+</div>
+<div id="un-blog" class="section level4">
+<h4>Un blog</h4>
+<p>La cosa se puso sería y ahora un par de botones y un menú no es suficiente para compartir, por ejemplo, un post por semana o un CV online para mostrar lo que haces. {blogdown} une la mágia de {rmarkdown} con Hugo, un generador de sitios estático con un millar de temas para elegir.</p>
+<p>Ahora la estructura de esa web es más compleja pero igual que antes, hay un archivo de configuración que controla el comportamiento y la aperiencia del sitio final. Este es un ejemplo de blog usando un tema particular:</p>
+<p><a href="https://03-webs-rmarkdown.netlify.app/">https://03-webs-rmarkdown.netlify.app/</a></p>
+<p>Y el código fuente que lo genera <a href="https://github.com/paocorrales/03_Webs-RMarkdown">acá</a>.</p>
+<div class="figure">
+<img src="images/03-web.png" alt="Ejemplo de blog con blogdown en https://03-webs-rmarkdown.netlify.app/" />
+<p class="caption">Ejemplo de blog con blogdown en <a href="https://03-webs-rmarkdown.netlify.app/" class="uri">https://03-webs-rmarkdown.netlify.app/</a></p>
+</div>
+<p>Todos los ejemplos anteriores contienen en si mismos las instrucciones para generarse a si mismos y publicarlos usando la opción “Drag &amp; Drop” de <a href="https://app.netlify.com/drop">Netlify</a>.</p>
+<p><br />
+</p>
+</div>
+<div id="palabras-finales-sobre-la-publicación" class="section level4">
+<h4>Palabras finales sobre la publicación</h4>
+<p><strong>Netlify</strong></p>
+<p>La opción de arrastrar la carpeta que contiene la web en Netlify puede se útil al principio pero se vuelve trabajoso rápidamente, sería genial que fuera automático. Y se puede.</p>
+<p>Netlify tiene dos habilidades muy útiles, la primera es que se puede conectar con un repositorio en, por ejemplo, GitHub donde viva la página web. La segunda es que puede construir webs usando Hugo desde sus servidores, lo que nos ahorra tener que hacerlo localmente.</p>
+<p>Luego de haber publicado algunas webs así me encontré con algunos problemas y sus soluciones:</p>
+<ul>
+<li>Si la web está construida solo con {rmarkdown}, Netlify necesita saber que la carpeta &quot;_site&quot; es la que contiene la web, de otra manera va a dar error. Alternativamente se puede cambiar la configuración de la web desde el &quot;_site.yml&quot; para que construya la web una carpeta que se llame “public”</li>
+<li>Si se traba de un blog con {blogdown}, la versión de Hugo importa. En las nnuevas versiones de {blogdown}, al generar un nuevo blog se crea un archivo que se llama “netlify.toml” donde podemos indicar la versión de Hugo que debe usar Netlify. Pero también podemos modificar esto desde la configuración del sitio en Netlify.</li>
+</ul>
+<p><strong>GitHub Pages</strong></p>
+<p>Netlify no es el único servicio que permite hostear una web. Hay muchos otros, por ejemplo GitHub Pages. En este caso si o si necesitamos usar un repositorio donde esté, al menos, los htmls que generan la web.</p>
+<p>Una de las diferencias importantes es que GitHub Pages <em>busca</em> la web enla carpeta raíz o alternativamente en una carpeta dentro del repositorio que debe llamarse “docs”. La buena noticia es que tanto usando solo {rmarkdown} como usando {blogdown} se puede indicar en el archivo de configuración que nombre debe tener la carpeta que contenga el sitio construiido.</p>
+<p>La mala noticia es que no construye automáticamente el sitio como si lo hace Netlify. Todo no se puede :)</p>
+<blockquote>
+<p>Todo lo anterior forma parte de una pequeña charla que dí para el <a href="https://twitter.com/club_rrhh">Club de R para RRHH</a>. Pueden encontrar la presentación que hila los 3 ejemplos de webs <a href="https://docs.google.com/presentation/d/116avpwz5U4ptr09N26S3N_PKwU0uW8dJtzTk47SE0A8/edit#slide=id.gaccfc011f0_0_136">acá</a>.</p>
+</blockquote>
+</div>
