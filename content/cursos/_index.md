@@ -14,3 +14,7 @@ Se trata de un curso para arrancar con R desde cero y en particular hace algo de
 ## [R para Clima](https://eliocamp.github.io/r-clima/)
 
 Es un curso propuesto para personas que tiene algo más de experiencia y explora herramientas a veces específicas a veces no tanto para trabajar con datos meteorológicos y climáticos. 
+
+## [Datos espaciales a lo tidy](https://eliocamp.github.io/espaciales-tidy-tutorial/)
+
+En este tutorial aprendemos a descargar, leer, analizar y visualizar datos espaciales grillados en R usando datos tidy. Tutorial realizado durante useR!2021.
