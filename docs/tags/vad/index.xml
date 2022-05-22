@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VAD on Pao Corrales</title>
+    <link>/tags/vad/</link>
+    <description>Recent content in VAD on Pao Corrales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Sep 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/vad/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>rvad o cómo calcular el viento</title>
+      <link>/blog/paquete-de-r-para-procesar-datos-de-viento-radial./</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/paquete-de-r-para-procesar-datos-de-viento-radial./</guid>
+      <description>Cómo parte de mi tesis de licenciatura implementé un algorítmo para calcular el viento horizontal a partir de observaciones de radares. Lo escribí en python y era super lento, seguramente por mi culpa! La buena noticia es que este año pasé el código al lado del bien y ahora hay un paquete de R.
+El objetivo del paquete rvad es aproximar las componentes del viento horizontal a partir del viento radial medido por un radar Doppler usando el método Velocity Azimith Displya o VAD de Browning and Wexler (1968).</description>
+    </item>
+    
+  </channel>
+</rss>
