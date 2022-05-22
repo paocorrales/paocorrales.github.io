@@ -1,0 +1,76 @@
+---
+title: rvad o cómo calcular el viento
+author: Pao Corrales
+date: '2019-09-10'
+slug: Paquete de R para procesar datos de viento radial.
+categories:
+  - meteorology
+  - Español
+tags:
+  - paquete
+  - radar
+  - VAD
+  - R
+---
+
+
+
+<p>Cómo parte de mi tesis de licenciatura implementé un algorítmo para calcular el viento horizontal a partir de observaciones de radares. Lo escribí en python y era super lento, seguramente por mi culpa! La buena noticia es que este año pasé el código al lado del bien y ahora hay un paquete de R.</p>
+<p>El objetivo del paquete <code>rvad</code> es aproximar las componentes del viento horizontal a partir del viento radial medido por un radar Doppler usando el método Velocity Azimith Displya o VAD de <a href="https://journals.ametsoc.org/doi/abs/10.1175/1520-0450%281968%29007%3C0105%3ATDOKPO%3E2.0.CO%3B2">Browning and Wexler (1968)</a>.</p>
+<div id="installation" class="section level2">
+<h2>Installation</h2>
+<p>Por ahora está diponible la versión en desarrollo en <a href="https://github.com/">GitHub</a>, podés instalarla así:</p>
+<pre class="r"><code># install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;paocorrales/rvad&quot;)
+## Skipping install of &#39;rvad&#39; from a github remote, the SHA1 (31d393d3) has not changed since last install.
+##   Use `force = TRUE` to force installation</code></pre>
+</div>
+<div id="ejemplo" class="section level2">
+<h2>Ejemplo</h2>
+<p>Usualmente los datos de radar vienen en formatos de los más diversos y con suerte son transformados a netCDF. Dejo esa tarea para la casa. En este caso es necesario tener los datos en formato tidy, o sea una obsevación de viento radial para cada azimut, ángulo de elevación y distancia al radar o rango. A modo de nuestra hay un set de datos disponibles con el paquete:</p>
+<pre class="r"><code>library(rvad)
+str(radial_wind)  # datos de ejemplo, vienen con el paquete!
+## Classes &#39;data.table&#39; and &#39;data.frame&#39;:   2076960 obs. of  4 variables:
+##  $ range      : int  250 750 1250 1750 2250 2750 3250 3750 4250 4750 ...
+##  $ radial_wind: num  NA NA -4.189 0.419 -4.556 ...
+##  $ azimuth    : num  214 214 214 214 214 ...
+##  $ elevation  : num  0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 ...
+##  - attr(*, &quot;.internal.selfref&quot;)=&lt;externalptr&gt;</code></pre>
+<p>El campo de viento radial para un ángulo de elevación tiene esta pinta:</p>
+<pre class="r"><code>library(ggplot2)
+## Warning: package &#39;ggplot2&#39; was built under R version 4.1.3
+one_elevation &lt;- subset(radial_wind, elevation == unique(elevation)[3] &amp;
+                          !is.na(radial_wind))
+ggplot(one_elevation, aes(azimuth, range)) +
+  geom_point(aes(color = radial_wind, size = range^2)) +
+  scale_radius(range = c(0, 0.05), guide = &quot;none&quot;) +
+  scale_color_gradient2(low = &quot;blue&quot;, high = &quot;red&quot;) +
+  scale_y_continuous(limits = c(0, 100000)) +
+  coord_polar()
+## Warning: Removed 259 rows containing missing values (geom_point).</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>Colores rojos indican que el viento se aleja del radar y los azules indican que el viento se mueve hacia el radar. Entonces, a partir del gráfico se puede ver que el viento es aproximadamente del noreste. Esto es bastante común durante la madrugada de un día de verano en las llanuras de Argentina (los datos corresponden al radar INTA Paraná el 14 de enero de 2016 a las 06 UTC).</p>
+<p><code>vad_fit()</code> hace algunos controles de calidad y luego ajusta un modelo sinusoidal a los datos. Como resultado devuelve el viento zonal (u) y meridional (v) para cada ángulo de elevación y rango. El paquete también incluye una función que aproxima la propagación del haz del radar por lo que también se obtiene la altura de cada observación.</p>
+<pre class="r"><code>VAD &lt;- with(radial_wind, vad_fit(radial_wind, azimuth, range, elevation))
+str(VAD)
+## Classes &#39;rvad_vad&#39; and &#39;data.frame&#39;: 5760 obs. of  7 variables:
+##  $ height   : num  2.19 6.58 11 15.45 19.93 ...
+##  $ u        : num  NA NA NA NA NA NA NA NA NA NA ...
+##  $ v        : num  NA NA NA NA NA NA NA NA NA NA ...
+##  $ range    : int  250 750 1250 1750 2250 2750 3250 3750 4250 4750 ...
+##  $ elevation: num  0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 ...
+##  $ r2       : num  NA NA NA NA NA NA NA NA NA NA ...
+##  $ rmse     : num  NA NA NA NA NA NA NA NA NA NA ...
+##  - attr(*, &quot;rvad_raw&quot;)= logi TRUE</code></pre>
+<p>La función tiene un método de graficado rápido para revisar el resultado:</p>
+<pre class="r"><code>plot(VAD)</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p>Los parámetros optimos para el control de calidad (R^2 mínimo, máximo de valores faltantes, etc.) puede depender de cada caso. Por eso es importante revisar distintos valores y chequear el resultado.</p>
+<p>La segunda función importante <code>vad_regrid()</code> resume el resultado anterior en un único perfil de viento definiendo una grilla regular a partir de una regresión local.</p>
+<pre class="r"><code>wind_profile &lt;- vad_regrid(VAD, layer_width = 100)</code></pre>
+<p>La función también tiene un método de gráficado, así que rápidamente este es el resultado:</p>
+<pre class="r"><code>plot(wind_profile)</code></pre>
+<p><img src="{{< blogdown/postref >}}index_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p>Si bien alguien con buen ojo puede interpretar como será el perfil vertical de viento a partir del campo de viento radial, nada mejor como un paquete de R para hacer cálculos y darnos la respuesta.</p>
+<p>Por ahora eso es todo, con suerte el doctorado me va a dejar tiempo para seguir incluyendo nuevas herramientas. Por ejemplo, probar el algoritmo para otras estrategias de escaneo!</p>
+</div>

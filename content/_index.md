@@ -1,20 +1,16 @@
 ---
-action_label: Read More &rarr;
+action_label: Read More about me &rarr;
 action_link: /about
 action_type: text
-description: Sit down, relax, and get to know Hugo Apéro. Built on top of Blogophonic,
-  we wanted to create a polished Hugo theme with the right features for a true personal
-  website. We set out to create a theme that is a pleasure to learn, and one that
-  helps others get to know you better. It is more than a blog, with flexible custom
-  layouts that help you introduce yourself online.
+description: I'm a PhD student in Atmospheric Sciences working on severe weather forecast in Argentina. I love teaching science, programming and teaching using evidence-based techniques centered on the students and their context. I'm also part of several communities of practice.
 image_left: true
 images:
-- img/revoir.jpg
+- img/forecast_factory.jpg
 show_action_link: true
 show_social_links: true
-subtitle: A Hugo theme you'll want to hang out with
+subtitle: Doctoral research scientist and educator 
 text_align_left: false
-title: Hugo Apéro
+title: Pao Corrales
 type: home
 ---
 

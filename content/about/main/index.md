@@ -1,15 +1,16 @@
 ---
 ## Configure page content in wide column
-title: "Why apéro?" # leave blank to exclude
-number_featured: 1 # pulling from mainSections in config.toml
+title: "About me?" # leave blank to exclude
+number_featured: 3 # pulling from mainSections in config.toml
 use_featured: false # if false, use most recent by date
 number_categories: 3 # set to zero to exclude
 show_intro: true
 intro: |
-  Apéro is a unique kind of casual get-together in French culture, when you gather with friends and get to know each other better over some apéritifs, snacks, and anything in between. A good apéro is one where you'd happily spend a few hours just hanging out.
+  I'm a PhD student at the University of Buenos Aires. I study Atmospheric Sciences applying data assimilation techniques to improve short-term forecasts of severe events in Argentina. I'm a trainer and instructor for [The Carpentries](https://carpentries.org/) and an RStudio certified instructor. I've also contributed to translations projects of Carpentries’ materials and the book [Teaching Tech Together](https://teachtogether.tech/) along with other R-related materials.
   
-  I hope this theme helps you create your own virtual apéro. A place where you and your site's visitors enjoy spending time, and one that helps folks get to know you better. 
-show_outro: true
+  I'm part of [Expedition Science](https://expedicionciencia.org.ar/), an Argentina-based NPO, where I lead educational projects such as science camps and workshops for students and K-12 science teachers. I'm a professor at the Data Sciences degree and postgraduate courses at Guillermo Brown University. 
+  
+  I'm also part of the R-Ladies Global team, the LatinR community, RForwards and I co-founded [MetaDocencia](https://www.metadocencia.org/), a teaching community for Spanish-speaking educators. I also develop openly licensed materials to teach and learn R from scratch, reproducibility for researchers and other topics in free-range settings.
 outro: |
   <i class="fas fa-glass-cheers pr2"></i>Sincere thanks to [Maëlle Salmon](https://masalmon.eu/) for her help naming this Hugo theme!
 ---

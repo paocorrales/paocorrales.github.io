@@ -6,6 +6,13 @@ show_title_as_headline: true
 title: Contributors
 ---
 
+This website is possible to a dozen of people from the R community (See bellow) that made possible to have a very nice looking and easy to use webpage. 
+
+I also took inspiration from [Yanina Bellini Saibene](https://yabellini.netlify.app/) and [Silvia Canelón](https://www.silviacanelon.com/).
+
+---------
+
+
 Thank you to all the folks who have contributed both technical and creative skills to this project:
 
 + [Desirée De Leon :giraffe:](http://desiree.rbind.io/) (designed 5 of the custom color themes, made illustrations for the workshop, and provided general aesthetic feedback along the way)
