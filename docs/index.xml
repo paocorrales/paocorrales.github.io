@@ -6,7 +6,7 @@
     <description>Recent content on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 22 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>/collection/day02/01-netlify/</link>
@@ -84,12 +84,101 @@ My content section is:collectionMy layout is:single-series part 2!doe
     </item>
     
     <item>
+      <title>(In review) Hourly Assimilation of Different Sources of Observations Including Satellite Radiances in a  Mesoscale Convective System Case During RELAMPAGO campaign</title>
+      <link>/publications/hourly-assimilation-of-different-sources-of-observations/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/hourly-assimilation-of-different-sources-of-observations/</guid>
+      <description>Abstract In this paper, we evaluate the impact of assimilating high-resolution surface networks and satellite observations using the WRF-GSI-LETKF over central and north eastern Argentina where the surface and upper air observing networks are relatively coarse. We conducted a case study corresponding to a huge mesoscale convective system (MCS) that developed during November 22, 2018. The accumulated precipitation associated with this MCS was quite high, exceeding 200 mm over northern Argentina and Paraguay.</description>
+    </item>
+    
+    <item>
+      <title>De planillas de cálculo a R</title>
+      <link>/courses/deplanillasdecalculoar/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/deplanillasdecalculoar/</guid>
+      <description>De que se trata este curso?Este curso está dirigido a personas que utilizan hojas de cálculo para la manipulación de datos y que nunca han programado, pero que les gustaría aprender a trabajar con R. Por lo tanto, comenzamos por el principio: ¿por qué usar R? y ¿por dónde empezar?
+Proponemos trabajar con R de forma ordenada y reproducible. Por ello, presentamos un flujo de trabajo que permite a quienes realicen este curso aplicar buenas prácticas de programación, trabajar de forma colaborativa y presentar su trabajo en un único documento que incluya el análisis y los resultados.</description>
+    </item>
+    
+    <item>
+      <title>Generando tutoriales interactivos con el paquete {learnr}</title>
+      <link>/courses/tutorialesinteractivos_intro/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/tutorialesinteractivos_intro/</guid>
+      <description>EspañolObjetivosEl objetivo de este curso es introducir a las personas que participan al paquete {learnr} de R y como utilizarlo para generar tutoriales interactivos que permitan a los y las estudiantes escribir y ejecutar código R directamente desde el tutorial, contestar preguntas y recibir feedback inmediato.
+¿Para quién está pensado este taller?Cada lección debe ser pensada, organizada y generada para una audiencia en particular, estas son las personas tipo en la que pensamos cuando preparamos este taller:</description>
+    </item>
+    
+    <item>
+      <title>An R reproducibility toolkit for the practical researcher</title>
+      <link>/courses/reproducibility/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/reproducibility/</guid>
+      <description>With considerable effort, you wrote R code to analyze your data and generate a final document or report to present the results. You then give the code to a colleague for them to evaluate it, they don’t know which packages they need to install, they don’t have the necessary data and they don’t know if the correct script is report_final.Rmd or report_final_final.Rmd. Even after your guidance, they find that the code does not run on their machine.</description>
+    </item>
+    
+    <item>
+      <title>A rapid refresh ensemble based data assimilation and forecast system for the RELAMPAGO field campaign</title>
+      <link>/publications/rrr-for-relampago/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/rrr-for-relampago/</guid>
+      <description>Highlights
+ A LETKF-WRF system was run successfully in real-time to support RELAMPAGO operations. A reduction in forecast error was shown due to data assimilation cycles. 60-member RRR analyses and forecasts are available for the research community.  Abstract This paper describes the lessons learned from the implementation of a regional ensemble data assimilation and forecast system during the intensive observing period of the Remote sensing of Electrification, Lightning, And Mesoscale/microscale Processes with Adaptive Ground Observations (RELAMPAGO) field campaign (central Argentina, November–December 2018).</description>
+    </item>
+    
+    <item>
+      <title>Ciencia de Datos para el Turismo</title>
+      <link>/courses/cd_turismo_2021/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/cd_turismo_2021/</guid>
+      <description>La ciencia de datos es una disciplina que ha brindado nuevas y maravillosas posibilidades a muchas industrias por medio de la explotación de datos. Junto con estas posibilidades, también ha traído consigo cambios y desafíos constantes. La industria del turismo no es una excepción.
+En este taller y documento técnico realizaremos una introducción al concepto de ciencia de datos y su proceso. Introduciremos el lenguaje de programación R como la caja de herramientas principales para poder llevar adelante cada tarea y etapa de este proceso.</description>
+    </item>
+    
+    <item>
+      <title>From Spreadsheets to R</title>
+      <link>/courses/fromspreadsheettor/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/fromspreadsheettor/</guid>
+      <description>This course is intended for people who use spreadsheets for data manipulation and have never programmed, but would like to learn how to work with R. Therefore its starts from the beginning: why use R? and where to start?
+We propose to work with R in an orderly and reproducible way. For this reason, we present a workflow that allows those who take this course to apply good programming practices, work collaboratively and present their work in a single document that includes the analysis and the results.</description>
+    </item>
+    
+    <item>
+      <title>A Parameterization of the Cloud Scattering Polarization Signal Derived From GPM Observations for Microwave Fast Radative Transfer Models</title>
+      <link>/publications/parameterization-of-the-cloud-scattering/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/parameterization-of-the-cloud-scattering/</guid>
+      <description>Abstract: Microwave cloud polarized observations have shown the potential to improve precipitation retrievals since they are linked to the orientation and shape of ice habits. Stratiform clouds show larger brightness temperature (TB) polarization differences (PDs), defined as the vertically polarized TB (TBV) minus the horizontally polarized TB (TBH), with ~10 K PD values at 89 GHz due to the presence of horizontally aligned snowflakes, while convective regions show smaller PD signals, as graupel and/or hail in the updraft tend to become randomly oriented.</description>
+    </item>
+    
+    <item>
       <title>A campfire</title>
       <link>/talk/campfire/</link>
       <pubDate>Tue, 12 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/talk/campfire/</guid>
       <description>I&amp;rsquo;m really excited to give this talk! Stay tuned for video and slides.</description>
+    </item>
+    
+    <item>
+      <title>Cómo enseñar a programar online</title>
+      <link>/courses/teach_programming/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/teach_programming/</guid>
+      <description>Español - Cómo enseñar a programar onlineObjetivosIntroducir técnicas y buenas prácticas para diseñar tus cursos de programación y evaluar a tus estudiantes.
+Durante este taller remoto:
+  Mostraremos cómo diseñar tus cursos de programación de una manera eficiente y productiva.
+  Hablaremos de la utilidad de la revisión entre pares y la importancia de recibir feedback. Discutiremos cómo implementar estas prácticas.</description>
     </item>
     
     <item>
@@ -102,12 +191,61 @@ My content section is:collectionMy layout is:single-series part 2!doe
     </item>
     
     <item>
+      <title>Webs con RMarkdown</title>
+      <link>/blog/webs-con-rmarkdown/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/webs-con-rmarkdown/</guid>
+      <description>Querés compartir tus resultados y tenés un archivo RMarkdown en el que estuviste trabajando. Podrías compartir la carpeta del proyecto o un link a un repositorio pero sería ideal que cualquier persona pueda ver esos hermosos resultados sin necesidad de correr código. La otra alternativa es knitear el documento para compartir un PDF o archivo de Word. Las opciones no terminan ahí, Rmarkdown abre un mundo de posibilidades para trabajar con código de R, texto y además compartir los resultados (y cualquier otra cosa!</description>
+    </item>
+    
+    <item>
+      <title>R para Clima</title>
+      <link>/courses/rclima/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/rclima/</guid>
+      <description>¿De qué se trata este curso?Este curso está pensado para personas que trabajan con datos meteorológicos y climáticos y realizan análisis aplicados a distintas áreas como agricultura, salud, economía. Tiene algo de experiencia utilizando R o algún otro lenguaje de programación pero buscan organizar mejor su trabajo para automatizar algunas tareas y generar resultados e informes para compartir. Aún así, este curso comienza con un mapa de RStudio y RMarkdown, herramientas que serán imprescindibles.</description>
+    </item>
+    
+    <item>
+      <title>R para Clima</title>
+      <link>/courses/deraexcel/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/deraexcel/</guid>
+      <description>¿De qué se trata este curso?Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?
+Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera ordenada y reproducible.</description>
+    </item>
+    
+    <item>
       <title>A seedling</title>
       <link>/talk/seedling/</link>
       <pubDate>Mon, 13 Jan 2020 14:15:59 -0600</pubDate>
       
       <guid>/talk/seedling/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Un taller de R desde cero en nerdearla</title>
+      <link>/blog/2019-10-24-un-taller-de-r-desde-cero-en-nerdearla/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019-10-24-un-taller-de-r-desde-cero-en-nerdearla/</guid>
+      <description>Hace un par de días tuve la super gran oportunidad de probar algunas prácticas que fui descubriendo en los últimos meses gracias a los materiales de The Carpentries y el workshop de Mine Çetinkaya-Rundel en LatinR.
+¿Dónde?Todos los años se organiza el evento NERDEARLA, una mezcla de charlas, tallares y networking. Y este año desde RLadies Buenos Aires aceptamos la invitación de participar con un taller de R para principiantes.</description>
+    </item>
+    
+    <item>
+      <title>Mi charla en LatinR 2019</title>
+      <link>/blog/2019-09-29-mi-charla-en-latinr-2019/</link>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019-09-29-mi-charla-en-latinr-2019/</guid>
+      <description>En esta segundo edición de LatinR 2019 tuve la chance de presentar por primera vez en un congreso de R, ¡qué gran experiencia!
+Aproveché la oportunidad para presentar mi primer paquete rvad para el procesamiento de datos de viento medidos por radares Doppler pero también mi experiencia armando un paquete.
+Si te interesa el tema, podés encontrar la presentación acá y el repositorio con el paquete por acá. De yapa, hace un tiempito escribí un post sobre como usar el paquete acá.</description>
     </item>
     
     <item>
@@ -128,23 +266,6 @@ El objetivo del paquete rvad es aproximar las componentes del viento horizontal 
       <guid>/contact/</guid>
       <description>** Contact page don&amp;rsquo;t contain a body, just the front matter above. See form.html in the layouts folder.
 Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.</description>
-    </item>
-    
-    <item>
-      <title>Typography Styles &amp; Element Examples</title>
-      <link>/elements/</link>
-      <pubDate>Mon, 18 Feb 2019 12:27:33 -0600</pubDate>
-      
-      <guid>/elements/</guid>
-      <description>Font SizesAAAAAAAA6rem
-(96px)5rem
-(80px)3rem
-(48px)2.25rem
-(36px)1.5rem
-(24px)1.25rem
-(20px)1rem
-(16px).875rem
-(14px)Type SamplesHead&amp;shy;lineSub&amp;shy;head&amp;shy;lineLevel 1 HeadingOne page to rule them all...well, not really. This page displays sample typography and page elements to illustrate their style. Things like headings and paragraphs showing the beautiful type scale, form elements, tabular data, and image layouts just to name a few.</description>
     </item>
     
     <item>
