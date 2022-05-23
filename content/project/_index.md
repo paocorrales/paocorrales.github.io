@@ -1,5 +1,5 @@
 ---
-author: The R Markdown Team @RStudio
+author: Pao Corrales
 cascade:
   show_author_byline: true
   show_comments: false
@@ -8,14 +8,14 @@ cascade:
     show_sidebar_adunit: true
     text_link_label: View all projects
     text_link_url: /project/
-description: Give your projects a place to live online.
+description: Some of the projects and communities where I'm (or I was) involved.
 layout: list-grid
 show_author_byline: true
 show_button_links: false
 show_post_date: false
 show_post_thumbnail: true
 sidebar:
-  author: The R Markdown Team @RStudio
+  author: Pao Corrales
   description: "Projects can be anything!\nCheck out the _index.md file in the /project
     folder \nto edit this content.\n"
   show_sidebar_adunit: false
