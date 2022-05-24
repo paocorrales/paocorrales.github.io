@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R-Ladies on Pao Corrales</title>
+    <link>/categories/r-ladies/</link>
+    <description>Recent content in R-Ladies on Pao Corrales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 01 May 2017 00:00:00 +0000</lastBuildDate><atom:link href="/categories/r-ladies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RLadies</title>
+      <link>/project/rladies/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rladies/</guid>
+      <description>R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community.
+The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users ( see recent stats).
+As a diversity initiative, the mission of R-Ladies is to achieve proportionate representation by encouraging, inspiring, and empowering people of genders currently underrepresented in the R community.</description>
+    </item>
+    
+  </channel>
+</rss>

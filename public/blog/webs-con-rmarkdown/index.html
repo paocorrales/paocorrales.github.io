@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.92.2" />
+<title>Webs con RMarkdown | Pao Corrales</title>
+
+
+<meta property="twitter:site" content="@papbcorrales">
+<meta property="twitter:creator" content="@papbcorrales">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo.">
+
+
+<meta property="og:site_name" content="Pao Corrales">
+<meta property="og:title" content="Webs con RMarkdown | Pao Corrales">
+<meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="/blog/webs-con-rmarkdown/" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="/blog/webs-con-rmarkdown/featured.png" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="/blog/webs-con-rmarkdown/featured.png" >
+    
+    
+  <meta itemprop="name" content="Webs con RMarkdown">
+<meta itemprop="description" content="Querés compartir tus resultados y tenés un archivo RMarkdown en el que estuviste trabajando. Podrías compartir la carpeta del proyecto o un link a un repositorio pero sería ideal que cualquier persona pueda ver esos hermosos resultados sin necesidad de correr código. La otra alternativa es knitear el documento para compartir un PDF o archivo de Word. Las opciones no terminan ahí, Rmarkdown abre un mundo de posibilidades para trabajar con código de R, texto y además compartir los resultados (y cualquier otra cosa!"><meta itemprop="datePublished" content="2020-11-28T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-11-28T00:00:00+00:00" />
+<meta itemprop="wordCount" content="696"><meta itemprop="image" content="/blog/webs-con-rmarkdown/featured.png">
+<meta itemprop="keywords" content="Blogdown,R,taller," />
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-328E3YGZP0"></script>
+<script>
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-328E3YGZP0', { 'anonymize_ip': true });
+}
+</script>
+
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-328E3YGZP0', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.29e0e491a53c3257f897267641ed71009d1a7ddb433215e43fd3755b9f557f4f.css" integrity="sha256-KeDkkaU8Mlf4lyZ2Qe1xAJ0afdtDMhXkP9N1W59Vf08=" media="screen">
+  
+  
+  <script src="/panelset.min.078a92db9bd3228df502db3d9e0453c3cf3d910abe3f8deca0ad196c7071ad41.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.b9cc30b82b7845473a948d760e5aae580ed83f35bd2f0036b2580eff233a1757.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="/" title="Home">
+      <img src="/img/favicon_big.png" class="dib db-l h2 w-auto" alt="Pao Corrales">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About Blogophonic">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/project/" title="Project Portfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/collection/" title="A collection">A collection</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/elements/" title="Element Page">Elements</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Webs con RMarkdown</h1>
+        
+        <p class="f6 measure lh-copy mv1">By [paocorrales] in <a href="/categories/espa%C3%B1ol">Español</a>  <a href="/categories/workshop">workshop</a> </p>
+        <p class="f7 db mv0 ttu">November 28, 2020</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        
+<script src="/blog/webs-con-rmarkdown/index.es_files/header-attrs/header-attrs.js"></script>
+
+
+<p>Querés compartir tus resultados y tenés un archivo RMarkdown en el que estuviste trabajando. Podrías compartir la carpeta del proyecto o un link a un repositorio pero sería ideal que cualquier persona pueda ver esos hermosos resultados sin necesidad de correr código. La otra alternativa es knitear el documento para compartir un PDF o archivo de Word. Las opciones no terminan ahí, Rmarkdown abre un mundo de posibilidades para trabajar con código de R, texto y además compartir los resultados (y cualquier otra cosa!).<br />
+</p>
+<div id="un-único-.rmd" class="section level4">
+<h4>Un único .Rmd</h4>
+<p>Podés publicar como web el contenido de un único archivo .Rmd aprovechando las características y posibilidades de {rmarkdown}. Un ejemplo de eso lo encontras en:</p>
+<p><a href="https://01-webs-rmarkdown.netlify.app/">https://01-webs-rmarkdown.netlify.app/</a></p>
+<p>Y podés revisar el código fuente <a href="https://github.com/paocorrales/01_Webs-RMarkdown">acá</a>.</p>
+<div class="figure">
+<img src="images/01-web.png" alt="" />
+<p class="caption">Ejemplo de web con un solo rmd en <a href="https://01-webs-rmarkdown.netlify.app/" class="uri">https://01-webs-rmarkdown.netlify.app/</a></p>
+</div>
+<p><br />
+</p>
+</div>
+<div id="muchos-.rmd" class="section level4">
+<h4>Muchos .Rmd</h4>
+<p>Pero tal vez el contenido que querés mostrar es más complejo y poner todo en un único .Rmd no termina de funcionar. {rmarkdown} también permite generar una web con estructura compleja (una barra de navegación con botones y menues entre otras maravillas) a partir de un archivo de configuración y todos los .rmd que necesites. El ejemplo de una web de este estilo se encuenta en:</p>
+<p><a href="https://02-webs-rmarkdown.netlify.app/">https://02-webs-rmarkdown.netlify.app/</a></p>
+<p>Y el código fuente <a href="https://github.com/paocorrales/02_Webs-RMarkdown">acá</a>.</p>
+<div class="figure">
+<img src="images/02-web.png" alt="" />
+<p class="caption">Ejemplo de web con muchos rmd en <a href="https://02-webs-rmarkdown.netlify.app/" class="uri">https://02-webs-rmarkdown.netlify.app/</a></p>
+</div>
+<p><br />
+</p>
+</div>
+<div id="un-blog" class="section level4">
+<h4>Un blog</h4>
+<p>La cosa se puso sería y ahora un par de botones y un menú no es suficiente para compartir, por ejemplo, un post por semana o un CV online para mostrar lo que haces. {blogdown} une la mágia de {rmarkdown} con Hugo, un generador de sitios estático con un millar de temas para elegir.</p>
+<p>Ahora la estructura de esa web es más compleja pero igual que antes, hay un archivo de configuración que controla el comportamiento y la aperiencia del sitio final. Este es un ejemplo de blog usando un tema particular:</p>
+<p><a href="https://03-webs-rmarkdown.netlify.app/">https://03-webs-rmarkdown.netlify.app/</a></p>
+<p>Y el código fuente que lo genera <a href="https://github.com/paocorrales/03_Webs-RMarkdown">acá</a>.</p>
+<div class="figure">
+<img src="images/03-web.png" alt="" />
+<p class="caption">Ejemplo de blog con blogdown en <a href="https://03-webs-rmarkdown.netlify.app/" class="uri">https://03-webs-rmarkdown.netlify.app/</a></p>
+</div>
+<p>Todos los ejemplos anteriores contienen en si mismos las instrucciones para generarse a si mismos y publicarlos usando la opción “Drag &amp; Drop” de <a href="https://app.netlify.com/drop">Netlify</a>.</p>
+<p><br />
+</p>
+</div>
+<div id="palabras-finales-sobre-la-publicación" class="section level4">
+<h4>Palabras finales sobre la publicación</h4>
+<p><strong>Netlify</strong></p>
+<p>La opción de arrastrar la carpeta que contiene la web en Netlify puede se útil al principio pero se vuelve trabajoso rápidamente, sería genial que fuera automático. Y se puede.</p>
+<p>Netlify tiene dos habilidades muy útiles, la primera es que se puede conectar con un repositorio en, por ejemplo, GitHub donde viva la página web. La segunda es que puede construir webs usando Hugo desde sus servidores, lo que nos ahorra tener que hacerlo localmente.</p>
+<p>Luego de haber publicado algunas webs así me encontré con algunos problemas y sus soluciones:</p>
+<ul>
+<li>Si la web está construida solo con {rmarkdown}, Netlify necesita saber que la carpeta “_site” es la que contiene la web, de otra manera va a dar error. Alternativamente se puede cambiar la configuración de la web desde el “_site.yml” para que construya la web una carpeta que se llame “public”</li>
+<li>Si se traba de un blog con {blogdown}, la versión de Hugo importa. En las nnuevas versiones de {blogdown}, al generar un nuevo blog se crea un archivo que se llama “netlify.toml” donde podemos indicar la versión de Hugo que debe usar Netlify. Pero también podemos modificar esto desde la configuración del sitio en Netlify.</li>
+</ul>
+<p><strong>GitHub Pages</strong></p>
+<p>Netlify no es el único servicio que permite hostear una web. Hay muchos otros, por ejemplo GitHub Pages. En este caso si o si necesitamos usar un repositorio donde esté, al menos, los htmls que generan la web.</p>
+<p>Una de las diferencias importantes es que GitHub Pages <em>busca</em> la web enla carpeta raíz o alternativamente en una carpeta dentro del repositorio que debe llamarse “docs”. La buena noticia es que tanto usando solo {rmarkdown} como usando {blogdown} se puede indicar en el archivo de configuración que nombre debe tener la carpeta que contenga el sitio construiido.</p>
+<p>La mala noticia es que no construye automáticamente el sitio como si lo hace Netlify. Todo no se puede :)</p>
+<blockquote>
+<p>Todo lo anterior forma parte de una pequeña charla que dí para el <a href="https://twitter.com/club_rrhh">Club de R para RRHH</a>. Pueden encontrar la presentación que hila los 3 ejemplos de webs <a href="https://docs.google.com/presentation/d/116avpwz5U4ptr09N26S3N_PKwU0uW8dJtzTk47SE0A8/edit#slide=id.gaccfc011f0_0_136">acá</a>.</p>
+</blockquote>
+</div>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">November 28, 2020</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">4 minute read, 696 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="/categories/espa%C3%B1ol">Español</a>  <a href="/categories/workshop">workshop</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="/tags/blogdown">Blogdown</a>  <a href="/tags/r">R</a>  <a href="/tags/taller">taller</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+    <dd class="fw5 ml0"><a href="/courses/deplanillasdecalculoar/">De planillas de cálculo a R</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/courses/tutorialesinteractivos_intro/">Generando tutoriales interactivos con el paquete {learnr}</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/project/sisintar/">SISINTAR</a></dd>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+  
+  
+    <a class="next dtc pl2 tr v-top fw6"
+    href="/blog/2019-10-24-un-taller-de-r-desde-cero-en-nerdearla/">Un taller de R desde cero en nerdearla &rarr;</a>
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="paocorrales/paocorrales.githu.io"
+          issue-term="pathname"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2022, Argentina
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/paocorrales" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.instagram.com/paobcorrales" title="instagram" target="_blank" rel="noopener">
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://twitter.com/paobcorrales" title="twitter" target="_blank" rel="noopener">
+      <i class="fab fa-twitter fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://impactstory.org/u/0000-0002-8082-1890" title="impactstory" target="_blank" rel="noopener">
+      <i class="ai ai-impactstory fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="http://orcid.org/0000-0002-8082-1890" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contributors/" title="Contributors">Contributors</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>
