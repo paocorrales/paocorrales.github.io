@@ -11,7 +11,7 @@ intro: |
   
   I'm part of [Expedition Science](https://expedicionciencia.org.ar/), an Argentina-based NPO, where I lead educational projects such as science camps and workshops for students and K-12 science teachers. I'm a professor at the Data Sciences degree and postgraduate courses at Guillermo Brown University. 
   
-  I'm also part of the R-Ladies Global team, the LatinR community, RForwards and I co-founded [MetaDocencia](https://www.metadocencia.org/), a teaching community for Spanish-speaking educators. I also develop openly licensed materials to teach and learn R from scratch, reproducibility for researchers and other topics in free-range settings.
+  I'm also part of the R-Ladies Global team, the LatinR community, RForwards and I co-founded [MetaDocencia](https://www.metadocencia.org/), a teaching community for Spanish-speaking educators. I develop openly licensed materials to teach and learn R from scratch, reproducibility for researchers and other topics in free-range settings.
   
 outro: |
   The image in the home page depicts Richardson’s “forecast factory” by L. Bengtsson. Richardson imagined a round theater filled with people who would calculate the finite differences at each point on the globe needed to solve the Navier Stoke equations and thus generate a weather forecast. The first 6-hour forecast took him a week and was totally wrong. Today we have very accurate forecasts that are generated hourly. However, they are still using the principles that Richardson envisioned. 
