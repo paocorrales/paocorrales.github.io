@@ -29,5 +29,46 @@ Durante este taller remoto:
   Hablaremos de la utilidad de la revisión entre pares y la importancia de recibir feedback. Discutiremos cómo implementar estas prácticas.</description>
     </item>
     
+    <item>
+      <title>RForwards</title>
+      <link>/project/rforwards/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rforwards/</guid>
+      <description>About RForwardsThe task force was set up by the R Foundation in December 2015 to address the underrepresentation of women and rebranded in January 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
+The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area of diversity and inclusion, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.</description>
+    </item>
+    
+    <item>
+      <title>MetaDocencia</title>
+      <link>/project/metadocencia/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/metadocencia/</guid>
+      <description>Soy co-fundadora de MetaDocencia y hasta Mayo de 2022 fui parte del core team. Durante estos 2 años ayudé en el desarrollo de materiales y nuevos cursos, colaboré en la traducción de otros materiales, co-coordiné la infraestructura de la comunidad y coordiné el equipo de código de conducta.
+Sobre MetaDocenciaNuestra visiónSomos una comunidad inclusiva y colaborativa que mejora la educación potenciando docentes de países menos favorecidos.</description>
+    </item>
+    
+    <item>
+      <title>The Carpentries</title>
+      <link>/project/thecarpentries/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/thecarpentries/</guid>
+      <description>About The CarpentriesVision: Our vision is to be the leading inclusive community teaching data and coding skills.
+Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices.</description>
+    </item>
+    
+    <item>
+      <title>RLadies</title>
+      <link>/project/rladies/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rladies/</guid>
+      <description>R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community.
+The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users (see recent stats).
+As a diversity initiative, the mission of R-Ladies is to achieve proportionate representation by encouraging, inspiring, and empowering people of genders currently underrepresented in the R community.</description>
+    </item>
+    
   </channel>
 </rss>

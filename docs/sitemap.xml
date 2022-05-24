@@ -77,6 +77,15 @@
     <loc>/categories/workshop/</loc>
     <lastmod>2022-05-17T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/categories/talk/</loc>
+    <lastmod>2022-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/</loc>
+    <lastmod>2022-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/wids-buenosaires2022/</loc>
+    <lastmod>2022-05-12T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/tags/community/</loc>
     <lastmod>2022-04-03T00:00:00+00:00</lastmod>
   </url><url>
@@ -98,6 +107,15 @@
     <loc>/courses/reproducibility/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/project/</loc>
+    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/r-packages/</loc>
+    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/sisintar/</loc>
+    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/publications/rrr-for-relampago/</loc>
     <lastmod>2021-12-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -110,23 +128,26 @@
     <loc>/publications/parameterization-of-the-cloud-scattering/</loc>
     <lastmod>2021-11-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/talk/survey-user2021/</loc>
+    <lastmod>2021-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/metatodencia-user2021/</loc>
+    <lastmod>2021-07-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/norce2021/</loc>
+    <lastmod>2021-06-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/agromet/</loc>
+    <lastmod>2021-03-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/collection/</loc>
     <lastmod>2021-01-26T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/talk/campfire/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/talk/</loc>
-    <lastmod>2021-01-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/courses/teach_programming/</loc>
     <lastmod>2021-01-10T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/second-seedling/</loc>
-    <lastmod>2021-01-01T14:15:59-06:00</lastmod>
-  </url><url>
-    <loc>/categories/meetup/</loc>
-    <lastmod>2021-01-01T14:15:59-06:00</lastmod>
+    <loc>/talk/pronostico/</loc>
+    <lastmod>2020-12-11T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/blog/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
@@ -143,11 +164,20 @@
     <loc>/courses/rclima/</loc>
     <lastmod>2020-11-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/categories/englis/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/courses/deraexcel/</loc>
     <lastmod>2020-10-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/talk/seedling/</loc>
-    <lastmod>2020-01-13T14:15:59-06:00</lastmod>
+    <loc>/project/rforwards/</loc>
+    <lastmod>2020-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/metadocencia/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/thecarpentries/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/rladies/</loc>
     <lastmod>2019-10-24T00:00:00+00:00</lastmod>
@@ -160,6 +190,9 @@
   </url><url>
     <loc>/tags/vad/</loc>
     <lastmod>2019-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/latinr2019/</loc>
+    <lastmod>2019-09-27T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/paquete/</loc>
     <lastmod>2019-09-10T00:00:00+00:00</lastmod>
@@ -176,7 +209,14 @@
     <loc>/form/</loc>
     <lastmod>2019-02-25T13:38:41-06:00</lastmod>
   </url><url>
-    <loc>/project/</loc>
+    <loc>/tags/r-ladies/</loc>
+    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/r-ladies/</loc>
+    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/rladies/</loc>
+    <lastmod>2017-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/about/</loc>
   </url><url>

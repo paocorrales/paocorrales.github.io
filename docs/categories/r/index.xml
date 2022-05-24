@@ -18,6 +18,25 @@
     </item>
     
     <item>
+      <title>SISINTAR</title>
+      <link>/project/sisintar/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/sisintar/</guid>
+      <description>El paquete {SISINTAR} incluye una serie de funciones para acceder y procesar los datos dispobibles en SISINTA. Por ejemplo, la función buscar_perfiles() permite buscar perfiles en función de la localización, la fecha y la clase o, si se corre sin argumentos, devolver la lista de perfiles completa. Para descargar lo datos de los perfiles se usa la función get_perfiles(). Ésta toma un vector con los ids de los perfiles a descargar.</description>
+    </item>
+    
+    <item>
+      <title>agromet</title>
+      <link>/project/agromet/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/project/agromet/</guid>
+      <description>El paquete {agromet} incluye una serie de funciones para calcular índices y estadísticos climáticos e hidrológicos a partir de datos tidy. Por ejemplo umbrales() permite contar la cantidad de observaciones que cumplen una determinada condición y dias_promedios() devuelve el primer y último día del año promedio de ocurrencia de un evento.
+Otras funciones como spi() funcionan como wrappers de funciones de otros paquetes y que buscan ser compatibles con el manejo de datos tidy.</description>
+    </item>
+    
+    <item>
       <title>Cómo enseñar a programar online</title>
       <link>/courses/teach_programming/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
@@ -27,6 +46,27 @@
 Durante este taller remoto:
   Mostraremos cómo diseñar tus cursos de programación de una manera eficiente y productiva.
   Hablaremos de la utilidad de la revisión entre pares y la importancia de recibir feedback. Discutiremos cómo implementar estas prácticas.</description>
+    </item>
+    
+    <item>
+      <title>The Carpentries</title>
+      <link>/project/thecarpentries/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/thecarpentries/</guid>
+      <description>About The CarpentriesVision: Our vision is to be the leading inclusive community teaching data and coding skills.
+Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices.</description>
+    </item>
+    
+    <item>
+      <title>RLadies</title>
+      <link>/project/rladies/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rladies/</guid>
+      <description>R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community.
+The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users (see recent stats).
+As a diversity initiative, the mission of R-Ladies is to achieve proportionate representation by encouraging, inspiring, and empowering people of genders currently underrepresented in the R community.</description>
     </item>
     
   </channel>

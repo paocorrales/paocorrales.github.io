@@ -35,5 +35,14 @@
       <description>Abstract: Microwave cloud polarized observations have shown the potential to improve precipitation retrievals since they are linked to the orientation and shape of ice habits. Stratiform clouds show larger brightness temperature (TB) polarization differences (PDs), defined as the vertically polarized TB (TBV) minus the horizontally polarized TB (TBH), with ~10 K PD values at 89 GHz due to the presence of horizontally aligned snowflakes, while convective regions show smaller PD signals, as graupel and/or hail in the updraft tend to become randomly oriented.</description>
     </item>
     
+    <item>
+      <title>Assimilation of conventional and satellite observations in a deep convection case during RELAMPAGO using the WRF-GSI-LETFK system</title>
+      <link>/talk/norce2021/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/norce2021/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

@@ -18,6 +18,15 @@ Proponemos trabajar con R de forma ordenada y reproducible. Por ello, presentamo
     </item>
     
     <item>
+      <title>Uso de datos para pronósticos de corto plazo de eventos meteorológicos severos</title>
+      <link>/talk/wids-buenosaires2022/</link>
+      <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/wids-buenosaires2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Generando tutoriales interactivos con el paquete {learnr}</title>
       <link>/courses/tutorialesinteractivos_intro/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
@@ -25,6 +34,15 @@ Proponemos trabajar con R de forma ordenada y reproducible. Por ello, presentamo
       <guid>/courses/tutorialesinteractivos_intro/</guid>
       <description>EspañolObjetivosEl objetivo de este curso es introducir a las personas que participan al paquete {learnr} de R y como utilizarlo para generar tutoriales interactivos que permitan a los y las estudiantes escribir y ejecutar código R directamente desde el tutorial, contestar preguntas y recibir feedback inmediato.
 ¿Para quién está pensado este taller?Cada lección debe ser pensada, organizada y generada para una audiencia en particular, estas son las personas tipo en la que pensamos cuando preparamos este taller:</description>
+    </item>
+    
+    <item>
+      <title>SISINTAR</title>
+      <link>/project/sisintar/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/sisintar/</guid>
+      <description>El paquete {SISINTAR} incluye una serie de funciones para acceder y procesar los datos dispobibles en SISINTA. Por ejemplo, la función buscar_perfiles() permite buscar perfiles en función de la localización, la fecha y la clase o, si se corre sin argumentos, devolver la lista de perfiles completa. Para descargar lo datos de los perfiles se usa la función get_perfiles(). Ésta toma un vector con los ids de los perfiles a descargar.</description>
     </item>
     
     <item>
@@ -38,6 +56,34 @@ En este taller y documento técnico realizaremos una introducción al concepto d
     </item>
     
     <item>
+      <title>Uso de R en Latinoamérica, fortalezas, desafíos y debilidades</title>
+      <link>/talk/survey-user2021/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/survey-user2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching to teach without losing anyone along the way</title>
+      <link>/talk/metatodencia-user2021/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/metatodencia-user2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>agromet</title>
+      <link>/project/agromet/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/project/agromet/</guid>
+      <description>El paquete {agromet} incluye una serie de funciones para calcular índices y estadísticos climáticos e hidrológicos a partir de datos tidy. Por ejemplo umbrales() permite contar la cantidad de observaciones que cumplen una determinada condición y dias_promedios() devuelve el primer y último día del año promedio de ocurrencia de un evento.
+Otras funciones como spi() funcionan como wrappers de funciones de otros paquetes y que buscan ser compatibles con el manejo de datos tidy.</description>
+    </item>
+    
+    <item>
       <title>Cómo enseñar a programar online</title>
       <link>/courses/teach_programming/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
@@ -47,6 +93,15 @@ En este taller y documento técnico realizaremos una introducción al concepto d
 Durante este taller remoto:
   Mostraremos cómo diseñar tus cursos de programación de una manera eficiente y productiva.
   Hablaremos de la utilidad de la revisión entre pares y la importancia de recibir feedback. Discutiremos cómo implementar estas prácticas.</description>
+    </item>
+    
+    <item>
+      <title>Por qué le pifia(mos) los meteorólogos</title>
+      <link>/talk/pronostico/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/pronostico/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -78,6 +133,36 @@ Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera o
     </item>
     
     <item>
+      <title>RForwards</title>
+      <link>/project/rforwards/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rforwards/</guid>
+      <description>About RForwardsThe task force was set up by the R Foundation in December 2015 to address the underrepresentation of women and rebranded in January 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
+The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area of diversity and inclusion, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.</description>
+    </item>
+    
+    <item>
+      <title>MetaDocencia</title>
+      <link>/project/metadocencia/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/metadocencia/</guid>
+      <description>Soy co-fundadora de MetaDocencia y hasta Mayo de 2022 fui parte del core team. Durante estos 2 años ayudé en el desarrollo de materiales y nuevos cursos, colaboré en la traducción de otros materiales, co-coordiné la infraestructura de la comunidad y coordiné el equipo de código de conducta.
+Sobre MetaDocenciaNuestra visiónSomos una comunidad inclusiva y colaborativa que mejora la educación potenciando docentes de países menos favorecidos.</description>
+    </item>
+    
+    <item>
+      <title>The Carpentries</title>
+      <link>/project/thecarpentries/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/thecarpentries/</guid>
+      <description>About The CarpentriesVision: Our vision is to be the leading inclusive community teaching data and coding skills.
+Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices.</description>
+    </item>
+    
+    <item>
       <title>Un taller de R desde cero en nerdearla</title>
       <link>/blog/2019-10-24-un-taller-de-r-desde-cero-en-nerdearla/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
@@ -99,6 +184,15 @@ Si te interesa el tema, podés encontrar la presentación acá y el repositorio 
     </item>
     
     <item>
+      <title>rvad, perfiles verticales de viento a partir de datos de radares meteorológicos</title>
+      <link>/talk/latinr2019/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/latinr2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>rvad o cómo calcular el viento</title>
       <link>/blog/paquete-de-r-para-procesar-datos-de-viento-radial./</link>
       <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
@@ -106,6 +200,17 @@ Si te interesa el tema, podés encontrar la presentación acá y el repositorio 
       <guid>/blog/paquete-de-r-para-procesar-datos-de-viento-radial./</guid>
       <description>Cómo parte de mi tesis de licenciatura implementé un algorítmo para calcular el viento horizontal a partir de observaciones de radares. Lo escribí en python y era super lento, seguramente por mi culpa! La buena noticia es que este año pasé el código al lado del bien y ahora hay un paquete de R.
 El objetivo del paquete rvad es aproximar las componentes del viento horizontal a partir del viento radial medido por un radar Doppler usando el método Velocity Azimith Displya o VAD de Browning and Wexler (1968).</description>
+    </item>
+    
+    <item>
+      <title>RLadies</title>
+      <link>/project/rladies/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rladies/</guid>
+      <description>R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community.
+The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users (see recent stats).
+As a diversity initiative, the mission of R-Ladies is to achieve proportionate representation by encouraging, inspiring, and empowering people of genders currently underrepresented in the R community.</description>
     </item>
     
   </channel>

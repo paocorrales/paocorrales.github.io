@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Englis on Pao Corrales</title>
+    <link>/categories/englis/</link>
+    <description>Recent content in Englis on Pao Corrales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="/categories/englis/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>RForwards</title>
+      <link>/project/rforwards/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rforwards/</guid>
+      <description>About RForwardsThe task force was set up by the R Foundation in December 2015 to address the underrepresentation of women and rebranded in January 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
+The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area of diversity and inclusion, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.</description>
+    </item>
+    
+    <item>
+      <title>MetaDocencia</title>
+      <link>/project/metadocencia/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/metadocencia/</guid>
+      <description>Soy co-fundadora de MetaDocencia y hasta Mayo de 2022 fui parte del core team. Durante estos 2 años ayudé en el desarrollo de materiales y nuevos cursos, colaboré en la traducción de otros materiales, co-coordiné la infraestructura de la comunidad y coordiné el equipo de código de conducta.
+Sobre MetaDocenciaNuestra visiónSomos una comunidad inclusiva y colaborativa que mejora la educación potenciando docentes de países menos favorecidos.</description>
+    </item>
+    
+  </channel>
+</rss>

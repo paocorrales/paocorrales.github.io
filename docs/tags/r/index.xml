@@ -37,6 +37,15 @@ Proponemos trabajar con R de forma ordenada y reproducible. Por ello, presentamo
     </item>
     
     <item>
+      <title>SISINTAR</title>
+      <link>/project/sisintar/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/sisintar/</guid>
+      <description>El paquete {SISINTAR} incluye una serie de funciones para acceder y procesar los datos dispobibles en SISINTA. Por ejemplo, la función buscar_perfiles() permite buscar perfiles en función de la localización, la fecha y la clase o, si se corre sin argumentos, devolver la lista de perfiles completa. Para descargar lo datos de los perfiles se usa la función get_perfiles(). Ésta toma un vector con los ids de los perfiles a descargar.</description>
+    </item>
+    
+    <item>
       <title>Ciencia de Datos para el Turismo</title>
       <link>/courses/cd_turismo_2021/</link>
       <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
@@ -54,6 +63,16 @@ En este taller y documento técnico realizaremos una introducción al concepto d
       <guid>/courses/fromspreadsheettor/</guid>
       <description>This course is intended for people who use spreadsheets for data manipulation and have never programmed, but would like to learn how to work with R. Therefore its starts from the beginning: why use R? and where to start?
 We propose to work with R in an orderly and reproducible way. For this reason, we present a workflow that allows those who take this course to apply good programming practices, work collaboratively and present their work in a single document that includes the analysis and the results.</description>
+    </item>
+    
+    <item>
+      <title>agromet</title>
+      <link>/project/agromet/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/project/agromet/</guid>
+      <description>El paquete {agromet} incluye una serie de funciones para calcular índices y estadísticos climáticos e hidrológicos a partir de datos tidy. Por ejemplo umbrales() permite contar la cantidad de observaciones que cumplen una determinada condición y dias_promedios() devuelve el primer y último día del año promedio de ocurrencia de un evento.
+Otras funciones como spi() funcionan como wrappers de funciones de otros paquetes y que buscan ser compatibles con el manejo de datos tidy.</description>
     </item>
     
     <item>
@@ -97,6 +116,16 @@ Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera o
     </item>
     
     <item>
+      <title>The Carpentries</title>
+      <link>/project/thecarpentries/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/thecarpentries/</guid>
+      <description>About The CarpentriesVision: Our vision is to be the leading inclusive community teaching data and coding skills.
+Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices.</description>
+    </item>
+    
+    <item>
       <title>Un taller de R desde cero en nerdearla</title>
       <link>/blog/2019-10-24-un-taller-de-r-desde-cero-en-nerdearla/</link>
       <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
@@ -125,6 +154,17 @@ Si te interesa el tema, podés encontrar la presentación acá y el repositorio 
       <guid>/blog/paquete-de-r-para-procesar-datos-de-viento-radial./</guid>
       <description>Cómo parte de mi tesis de licenciatura implementé un algorítmo para calcular el viento horizontal a partir de observaciones de radares. Lo escribí en python y era super lento, seguramente por mi culpa! La buena noticia es que este año pasé el código al lado del bien y ahora hay un paquete de R.
 El objetivo del paquete rvad es aproximar las componentes del viento horizontal a partir del viento radial medido por un radar Doppler usando el método Velocity Azimith Displya o VAD de Browning and Wexler (1968).</description>
+    </item>
+    
+    <item>
+      <title>RLadies</title>
+      <link>/project/rladies/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rladies/</guid>
+      <description>R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community.
+The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users (see recent stats).
+As a diversity initiative, the mission of R-Ladies is to achieve proportionate representation by encouraging, inspiring, and empowering people of genders currently underrepresented in the R community.</description>
     </item>
     
   </channel>
