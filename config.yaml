@@ -4,7 +4,7 @@ languageCode: en
 title: Pao Corrales
 author: Pao Corrales
 copyright: ''
-googleAnalytics: ''
+googleAnalytics: 'G-328E3YGZP0'
 disqusShortname: ''
 metaDataFormat: yaml
 footnoteReturnLinkContents: '&#8617;'
@@ -113,7 +113,7 @@ menu:
       weight: 5
     - name: Talks
       title: Talks
-      url: /talks/
+      url: /talk/
       weight: 6
 privacy:
   disqus:
