@@ -6,7 +6,16 @@
     <description>Recent content in Talks on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/talk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graficando datos espaciales tidy</title>
+      <link>/talk/ohw-2022/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/ohw-2022/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Uso de datos para pronósticos de corto plazo de eventos meteorológicos severos</title>
       <link>/talk/wids-buenosaires2022/</link>

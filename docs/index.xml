@@ -6,7 +6,7 @@
     <description>Recent content on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>/collection/day02/01-netlify/</link>
@@ -81,6 +81,25 @@ install.packages(&amp;quot;distill&amp;quot;) Restart your R session. If you us
       <description>Hi, I&#39;m the here-bot cat!Use me to find your way in your website.
 Here I am:content/collection\day02\03-blogdown\index.mdTo remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
 My content section is:collectionMy layout is:single-series part 2!does this work? now for some very cool thingsmoreget ready!</description>
+    </item>
+    
+    <item>
+      <title>Programación literaria con R</title>
+      <link>/courses/programacion-literaria/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/programacion-literaria/</guid>
+      <description>¿De qué se trata este curso?Este curso está orientado tanto a personas con experiencia usando R como aquellas re recién comienzan. El foco no estará en correr modelos o utilizar una sintaxis específica para escribir código de R. El objetivo será transformar nuestros análisis usando R en trabajos reproducibles (o al menos desde el punto de vista de R).
+En particular en estos encuentros haremos foco en la programación literaria, en particular aplicando esta definición al análisis de datos.</description>
+    </item>
+    
+    <item>
+      <title>Graficando datos espaciales tidy</title>
+      <link>/talk/ohw-2022/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/ohw-2022/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -255,7 +274,7 @@ Durante este taller remoto:
     </item>
     
     <item>
-      <title>R para Clima</title>
+      <title>De Excel a R</title>
       <link>/courses/deraexcel/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       

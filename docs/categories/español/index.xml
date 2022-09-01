@@ -6,7 +6,26 @@
     <description>Recent content in Español on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/espa%C3%B1ol/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/espa%C3%B1ol/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programación literaria con R</title>
+      <link>/courses/programacion-literaria/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/programacion-literaria/</guid>
+      <description>¿De qué se trata este curso?Este curso está orientado tanto a personas con experiencia usando R como aquellas re recién comienzan. El foco no estará en correr modelos o utilizar una sintaxis específica para escribir código de R. El objetivo será transformar nuestros análisis usando R en trabajos reproducibles (o al menos desde el punto de vista de R).
+En particular en estos encuentros haremos foco en la programación literaria, en particular aplicando esta definición al análisis de datos.</description>
+    </item>
+    
+    <item>
+      <title>Graficando datos espaciales tidy</title>
+      <link>/talk/ohw-2022/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/ohw-2022/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>De planillas de cálculo a R</title>
       <link>/courses/deplanillasdecalculoar/</link>
@@ -123,7 +142,7 @@ Durante este taller remoto:
     </item>
     
     <item>
-      <title>R para Clima</title>
+      <title>De Excel a R</title>
       <link>/courses/deraexcel/</link>
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
