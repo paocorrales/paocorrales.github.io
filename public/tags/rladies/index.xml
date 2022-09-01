@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RLadies on Pao Corrales</title>
+    <link>/tags/rladies/</link>
+    <description>Recent content in RLadies on Pao Corrales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 24 Oct 2019 00:00:00 +0000</lastBuildDate><atom:link href="/tags/rladies/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Un taller de R desde cero en nerdearla</title>
+      <link>/blog/2019-10-24-un-taller-de-r-desde-cero-en-nerdearla/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019-10-24-un-taller-de-r-desde-cero-en-nerdearla/</guid>
+      <description>Hace un par de días tuve la super gran oportunidad de probar algunas prácticas que fui descubriendo en los últimos meses gracias a los materiales de The Carpentries y el workshop de Mine Çetinkaya-Rundel en LatinR.
+¿Dónde?Todos los años se organiza el evento NERDEARLA, una mezcla de charlas, tallares y networking. Y este año desde RLadies Buenos Aires aceptamos la invitación de participar con un taller de R para principiantes.</description>
+    </item>
+    
+  </channel>
+</rss>

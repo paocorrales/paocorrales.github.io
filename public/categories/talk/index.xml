@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>talk on Pao Corrales</title>
+    <link>/categories/talk/</link>
+    <description>Recent content in talk on Pao Corrales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 15 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/talk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Graficando datos espaciales tidy</title>
+      <link>/talk/ohw-2022/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/ohw-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uso de datos para pronósticos de corto plazo de eventos meteorológicos severos</title>
+      <link>/talk/wids-buenosaires2022/</link>
+      <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/wids-buenosaires2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uso de R en Latinoamérica, fortalezas, desafíos y debilidades</title>
+      <link>/talk/survey-user2021/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/survey-user2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching to teach without losing anyone along the way</title>
+      <link>/talk/metatodencia-user2021/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/metatodencia-user2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assimilation of conventional and satellite observations in a deep convection case during RELAMPAGO using the WRF-GSI-LETFK system</title>
+      <link>/talk/norce2021/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/norce2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Por qué le pifia(mos) los meteorólogos</title>
+      <link>/talk/pronostico/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/pronostico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rvad, perfiles verticales de viento a partir de datos de radares meteorológicos</title>
+      <link>/talk/latinr2019/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/latinr2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

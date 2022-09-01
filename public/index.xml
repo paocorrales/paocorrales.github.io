@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pao Corrales</title>
+    <link>/</link>
+    <description>Recent content on Pao Corrales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Netlify</title>
+      <link>/collection/day02/01-netlify/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/collection/day02/01-netlify/</guid>
+      <description>So far, we&amp;rsquo;ve been leveraging GitHub Pages for publishing. This works great, but for blogdown we&amp;rsquo;ll start using Netlify. Let&amp;rsquo;s start RIGHT NOW with a site we&amp;rsquo;ve already built and published.
+Pre-requisitesPick either your postcards site, or your distill site from day 01. Refresh your memory- which repository was it again?</description>
+    </item>
+    
+    <item>
+      <title>A GitHub profile</title>
+      <link>/collection/day01/01-github/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/collection/day01/01-github/</guid>
+      <description>Profilehttps://docs.github.com/en/github/setting-up-and-managing-your-github-profile/personalizing-your-profile
+Pin projects to profilehttps://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile
+Profile READMEThis is new! Let&amp;rsquo;s do it:
+https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme</description>
+    </item>
+    
+    <item>
+      <title>Prework</title>
+      <link>/collection/prework/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/collection/prework/</guid>
+      <description>Welcome to the Introducing Yourself Online workshop! We look forward to meeting you. Before attending the workshop, please complete the following prework.
+Set up RStudio CloudSign up for a free RStudio Cloud account at https://rstudio.cloud/ before the workshop. I recommend logging in with an existing Google or GitHub account, if you have one (rather than creating a new account with another password you have to remember).</description>
+    </item>
+    
+    <item>
+      <title>A postcard</title>
+      <link>/collection/day01/02-postcards/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/collection/day01/02-postcards/</guid>
+      <description>Pre-requisitesFirst, make sure you have the latest version of the postcards package installed from CRAN:
+install.packages(&amp;quot;postcards&amp;quot;)Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
+ Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  packageVersion(&amp;quot;postcards&amp;quot;)[1] ‘0.2.0’Create GitHub repoOnline.</description>
+    </item>
+    
+    <item>
+      <title>Using blogdown</title>
+      <link>/collection/day02/02-blogdown/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/collection/day02/02-blogdown/</guid>
+      <description>Pre-requisitesFirst, make sure you have the latest version of the blogdown package installed from CRAN:
+install.packages(&amp;quot;blogdoown&amp;quot;)Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
+ Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  packageVersion(&amp;quot;blogdown&amp;quot;)[1] ‘1.0’Create GitHub repoOnline.</description>
+    </item>
+    
+    <item>
+      <title>A distill site</title>
+      <link>/collection/day01/03-distill/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/collection/day01/03-distill/</guid>
+      <description>Pre-requisitesFirst, make sure you have the latest version of the distill package installed from CRAN:
+install.packages(&amp;quot;distill&amp;quot;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
+ Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  &amp;lt;!-- --&amp;gt;packageVersion(&amp;quot;distill&amp;quot;)[1] ‘1.2’ Create GitHub repoOnline.</description>
+    </item>
+    
+    <item>
+      <title>Warm woolen mittens</title>
+      <link>/collection/day02/03-blogdown/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/collection/day02/03-blogdown/</guid>
+      <description>Hi, I&#39;m the here-bot cat!Use me to find your way in your website.
+Here I am:content/collection\day02\03-blogdown\index.mdTo remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
+My content section is:collectionMy layout is:single-series part 2!does this work? now for some very cool thingsmoreget ready!</description>
+    </item>
+    
+    <item>
+      <title>Programación literaria con R</title>
+      <link>/courses/programacion-literaria/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/programacion-literaria/</guid>
+      <description>¿De qué se trata este curso?Este curso está orientado tanto a personas con experiencia usando R como aquellas re recién comienzan. El foco no estará en correr modelos o utilizar una sintaxis específica para escribir código de R. El objetivo será transformar nuestros análisis usando R en trabajos reproducibles (o al menos desde el punto de vista de R).
+En particular en estos encuentros haremos foco en la programación literaria, en particular aplicando esta definición al análisis de datos.</description>
+    </item>
+    
+    <item>
+      <title>Graficando datos espaciales tidy</title>
+      <link>/talk/ohw-2022/</link>
+      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/ohw-2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>(In review) Hourly Assimilation of Different Sources of Observations Including Satellite Radiances in a  Mesoscale Convective System Case During RELAMPAGO campaign</title>
+      <link>/publications/hourly-assimilation-of-different-sources-of-observations/</link>
+      <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/hourly-assimilation-of-different-sources-of-observations/</guid>
+      <description>Abstract In this paper, we evaluate the impact of assimilating high-resolution surface networks and satellite observations using the WRF-GSI-LETKF over central and north eastern Argentina where the surface and upper air observing networks are relatively coarse. We conducted a case study corresponding to a huge mesoscale convective system (MCS) that developed during November 22, 2018. The accumulated precipitation associated with this MCS was quite high, exceeding 200 mm over northern Argentina and Paraguay.</description>
+    </item>
+    
+    <item>
+      <title>De planillas de cálculo a R</title>
+      <link>/courses/deplanillasdecalculoar/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/deplanillasdecalculoar/</guid>
+      <description>De que se trata este curso?Este curso está dirigido a personas que utilizan hojas de cálculo para la manipulación de datos y que nunca han programado, pero que les gustaría aprender a trabajar con R. Por lo tanto, comenzamos por el principio: ¿por qué usar R? y ¿por dónde empezar?
+Proponemos trabajar con R de forma ordenada y reproducible. Por ello, presentamos un flujo de trabajo que permite a quienes realicen este curso aplicar buenas prácticas de programación, trabajar de forma colaborativa y presentar su trabajo en un único documento que incluya el análisis y los resultados.</description>
+    </item>
+    
+    <item>
+      <title>Uso de datos para pronósticos de corto plazo de eventos meteorológicos severos</title>
+      <link>/talk/wids-buenosaires2022/</link>
+      <pubDate>Thu, 12 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/wids-buenosaires2022/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Generando tutoriales interactivos con el paquete {learnr}</title>
+      <link>/courses/tutorialesinteractivos_intro/</link>
+      <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/tutorialesinteractivos_intro/</guid>
+      <description>EspañolObjetivosEl objetivo de este curso es introducir a las personas que participan al paquete {learnr} de R y como utilizarlo para generar tutoriales interactivos que permitan a los y las estudiantes escribir y ejecutar código R directamente desde el tutorial, contestar preguntas y recibir feedback inmediato.
+¿Para quién está pensado este taller?Cada lección debe ser pensada, organizada y generada para una audiencia en particular, estas son las personas tipo en la que pensamos cuando preparamos este taller:</description>
+    </item>
+    
+    <item>
+      <title>An R reproducibility toolkit for the practical researcher</title>
+      <link>/courses/reproducibility/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/reproducibility/</guid>
+      <description>With considerable effort, you wrote R code to analyze your data and generate a final document or report to present the results. You then give the code to a colleague for them to evaluate it, they don’t know which packages they need to install, they don’t have the necessary data and they don’t know if the correct script is report_final.Rmd or report_final_final.Rmd. Even after your guidance, they find that the code does not run on their machine.</description>
+    </item>
+    
+    <item>
+      <title>SISINTAR</title>
+      <link>/project/sisintar/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/sisintar/</guid>
+      <description>El paquete {SISINTAR} incluye una serie de funciones para acceder y procesar los datos dispobibles en SISINTA. Por ejemplo, la función buscar_perfiles() permite buscar perfiles en función de la localización, la fecha y la clase o, si se corre sin argumentos, devolver la lista de perfiles completa. Para descargar lo datos de los perfiles se usa la función get_perfiles(). Ésta toma un vector con los ids de los perfiles a descargar.</description>
+    </item>
+    
+    <item>
+      <title>A rapid refresh ensemble based data assimilation and forecast system for the RELAMPAGO field campaign</title>
+      <link>/publications/rrr-for-relampago/</link>
+      <pubDate>Wed, 15 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/rrr-for-relampago/</guid>
+      <description>Highlights
+ A LETKF-WRF system was run successfully in real-time to support RELAMPAGO operations. A reduction in forecast error was shown due to data assimilation cycles. 60-member RRR analyses and forecasts are available for the research community.  Abstract This paper describes the lessons learned from the implementation of a regional ensemble data assimilation and forecast system during the intensive observing period of the Remote sensing of Electrification, Lightning, And Mesoscale/microscale Processes with Adaptive Ground Observations (RELAMPAGO) field campaign (central Argentina, November–December 2018).</description>
+    </item>
+    
+    <item>
+      <title>Ciencia de Datos para el Turismo</title>
+      <link>/courses/cd_turismo_2021/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/cd_turismo_2021/</guid>
+      <description>La ciencia de datos es una disciplina que ha brindado nuevas y maravillosas posibilidades a muchas industrias por medio de la explotación de datos. Junto con estas posibilidades, también ha traído consigo cambios y desafíos constantes. La industria del turismo no es una excepción.
+En este taller y documento técnico realizaremos una introducción al concepto de ciencia de datos y su proceso. Introduciremos el lenguaje de programación R como la caja de herramientas principales para poder llevar adelante cada tarea y etapa de este proceso.</description>
+    </item>
+    
+    <item>
+      <title>From Spreadsheets to R</title>
+      <link>/courses/fromspreadsheettor/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/fromspreadsheettor/</guid>
+      <description>This course is intended for people who use spreadsheets for data manipulation and have never programmed, but would like to learn how to work with R. Therefore its starts from the beginning: why use R? and where to start?
+We propose to work with R in an orderly and reproducible way. For this reason, we present a workflow that allows those who take this course to apply good programming practices, work collaboratively and present their work in a single document that includes the analysis and the results.</description>
+    </item>
+    
+    <item>
+      <title>A Parameterization of the Cloud Scattering Polarization Signal Derived From GPM Observations for Microwave Fast Radative Transfer Models</title>
+      <link>/publications/parameterization-of-the-cloud-scattering/</link>
+      <pubDate>Mon, 01 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/parameterization-of-the-cloud-scattering/</guid>
+      <description>Abstract: Microwave cloud polarized observations have shown the potential to improve precipitation retrievals since they are linked to the orientation and shape of ice habits. Stratiform clouds show larger brightness temperature (TB) polarization differences (PDs), defined as the vertically polarized TB (TBV) minus the horizontally polarized TB (TBH), with ~10 K PD values at 89 GHz due to the presence of horizontally aligned snowflakes, while convective regions show smaller PD signals, as graupel and/or hail in the updraft tend to become randomly oriented.</description>
+    </item>
+    
+    <item>
+      <title>Uso de R en Latinoamérica, fortalezas, desafíos y debilidades</title>
+      <link>/talk/survey-user2021/</link>
+      <pubDate>Fri, 09 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/survey-user2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching to teach without losing anyone along the way</title>
+      <link>/talk/metatodencia-user2021/</link>
+      <pubDate>Tue, 06 Jul 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/metatodencia-user2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assimilation of conventional and satellite observations in a deep convection case during RELAMPAGO using the WRF-GSI-LETFK system</title>
+      <link>/talk/norce2021/</link>
+      <pubDate>Wed, 09 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/norce2021/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>agromet</title>
+      <link>/project/agromet/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/project/agromet/</guid>
+      <description>El paquete {agromet} incluye una serie de funciones para calcular índices y estadísticos climáticos e hidrológicos a partir de datos tidy. Por ejemplo umbrales() permite contar la cantidad de observaciones que cumplen una determinada condición y dias_promedios() devuelve el primer y último día del año promedio de ocurrencia de un evento.
+Otras funciones como spi() funcionan como wrappers de funciones de otros paquetes y que buscan ser compatibles con el manejo de datos tidy.</description>
+    </item>
+    
+    <item>
+      <title>Cómo enseñar a programar online</title>
+      <link>/courses/teach_programming/</link>
+      <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/teach_programming/</guid>
+      <description>Español - Cómo enseñar a programar onlineObjetivosIntroducir técnicas y buenas prácticas para diseñar tus cursos de programación y evaluar a tus estudiantes.
+Durante este taller remoto:
+  Mostraremos cómo diseñar tus cursos de programación de una manera eficiente y productiva.
+  Hablaremos de la utilidad de la revisión entre pares y la importancia de recibir feedback. Discutiremos cómo implementar estas prácticas.</description>
+    </item>
+    
+    <item>
+      <title>Por qué le pifia(mos) los meteorólogos</title>
+      <link>/talk/pronostico/</link>
+      <pubDate>Fri, 11 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/pronostico/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Webs con RMarkdown</title>
+      <link>/blog/webs-con-rmarkdown/</link>
+      <pubDate>Sat, 28 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/webs-con-rmarkdown/</guid>
+      <description>Querés compartir tus resultados y tenés un archivo RMarkdown en el que estuviste trabajando. Podrías compartir la carpeta del proyecto o un link a un repositorio pero sería ideal que cualquier persona pueda ver esos hermosos resultados sin necesidad de correr código. La otra alternativa es knitear el documento para compartir un PDF o archivo de Word. Las opciones no terminan ahí, Rmarkdown abre un mundo de posibilidades para trabajar con código de R, texto y además compartir los resultados (y cualquier otra cosa!</description>
+    </item>
+    
+    <item>
+      <title>R para Clima</title>
+      <link>/courses/rclima/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/rclima/</guid>
+      <description>¿De qué se trata este curso?Este curso está pensado para personas que trabajan con datos meteorológicos y climáticos y realizan análisis aplicados a distintas áreas como agricultura, salud, economía. Tiene algo de experiencia utilizando R o algún otro lenguaje de programación pero buscan organizar mejor su trabajo para automatizar algunas tareas y generar resultados e informes para compartir. Aún así, este curso comienza con un mapa de RStudio y RMarkdown, herramientas que serán imprescindibles.</description>
+    </item>
+    
+    <item>
+      <title>De Excel a R</title>
+      <link>/courses/deraexcel/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/deraexcel/</guid>
+      <description>¿De qué se trata este curso?Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?
+Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera ordenada y reproducible.</description>
+    </item>
+    
+    <item>
+      <title>RForwards</title>
+      <link>/project/rforwards/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rforwards/</guid>
+      <description>About RForwardsThe task force was set up by the R Foundation in December 2015 to address the underrepresentation of women and rebranded in January 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
+The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area of diversity and inclusion, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.</description>
+    </item>
+    
+    <item>
+      <title>MetaDocencia</title>
+      <link>/project/metadocencia/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/metadocencia/</guid>
+      <description>Soy co-fundadora de MetaDocencia y hasta Mayo de 2022 fui parte del core team. Durante estos 2 años ayudé en el desarrollo de materiales y nuevos cursos, colaboré en la traducción de otros materiales, co-coordiné la infraestructura de la comunidad y coordiné el equipo de código de conducta.
+Sobre MetaDocenciaNuestra visiónSomos una comunidad inclusiva y colaborativa que mejora la educación potenciando docentes de países menos favorecidos.</description>
+    </item>
+    
+    <item>
+      <title>The Carpentries</title>
+      <link>/project/thecarpentries/</link>
+      <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/project/thecarpentries/</guid>
+      <description>About The CarpentriesVision: Our vision is to be the leading inclusive community teaching data and coding skills.
+Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices.</description>
+    </item>
+    
+    <item>
+      <title>Un taller de R desde cero en nerdearla</title>
+      <link>/blog/2019-10-24-un-taller-de-r-desde-cero-en-nerdearla/</link>
+      <pubDate>Thu, 24 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019-10-24-un-taller-de-r-desde-cero-en-nerdearla/</guid>
+      <description>Hace un par de días tuve la super gran oportunidad de probar algunas prácticas que fui descubriendo en los últimos meses gracias a los materiales de The Carpentries y el workshop de Mine Çetinkaya-Rundel en LatinR.
+¿Dónde?Todos los años se organiza el evento NERDEARLA, una mezcla de charlas, tallares y networking. Y este año desde RLadies Buenos Aires aceptamos la invitación de participar con un taller de R para principiantes.</description>
+    </item>
+    
+    <item>
+      <title>Mi charla en LatinR 2019</title>
+      <link>/blog/2019-09-29-mi-charla-en-latinr-2019/</link>
+      <pubDate>Sun, 29 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2019-09-29-mi-charla-en-latinr-2019/</guid>
+      <description>En esta segundo edición de LatinR 2019 tuve la chance de presentar por primera vez en un congreso de R, ¡qué gran experiencia!
+Aproveché la oportunidad para presentar mi primer paquete rvad para el procesamiento de datos de viento medidos por radares Doppler pero también mi experiencia armando un paquete.
+Si te interesa el tema, podés encontrar la presentación acá y el repositorio con el paquete por acá. De yapa, hace un tiempito escribí un post sobre como usar el paquete acá.</description>
+    </item>
+    
+    <item>
+      <title>rvad, perfiles verticales de viento a partir de datos de radares meteorológicos</title>
+      <link>/talk/latinr2019/</link>
+      <pubDate>Fri, 27 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/latinr2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rvad o cómo calcular el viento</title>
+      <link>/blog/paquete-de-r-para-procesar-datos-de-viento-radial./</link>
+      <pubDate>Tue, 10 Sep 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/paquete-de-r-para-procesar-datos-de-viento-radial./</guid>
+      <description>Cómo parte de mi tesis de licenciatura implementé un algorítmo para calcular el viento horizontal a partir de observaciones de radares. Lo escribí en python y era super lento, seguramente por mi culpa! La buena noticia es que este año pasé el código al lado del bien y ahora hay un paquete de R.
+El objetivo del paquete rvad es aproximar las componentes del viento horizontal a partir del viento radial medido por un radar Doppler usando el método Velocity Azimith Displya o VAD de Browning and Wexler (1968).</description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>/contact/</link>
+      <pubDate>Mon, 25 Feb 2019 13:38:41 -0600</pubDate>
+      
+      <guid>/contact/</guid>
+      <description>** Contact page don&amp;rsquo;t contain a body, just the front matter above. See form.html in the layouts folder.
+Formspree requires a (free) account and new form to be set up. The link is made on the final published url in the field: Restrict to Domain. It is possible to register up to 2 emails free and you can select which one you want the forms to go to within Formspree in the Settings tab.</description>
+    </item>
+    
+    <item>
+      <title>RLadies</title>
+      <link>/project/rladies/</link>
+      <pubDate>Mon, 01 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/project/rladies/</guid>
+      <description>R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community.
+The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users (see recent stats).
+As a diversity initiative, the mission of R-Ladies is to achieve proportionate representation by encouraging, inspiring, and empowering people of genders currently underrepresented in the R community.</description>
+    </item>
+    
+    <item>
+      <title>Contributors</title>
+      <link>/contributors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/contributors/</guid>
+      <description>This website is possible to a dozen of people from the R community (See bellow) that made possible to have a very nice looking and easy to use webpage.
+I also took inspiration from Yanina Bellini Saibene and Silvia Canelón.
+ Thank you to all the folks who have contributed both technical and creative skills to this project:
+  Desirée De Leon 🦒 (designed 5 of the custom color themes, made illustrations for the workshop, and provided general aesthetic feedback along the way)</description>
+    </item>
+    
+    <item>
+      <title>License</title>
+      <link>/license/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/license/</guid>
+      <description>My blog posts and courses are released under a Creative Commons Attribution-ShareAlike 4.0 International License.
+ The icon used as favicon was created by BÖCK from Noun Project. The image in the home page depicts Richardson’s “forecast factory” by L. Bengtsson. The image in the Courses section is the &amp;ldquo;Hyetographic or Rain Map of the World &amp;quot; was first published 1848 by Alexander Keith Johnston. The image in the Blog section is part of Recovery of logbooks and international marine data: the RECLAIM project, Wilkinson 2021, Royal Meteorological Society.</description>
+    </item>
+    
+  </channel>
+</rss>

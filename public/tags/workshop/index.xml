@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Workshop on Pao Corrales</title>
+    <link>/tags/workshop/</link>
+    <description>Recent content in Workshop on Pao Corrales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/workshop/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Programación literaria con R</title>
+      <link>/courses/programacion-literaria/</link>
+      <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/programacion-literaria/</guid>
+      <description>¿De qué se trata este curso?Este curso está orientado tanto a personas con experiencia usando R como aquellas re recién comienzan. El foco no estará en correr modelos o utilizar una sintaxis específica para escribir código de R. El objetivo será transformar nuestros análisis usando R en trabajos reproducibles (o al menos desde el punto de vista de R).
+En particular en estos encuentros haremos foco en la programación literaria, en particular aplicando esta definición al análisis de datos.</description>
+    </item>
+    
+    <item>
+      <title>De planillas de cálculo a R</title>
+      <link>/courses/deplanillasdecalculoar/</link>
+      <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/deplanillasdecalculoar/</guid>
+      <description>De que se trata este curso?Este curso está dirigido a personas que utilizan hojas de cálculo para la manipulación de datos y que nunca han programado, pero que les gustaría aprender a trabajar con R. Por lo tanto, comenzamos por el principio: ¿por qué usar R? y ¿por dónde empezar?
+Proponemos trabajar con R de forma ordenada y reproducible. Por ello, presentamos un flujo de trabajo que permite a quienes realicen este curso aplicar buenas prácticas de programación, trabajar de forma colaborativa y presentar su trabajo en un único documento que incluya el análisis y los resultados.</description>
+    </item>
+    
+    <item>
+      <title>An R reproducibility toolkit for the practical researcher</title>
+      <link>/courses/reproducibility/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/reproducibility/</guid>
+      <description>With considerable effort, you wrote R code to analyze your data and generate a final document or report to present the results. You then give the code to a colleague for them to evaluate it, they don’t know which packages they need to install, they don’t have the necessary data and they don’t know if the correct script is report_final.Rmd or report_final_final.Rmd. Even after your guidance, they find that the code does not run on their machine.</description>
+    </item>
+    
+    <item>
+      <title>Ciencia de Datos para el Turismo</title>
+      <link>/courses/cd_turismo_2021/</link>
+      <pubDate>Wed, 01 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/cd_turismo_2021/</guid>
+      <description>La ciencia de datos es una disciplina que ha brindado nuevas y maravillosas posibilidades a muchas industrias por medio de la explotación de datos. Junto con estas posibilidades, también ha traído consigo cambios y desafíos constantes. La industria del turismo no es una excepción.
+En este taller y documento técnico realizaremos una introducción al concepto de ciencia de datos y su proceso. Introduciremos el lenguaje de programación R como la caja de herramientas principales para poder llevar adelante cada tarea y etapa de este proceso.</description>
+    </item>
+    
+    <item>
+      <title>From Spreadsheets to R</title>
+      <link>/courses/fromspreadsheettor/</link>
+      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/fromspreadsheettor/</guid>
+      <description>This course is intended for people who use spreadsheets for data manipulation and have never programmed, but would like to learn how to work with R. Therefore its starts from the beginning: why use R? and where to start?
+We propose to work with R in an orderly and reproducible way. For this reason, we present a workflow that allows those who take this course to apply good programming practices, work collaboratively and present their work in a single document that includes the analysis and the results.</description>
+    </item>
+    
+    <item>
+      <title>R para Clima</title>
+      <link>/courses/rclima/</link>
+      <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/rclima/</guid>
+      <description>¿De qué se trata este curso?Este curso está pensado para personas que trabajan con datos meteorológicos y climáticos y realizan análisis aplicados a distintas áreas como agricultura, salud, economía. Tiene algo de experiencia utilizando R o algún otro lenguaje de programación pero buscan organizar mejor su trabajo para automatizar algunas tareas y generar resultados e informes para compartir. Aún así, este curso comienza con un mapa de RStudio y RMarkdown, herramientas que serán imprescindibles.</description>
+    </item>
+    
+    <item>
+      <title>De Excel a R</title>
+      <link>/courses/deraexcel/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/deraexcel/</guid>
+      <description>¿De qué se trata este curso?Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?
+Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera ordenada y reproducible.</description>
+    </item>
+    
+  </channel>
+</rss>
