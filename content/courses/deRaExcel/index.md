@@ -1,5 +1,5 @@
 ---
-title: "R para Clima"
+title: "De Excel a R"
 subtitle: ""
 excerpt: "Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?"
 date: 2020-10-01
