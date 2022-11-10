@@ -6,7 +6,16 @@
     <description>Recent content in Courses on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 29 Aug 2022 00:00:00 +0000</lastBuildDate><atom:link href="/courses/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conquistando errores con R</title>
+      <link>/courses/errores-r/</link>
+      <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/errores-r/</guid>
+      <description>¿De qué se trata este taller?Ilustración de una vaquita de San AntonioDebuggear o depurar los errores de tu código puede ser una tarea frustrante. Tal vez obtuviste un mensaje de error y hay que interpretarlo o tal vez el código devuelve un resultado que no es el esperado. Si bien no existe una herramienta o método mágico para identificar los errores en un código, depurar errores requiere de un proceso sistemático.</description>
+    </item>
+    
     <item>
       <title>Programación literaria con R</title>
       <link>/courses/programacion-literaria/</link>
@@ -54,16 +63,6 @@ Proponemos trabajar con R de forma ordenada y reproducible. Por ello, presentamo
       <guid>/courses/cd_turismo_2021/</guid>
       <description>La ciencia de datos es una disciplina que ha brindado nuevas y maravillosas posibilidades a muchas industrias por medio de la explotación de datos. Junto con estas posibilidades, también ha traído consigo cambios y desafíos constantes. La industria del turismo no es una excepción.
 En este taller y documento técnico realizaremos una introducción al concepto de ciencia de datos y su proceso. Introduciremos el lenguaje de programación R como la caja de herramientas principales para poder llevar adelante cada tarea y etapa de este proceso.</description>
-    </item>
-    
-    <item>
-      <title>From Spreadsheets to R</title>
-      <link>/courses/fromspreadsheettor/</link>
-      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/courses/fromspreadsheettor/</guid>
-      <description>This course is intended for people who use spreadsheets for data manipulation and have never programmed, but would like to learn how to work with R. Therefore its starts from the beginning: why use R? and where to start?
-We propose to work with R in an orderly and reproducible way. For this reason, we present a workflow that allows those who take this course to apply good programming practices, work collaboratively and present their work in a single document that includes the analysis and the results.</description>
     </item>
     
     <item>

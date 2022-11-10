@@ -5,6 +5,7 @@ title: Pao Corrales
 author: Pao Corrales
 copyright: ''
 googleAnalytics: 'G-328E3YGZP0'
+publishDir: "docs"
 disqusShortname: ''
 metaDataFormat: yaml
 footnoteReturnLinkContents: '&#8617;'
