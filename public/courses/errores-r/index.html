@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.92.2" />
-<title>De Excel a R | Pao Corrales</title>
+<title>Conquistando errores con R | Pao Corrales</title>
 
 
 <meta property="twitter:site" content="@papbcorrales">
@@ -24,30 +24,29 @@
   
     
   
-<meta name="description" content="Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?">
+<meta name="description" content="En este tutorial aprenderás a utilizar funciones y herramientas que te ayudarán a depurar errores, analizando el código y haciendo preguntas necesarias que guien ese análisis.">
 
 
 <meta property="og:site_name" content="Pao Corrales">
-<meta property="og:title" content="De Excel a R | Pao Corrales">
-<meta property="og:description" content="Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?" />
+<meta property="og:title" content="Conquistando errores con R | Pao Corrales">
+<meta property="og:description" content="En este tutorial aprenderás a utilizar funciones y herramientas que te ayudarán a depurar errores, analizando el código y haciendo preguntas necesarias que guien ese análisis." />
 <meta property="og:type" content="page" />
-<meta property="og:url" content="/courses/deraexcel/" />
+<meta property="og:url" content="/courses/errores-r/" />
 <meta property="og:locale" content="en">
 
 
 
 
     
-        <meta property="og:image" content="/courses/deraexcel/featured.png" >
+        <meta property="og:image" content="/courses/errores-r/featured.png" >
         <meta property="twitter:card" content="summary_large_image">
-        <meta name="twitter:image" content="/courses/deraexcel/featured.png" >
+        <meta name="twitter:image" content="/courses/errores-r/featured.png" >
     
     
-  <meta itemprop="name" content="De Excel a R">
-<meta itemprop="description" content="¿De qué se trata este curso?Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?
-Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera ordenada y reproducible."><meta itemprop="datePublished" content="2020-10-01T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-10-01T00:00:00+00:00" />
-<meta itemprop="wordCount" content="179"><meta itemprop="image" content="/courses/deraexcel/featured.png">
+  <meta itemprop="name" content="Conquistando errores con R">
+<meta itemprop="description" content="¿De qué se trata este taller?Ilustración de una vaquita de San AntonioDebuggear o depurar los errores de tu código puede ser una tarea frustrante. Tal vez obtuviste un mensaje de error y hay que interpretarlo o tal vez el código devuelve un resultado que no es el esperado. Si bien no existe una herramienta o método mágico para identificar los errores en un código, depurar errores requiere de un proceso sistemático."><meta itemprop="datePublished" content="2022-10-10T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-10-10T00:00:00+00:00" />
+<meta itemprop="wordCount" content="196"><meta itemprop="image" content="/courses/errores-r/featured.png">
 <meta itemprop="keywords" content="Workshop,R,Education," />
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-328E3YGZP0"></script>
@@ -136,10 +135,10 @@ if (!doNotTrack) {
   <section class="page-content mw7 center">
     <article class="post-content pa0 pr3-l">
       <header class="post-header">
-        <h1 class="f1 lh-solid measure-narrow mb3 fw4">De Excel a R</h1>
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Conquistando errores con R</h1>
         
-        <p class="f6 measure lh-copy mv1">By Paola Corrales &amp; Elio Campitelli in <a href="/categories/workshop">Workshop</a>  <a href="/categories/education">Education</a>  <a href="/categories/espa%C3%B1ol">Español</a> </p>
-        <p class="f7 db mv0 ttu">October 1, 2020</p>
+        <p class="f6 measure lh-copy mv1">By Paola Corrales in <a href="/categories/workshop">Workshop</a>  <a href="/categories/education">Education</a>  <a href="/categories/espa%C3%B1ol">Español</a> </p>
+        <p class="f7 db mv0 ttu">October 10, 2022</p>
         
       
       <div class="ph0 pt5">
@@ -155,7 +154,7 @@ if (!doNotTrack) {
     
       
       
-  <a class="btn-links mr2 ba dib" href="https://github.com/paocorrales/deExcelaR" target="_blank" rel="noopener"><i class="fab fa-github fa-lg fa-fw mr2"></i>code</a>
+  <a class="btn-links mr2 ba dib" href="https://github.com/paocorrales/errores_tutorial" target="_blank" rel="noopener"><i class="fab fa-github fa-lg fa-fw mr2"></i>code</a>
 
     
     
@@ -168,7 +167,20 @@ if (!doNotTrack) {
     
       
       
-  <a class="btn-links mr2 ba dib" href="https://paocorrales.github.io/deExcelaR/" target="_blank" rel="noopener"><i class="fas fa-door-open fa-lg fa-fw mr2"></i>Website</a>
+  <a class="btn-links mr2 ba dib" href="https://paocorrales.github.io/errores_tutorial/" target="_blank" rel="noopener"><i class="fas fa-door-open fa-lg fa-fw mr2"></i>Website</a>
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://youtu.be/CAw3-pZhzfk" target="_blank" rel="noopener"><i class="fab fa-youtube fa-lg fa-fw mr2"></i>video</a>
 
 
       </div>
@@ -180,26 +192,25 @@ if (!doNotTrack) {
 
 
 
-<h3 id="de-qué-se-trata-este-curso">¿De qué se trata este curso?
-  <a href="#de-qu%c3%a9-se-trata-este-curso"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+<h2 id="de-qué-se-trata-este-taller">¿De qué se trata este taller?
+  <a href="#de-qu%c3%a9-se-trata-este-taller"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
       <path d="M0 0h24v24H0z" fill="currentColor"></path>
       <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
     </svg></a>
-</h3>
-<p>Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?</p>
-<p>Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera ordenada y reproducible. Por eso, proponemos utilizar un flujo de trabajo que le permita a quienes tomen este curso, aplicar buenas prácticas de programación, trabajar de manera colaborativa y presentar su trabajo en un documento único que incluya el análisis y los resultados.</p>
-<p>Siempre que podamos, mencionaremos como lo que proponemos resolver con R se puede también hacer con Excel, y las ventajas y desventajas de cada caso.</p>
-<p>En cada sección incluimos ejercicios y desafíos y junto con los ejemplos, usan algunos set de datos útiles para el problema que queremos resolver. Buscamos que estos datos sean realistas para que cualquier persona encuentre similaridades en sus propios datos y pueda aplicar lo aprendido a otras situaciones.</p>
+</h2>
+<p>Ilustración de una vaquita de San AntonioDebuggear o depurar los errores de tu código puede ser una tarea frustrante. Tal vez obtuviste un mensaje de error y hay que interpretarlo o tal vez el código devuelve un resultado que no es el esperado. Si bien no existe una herramienta o método mágico para identificar los errores en un código, depurar errores requiere de un proceso sistemático.</p>
+<p>En este tutorial aprenderás a utilizar funciones y herramientas que te ayudarán a depurar errores, analizando el código y haciendo preguntas necesarias que guien ese análisis. Cómo con cualquier tarea asociada a la programación, la depuración de errores es una habilidad que requiere práctica, por lo que en el tutorial tendrás la posibilidad de seguir los ejemplos, resolver nuevos problemas aplicando las herramientas vistas, discutir en grupo y hacer todas las preguntas que tengas.</p>
+<p>Este tutorial está orientado a personas que tienen alguna experiencia escribiendo código en R. No importa si programan hace 6 años o 6 meses, lo importante es que la sintaxis de R les resulte familiar, en particular loops y funciones, y se haya encontrado con errores y problemas de código.</p>
 
       </section>
       <footer class="post-footer">
         <div class="post-pagination dt w-100 mt4 mb2">
   
   
-    <a class="prev dtc pr2 tl v-top fw6"
-    href="/courses/rclima/">&larr; R para Clima</a>
   
   
+    <a class="next dtc pl2 tr v-top fw6"
+    href="/courses/programacion-literaria/">Programación literaria con R &rarr;</a>
   
 </div>
 
@@ -251,11 +262,11 @@ if (!doNotTrack) {
   <details open class="f6 fw7 input-reset">
   <dl class="f6 lh-copy">
     <dt class="fw7">Posted on:</dt>
-    <dd class="fw5 ml0">October 1, 2020</dd>
+    <dd class="fw5 ml0">October 10, 2022</dd>
   </dl>
   <dl class="f6 lh-copy">
     <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">1 minute read, 179 words</dd>
+    <dd class="fw5 ml0">1 minute read, 196 words</dd>
   </dl>
   
   <dl class="f6 lh-copy">
@@ -273,11 +284,11 @@ if (!doNotTrack) {
   <dl class="f6 lh-copy">
     <dt class="fw7">See Also:</dt>
     
-    <dd class="fw5 ml0"><a href="/courses/errores-r/">Conquistando errores con R</a></dd>
-    
     <dd class="fw5 ml0"><a href="/courses/programacion-literaria/">Programación literaria con R</a></dd>
     
     <dd class="fw5 ml0"><a href="/courses/deplanillasdecalculoar/">De planillas de cálculo a R</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/courses/tutorialesinteractivos_intro/">Generando tutoriales interactivos con el paquete {learnr}</a></dd>
     
   </dl>
 </details>

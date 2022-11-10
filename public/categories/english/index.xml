@@ -8,7 +8,7 @@
     <language>en</language>
     <lastBuildDate>Sun, 22 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/english/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>(In review) Hourly Assimilation of Different Sources of Observations Including Satellite Radiances in a  Mesoscale Convective System Case During RELAMPAGO campaign</title>
+      <title>Hourly Assimilation of Different Sources of Observations Including Satellite Radiances in a  Mesoscale Convective System Case During RELAMPAGO campaign</title>
       <link>/publications/hourly-assimilation-of-different-sources-of-observations/</link>
       <pubDate>Sun, 22 May 2022 00:00:00 +0000</pubDate>
       
@@ -33,16 +33,6 @@
       <guid>/publications/rrr-for-relampago/</guid>
       <description>Highlights
  A LETKF-WRF system was run successfully in real-time to support RELAMPAGO operations. A reduction in forecast error was shown due to data assimilation cycles. 60-member RRR analyses and forecasts are available for the research community.  Abstract This paper describes the lessons learned from the implementation of a regional ensemble data assimilation and forecast system during the intensive observing period of the Remote sensing of Electrification, Lightning, And Mesoscale/microscale Processes with Adaptive Ground Observations (RELAMPAGO) field campaign (central Argentina, November–December 2018).</description>
-    </item>
-    
-    <item>
-      <title>From Spreadsheets to R</title>
-      <link>/courses/fromspreadsheettor/</link>
-      <pubDate>Fri, 05 Nov 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/courses/fromspreadsheettor/</guid>
-      <description>This course is intended for people who use spreadsheets for data manipulation and have never programmed, but would like to learn how to work with R. Therefore its starts from the beginning: why use R? and where to start?
-We propose to work with R in an orderly and reproducible way. For this reason, we present a workflow that allows those who take this course to apply good programming practices, work collaboratively and present their work in a single document that includes the analysis and the results.</description>
     </item>
     
     <item>
