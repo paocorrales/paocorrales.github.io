@@ -1,5 +1,5 @@
 ---
-title: (In review) Hourly Assimilation of Different Sources of Observations Including
+title: Hourly Assimilation of Different Sources of Observations Including
   Satellite Radiances in a  Mesoscale Convective System Case During RELAMPAGO campaign
 author: Paola Corrales, Victoria Galligani, Juan Ruiz, Luiz Sapucci, María Eugenia, Dillon, Yanina García Skabar, Maximiliano Sacco, Craig Schwartz, Stephen Nesbitt
 date: '2022-05-22'
@@ -14,6 +14,14 @@ Links:
   icon_pack: fas
   name: Repo
   url: https://github.com/paocorrales/mesoda
+- icon: door-open
+  icon_pack: fas
+  name: DOI
+  url: https://doi.org/10.1016/j.atmosres.2022.106456
+- icon: database
+  icon_pack: fas
+  name: Data
+  url: https://zenodo.org/record/7015913
 ---
 
 **Abstract** In this paper, we evaluate the impact of assimilating high-resolution surface networks and satellite observations using the WRF-GSI-LETKF over central and north eastern Argentina where the surface and upper air observing networks are relatively coarse. We conducted a case study corresponding to a huge mesoscale convective system (MCS) that developed during November 22, 2018. The accumulated precipitation associated with this MCS was quite high, exceeding 200 mm over northern Argentina and Paraguay. The MCS developed during the Intense Observing Period (IOP) of the RELAMPAGO field campaign. We used the GSI-4DLETKF data assimilation package to produce analyses assimilating observations every hour with 10-km horizontal grid spacing and a 60-member multiphysics ensemble. 
