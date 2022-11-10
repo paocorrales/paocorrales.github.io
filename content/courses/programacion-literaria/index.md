@@ -37,4 +37,3 @@ En particular en estos encuentros haremos foco en la programación literaria, en
 También dedicaremos tiempo al cómo compartir nuestro trabajo en un sentido amplio. Por un lado veremos como compartir un proyecto con colegas para que puedan correr el código sin demasiados dolores de cabeza (aunque no entraremos en el uso de git y control de versiones). Por el otro lado, veremos como compartir trabajo terminado, por ejemplo en la forma de una página web (pero de nuevo no necesitaremos aprender nada de html o desarrollo web).
 
 Si bien “reproducibilidad” puede significar muchas cosas, luego de este curso podrán dar los primer pasos para trabajar de manera más ordenada aprovechando el poder la programación literaria y otras herramientas que ayudan al trabajo cotidiano.
-
