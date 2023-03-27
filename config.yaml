@@ -55,9 +55,9 @@ params:
     - icon: instagram
       icon_pack: fab
       url: https://www.instagram.com/paobcorrales
-    - icon: twitter
+    - icon: mastodon
       icon_pack: fab
-      url: https://twitter.com/paobcorrales
+      url: https://fosstodon.org/@paocorrales
     - icon: impactstory
       icon_pack: ai
       url: https://impactstory.org/u/0000-0002-8082-1890
