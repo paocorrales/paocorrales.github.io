@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"><head>
+  
+                           
+     
+
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="generator" content="Hugo 0.92.2" />
+<title>rvad o cómo calcular el viento | Pao Corrales</title>
+
+
+<meta property="twitter:site" content="@papbcorrales">
+<meta property="twitter:creator" content="@papbcorrales">
+
+
+
+
+
+
+
+  
+    
+  
+<meta name="description" content="A modern, beautiful, and easily configurable blog theme for Hugo.">
+
+
+<meta property="og:site_name" content="Pao Corrales">
+<meta property="og:title" content="rvad o cómo calcular el viento | Pao Corrales">
+<meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo." />
+<meta property="og:type" content="page" />
+<meta property="og:url" content="/blog/paquete-de-r-para-procesar-datos-de-viento-radial./" />
+<meta property="og:locale" content="en">
+
+
+
+
+    
+        <meta property="og:image" content="/blog/paquete-de-r-para-procesar-datos-de-viento-radial./featured.png" >
+        <meta property="twitter:card" content="summary_large_image">
+        <meta name="twitter:image" content="/blog/paquete-de-r-para-procesar-datos-de-viento-radial./featured.png" >
+    
+    
+  <meta itemprop="name" content="rvad o cómo calcular el viento">
+<meta itemprop="description" content="Cómo parte de mi tesis de licenciatura implementé un algorítmo para calcular el viento horizontal a partir de observaciones de radares. Lo escribí en python y era super lento, seguramente por mi culpa! La buena noticia es que este año pasé el código al lado del bien y ahora hay un paquete de R.
+El objetivo del paquete rvad es aproximar las componentes del viento horizontal a partir del viento radial medido por un radar Doppler usando el método Velocity Azimith Displya o VAD de Browning and Wexler (1968)."><meta itemprop="datePublished" content="2019-09-10T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2019-09-10T00:00:00+00:00" />
+<meta itemprop="wordCount" content="765"><meta itemprop="image" content="/blog/paquete-de-r-para-procesar-datos-de-viento-radial./featured.png">
+<meta itemprop="keywords" content="paquete,radar,VAD,R," />
+  
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-328E3YGZP0"></script>
+<script>
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	gtag('js', new Date());
+	gtag('config', 'G-328E3YGZP0', { 'anonymize_ip': true });
+}
+</script>
+
+  
+<script type="application/javascript">
+var dnt = (navigator.doNotTrack || window.doNotTrack || navigator.msDoNotTrack);
+var doNotTrack = (dnt == "1" || dnt == "yes");
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-328E3YGZP0', 'auto');
+	ga('set', 'anonymizeIp', true);
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+  <!--[if IE]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/img/favicon.ico" type="image/x-icon">
+  
+  
+  <link rel="stylesheet" href="/style.main.min.29e0e491a53c3257f897267641ed71009d1a7ddb433215e43fd3755b9f557f4f.css" integrity="sha256-KeDkkaU8Mlf4lyZ2Qe1xAJ0afdtDMhXkP9N1W59Vf08=" media="screen">
+  
+  
+  <script src="/panelset.min.078a92db9bd3228df502db3d9e0453c3cf3d910abe3f8deca0ad196c7071ad41.js" type="text/javascript"></script>
+  
+  
+  <script src="/main.min.b9cc30b82b7845473a948d760e5aae580ed83f35bd2f0036b2580eff233a1757.js" type="text/javascript"></script>
+</head>
+<body>
+      <div class="grid-container">
+<header class="site-header pt4 pb2 mb4 bb b--transparent ph5 headroom z-max" role="banner">
+  <nav class="site-nav db dt-l w-100" role="navigation">
+    <a class="site-brand db dtc-l v-mid link no-underline w-100 w-33-l tc tl-l" href="/" title="Home">
+      <img src="/img/favicon_big.png" class="dib db-l h2 w-auto" alt="Pao Corrales">
+    </a>
+    <div class="site-links db dtc-l v-mid w-100 w-47-l tc tr-l mt3 mt0-l ttu tracked">
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/about/" title="About">About</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 active" href="/blog/" title="Blog">Blog</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/courses/" title="Courses">Courses</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/project/" title="Projects Porfolio">Projects</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/publications/" title="Publications">Publications</a>
+      
+        
+        
+        
+      <a class="link f6 f5-l dib pv1 ph2 " href="/talk/" title="Talks">Talks</a>
+      
+      
+    </div>
+  </nav>
+</header>
+
+<main class="page-main pa4" role="main">
+  <section class="page-content mw7 center">
+    <article class="post-content pa0 ph4-l">
+      <header class="post-header">
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">rvad o cómo calcular el viento</h1>
+        
+        <p class="f6 measure lh-copy mv1">By Pao Corrales in <a href="/categories/meteorology">meteorology</a>  <a href="/categories/espa%C3%B1ol">Español</a> </p>
+        <p class="f7 db mv0 ttu">September 10, 2019</p>
+
+      
+
+      </header>
+      <section class="post-body pt5 pb4">
+        
+
+
+<p>Cómo parte de mi tesis de licenciatura implementé un algorítmo para calcular el viento horizontal a partir de observaciones de radares. Lo escribí en python y era super lento, seguramente por mi culpa! La buena noticia es que este año pasé el código al lado del bien y ahora hay un paquete de R.</p>
+<p>El objetivo del paquete <code>rvad</code> es aproximar las componentes del viento horizontal a partir del viento radial medido por un radar Doppler usando el método Velocity Azimith Displya o VAD de <a href="https://journals.ametsoc.org/doi/abs/10.1175/1520-0450%281968%29007%3C0105%3ATDOKPO%3E2.0.CO%3B2">Browning and Wexler (1968)</a>.</p>
+<div id="installation" class="section level2">
+<h2>Installation</h2>
+<p>Por ahora está diponible la versión en desarrollo en <a href="https://github.com/">GitHub</a>, podés instalarla así:</p>
+<pre class="r"><code># install.packages(&quot;remotes&quot;)
+remotes::install_github(&quot;paocorrales/rvad&quot;)
+## Skipping install of &#39;rvad&#39; from a github remote, the SHA1 (31d393d3) has not changed since last install.
+##   Use `force = TRUE` to force installation</code></pre>
+</div>
+<div id="ejemplo" class="section level2">
+<h2>Ejemplo</h2>
+<p>Usualmente los datos de radar vienen en formatos de los más diversos y con suerte son transformados a netCDF. Dejo esa tarea para la casa. En este caso es necesario tener los datos en formato tidy, o sea una obsevación de viento radial para cada azimut, ángulo de elevación y distancia al radar o rango. A modo de nuestra hay un set de datos disponibles con el paquete:</p>
+<pre class="r"><code>library(rvad)
+str(radial_wind)  # datos de ejemplo, vienen con el paquete!
+## Classes &#39;data.table&#39; and &#39;data.frame&#39;:   2076960 obs. of  4 variables:
+##  $ range      : int  250 750 1250 1750 2250 2750 3250 3750 4250 4750 ...
+##  $ radial_wind: num  NA NA -4.189 0.419 -4.556 ...
+##  $ azimuth    : num  214 214 214 214 214 ...
+##  $ elevation  : num  0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 ...
+##  - attr(*, &quot;.internal.selfref&quot;)=&lt;externalptr&gt;</code></pre>
+<p>El campo de viento radial para un ángulo de elevación tiene esta pinta:</p>
+<pre class="r"><code>library(ggplot2)
+## Warning: package &#39;ggplot2&#39; was built under R version 4.1.3
+one_elevation &lt;- subset(radial_wind, elevation == unique(elevation)[3] &amp;
+                          !is.na(radial_wind))
+ggplot(one_elevation, aes(azimuth, range)) +
+  geom_point(aes(color = radial_wind, size = range^2)) +
+  scale_radius(range = c(0, 0.05), guide = &quot;none&quot;) +
+  scale_color_gradient2(low = &quot;blue&quot;, high = &quot;red&quot;) +
+  scale_y_continuous(limits = c(0, 100000)) +
+  coord_polar()
+## Warning: Removed 259 rows containing missing values (geom_point).</code></pre>
+<p><img src="/blog/paquete-de-r-para-procesar-datos-de-viento-radial./index_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
+<p>Colores rojos indican que el viento se aleja del radar y los azules indican que el viento se mueve hacia el radar. Entonces, a partir del gráfico se puede ver que el viento es aproximadamente del noreste. Esto es bastante común durante la madrugada de un día de verano en las llanuras de Argentina (los datos corresponden al radar INTA Paraná el 14 de enero de 2016 a las 06 UTC).</p>
+<p><code>vad_fit()</code> hace algunos controles de calidad y luego ajusta un modelo sinusoidal a los datos. Como resultado devuelve el viento zonal (u) y meridional (v) para cada ángulo de elevación y rango. El paquete también incluye una función que aproxima la propagación del haz del radar por lo que también se obtiene la altura de cada observación.</p>
+<pre class="r"><code>VAD &lt;- with(radial_wind, vad_fit(radial_wind, azimuth, range, elevation))
+str(VAD)
+## Classes &#39;rvad_vad&#39; and &#39;data.frame&#39;: 5760 obs. of  7 variables:
+##  $ height   : num  2.19 6.58 11 15.45 19.93 ...
+##  $ u        : num  NA NA NA NA NA NA NA NA NA NA ...
+##  $ v        : num  NA NA NA NA NA NA NA NA NA NA ...
+##  $ range    : int  250 750 1250 1750 2250 2750 3250 3750 4250 4750 ...
+##  $ elevation: num  0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 0.5 ...
+##  $ r2       : num  NA NA NA NA NA NA NA NA NA NA ...
+##  $ rmse     : num  NA NA NA NA NA NA NA NA NA NA ...
+##  - attr(*, &quot;rvad_raw&quot;)= logi TRUE</code></pre>
+<p>La función tiene un método de graficado rápido para revisar el resultado:</p>
+<pre class="r"><code>plot(VAD)</code></pre>
+<p><img src="/blog/paquete-de-r-para-procesar-datos-de-viento-radial./index_files/figure-html/unnamed-chunk-6-1.png" width="672" /></p>
+<p>Los parámetros optimos para el control de calidad (R^2 mínimo, máximo de valores faltantes, etc.) puede depender de cada caso. Por eso es importante revisar distintos valores y chequear el resultado.</p>
+<p>La segunda función importante <code>vad_regrid()</code> resume el resultado anterior en un único perfil de viento definiendo una grilla regular a partir de una regresión local.</p>
+<pre class="r"><code>wind_profile &lt;- vad_regrid(VAD, layer_width = 100)</code></pre>
+<p>La función también tiene un método de gráficado, así que rápidamente este es el resultado:</p>
+<pre class="r"><code>plot(wind_profile)</code></pre>
+<p><img src="/blog/paquete-de-r-para-procesar-datos-de-viento-radial./index_files/figure-html/unnamed-chunk-8-1.png" width="672" /></p>
+<p>Si bien alguien con buen ojo puede interpretar como será el perfil vertical de viento a partir del campo de viento radial, nada mejor como un paquete de R para hacer cálculos y darnos la respuesta.</p>
+<p>Por ahora eso es todo, con suerte el doctorado me va a dejar tiempo para seguir incluyendo nuevas herramientas. Por ejemplo, probar el algoritmo para otras estrategias de escaneo!</p>
+</div>
+
+        
+        <details closed class="f6 fw7 input-reset">
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Posted on:</dt>
+    <dd class="fw5 ml0">September 10, 2019</dd>
+  </dl>
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Length:</dt>
+    <dd class="fw5 ml0">4 minute read, 765 words</dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Categories:</dt>
+    <dd class="fw5 ml0"> <a href="/categories/meteorology">meteorology</a>  <a href="/categories/espa%C3%B1ol">Español</a> </dd>
+  </dl>
+  
+  
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">Tags:</dt>
+    <dd class="fw5 ml0"> <a href="/tags/paquete">paquete</a>  <a href="/tags/radar">radar</a>  <a href="/tags/vad">VAD</a>  <a href="/tags/r">R</a> </dd>
+  </dl>
+  
+  <dl class="f6 lh-copy">
+    <dt class="fw7">See Also:</dt>
+    
+    <dd class="fw5 ml0"><a href="/courses/git-developing-software-together/">Developing Software Together: using Git</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/courses/errores-r/">Conquistando errores con R</a></dd>
+    
+    <dd class="fw5 ml0"><a href="/courses/programacion-literaria/">Programación literaria con R</a></dd>
+    
+  </dl>
+</details>
+
+      </section>
+      <footer class="post-footer">
+        <div class="post-pagination dt w-100 mt4 mb2">
+  
+  
+    <a class="prev dtc pr2 tl v-top fw6"
+    href="/blog/2019-09-29-mi-charla-en-latinr-2019/">&larr; Mi charla en LatinR 2019</a>
+  
+  
+  
+</div>
+
+      </footer>
+    </article>
+    
+      
+<div class="post-comments pa0 pa4-l mt4">
+  
+  <script src="https://utteranc.es/client.js"
+          repo="paocorrales/paocorrales.githu.io"
+          issue-term="pathname"
+          theme="boxy-light"
+          label="comments :crystal_ball:"
+          crossorigin="anonymous"
+          async
+          type="text/javascript">
+  </script>
+  
+</div>
+
+    
+  </section>
+</main>
+<footer class="site-footer pv4 bt b--transparent ph5" role="contentinfo">
+  <nav class="db dt-l w-100">
+    <p class="site-copyright f7 db dtc-l v-mid w-100 w-33-l tc tl-l pv2 pv0-l mv0 lh-copy">
+      &copy; 2023, Argentina
+      <span class="middot-divider"></span>
+      Made with <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/hugo-apero/" rel="dct:source">Hugo Apéro</a></span>.
+      <br />
+      
+Based on <span xmlns:dct="http://purl.org/dc/terms/" property="dct:title"><a xmlns:dct="http://purl.org/dc/terms/" href="https://github.com/formspree/blogophonic-hugo" rel="dct:source">Blogophonic</a></span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://formspree.io" property="cc:attributionName" rel="cc:attributionURL">Formspree</a>.
+    </p>
+    
+    <div class="site-social-links db dtc-l v-mid w-100 w-33-l tc pv2 pv0-l mv0">
+      <div class="social-icon-links" aria-hidden="true">
+  
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://github.com/paocorrales" title="github" target="_blank" rel="noopener">
+      <i class="fab fa-github fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://www.instagram.com/paobcorrales" title="instagram" target="_blank" rel="noopener">
+      <i class="fab fa-instagram fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://fosstodon.org/@paocorrales" title="mastodon" target="_blank" rel="noopener">
+      <i class="fab fa-mastodon fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="https://impactstory.org/u/0000-0002-8082-1890" title="impactstory" target="_blank" rel="noopener">
+      <i class="ai ai-impactstory fa-lg fa-fw"></i>
+    </a>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <a class="link dib h1 w1 ml0 mr2 f6 o-90 glow" href="http://orcid.org/0000-0002-8082-1890" title="orcid" target="_blank" rel="noopener">
+      <i class="ai ai-orcid fa-lg fa-fw"></i>
+    </a>
+  
+</div>
+
+    </div>
+    
+    <div class="site-links f6 db dtc-l v-mid w-100 w-67-l tc tr-l pv2 pv0-l mv0">
+      
+      <a class="dib pv1 ph2 link" href="/license/" title="License">License</a>
+      
+      <a class="dib pv1 ph2 link" href="/contributors/" title="Contributors">Contributors</a>
+      
+    </div>
+  </nav>
+  
+    <script>
+
+    var i, text, code, codes = document.getElementsByTagName('code');
+    for (let i = 0; i < codes.length;) {
+      code = codes[i];
+      if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+        text = code.textContent;
+        if (/^\$[^$]/.test(text) && /[^$]\$$/.test(text)) {
+          text = text.replace(/^\$/, '\\(').replace(/\$$/, '\\)');
+          code.textContent = text;
+        }
+        if (/^\\\((.|\s)+\\\)$/.test(text) ||
+            /^\\\[(.|\s)+\\\]$/.test(text) ||
+            /^\$(.|\s)+\$$/.test(text) ||
+            /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+          code.outerHTML = code.innerHTML;  
+          continue;
+        }
+      }
+      i++;
+    }
+</script>
+
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.css" integrity="sha384-RZU/ijkSsFbcmivfdRBQDtwuwVqK7GMOw6IMvKyeWL2K5UAlyp6WonmB8m7Jd0Hn" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/katex.min.js" integrity="sha384-pK1WpvzWVBQiP0/GjnvRxV4mOb0oxFuyRxJlk6vVw146n3egcN5C925NCP7a7BY8" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.13/dist/contrib/auto-render.min.js" integrity="sha384-vZTG03m+2yp6N6BNi5iM4rW4oIwk5DfcNdFfxkk9ZWpDriOkXX8voJBFrAO7MpVl" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+
+
+
+    
+  
+  
+</footer>
+
+      </div>
+    </body>
+</html>

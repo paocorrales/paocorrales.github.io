@@ -6,7 +6,16 @@
     <description>Recent content in English on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/categories/english/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/english/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Developing Software Together: using Git</title>
+      <link>/courses/git-developing-software-together/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/git-developing-software-together/</guid>
+      <description>It is a three-hour course on how to use Git and GitHub to collaboratively develop open source software with the R language. It was organized for the Champions program of rOpenSci.</description>
+    </item>
+    
     <item>
       <title>Hourly Assimilation of Different Sources of Observations Including Satellite Radiances in a  Mesoscale Convective System Case During RELAMPAGO campaign</title>
       <link>/publications/hourly-assimilation-of-different-sources-of-observations/</link>
@@ -77,7 +86,7 @@
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/project/thecarpentries/</guid>
-      <description>About The CarpentriesVision: Our vision is to be the leading inclusive community teaching data and coding skills.
+      <description>About The Carpentries     Vision: Our vision is to be the leading inclusive community teaching data and coding skills.
 Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices.</description>
     </item>
     
@@ -88,7 +97,7 @@ Mission: The Carpentries builds global capacity in essential data and computatio
       
       <guid>/project/rladies/</guid>
       <description>R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community.
-The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users (see recent stats).
+The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users ( see recent stats).
 As a diversity initiative, the mission of R-Ladies is to achieve proportionate representation by encouraging, inspiring, and empowering people of genders currently underrepresented in the R community.</description>
     </item>
     

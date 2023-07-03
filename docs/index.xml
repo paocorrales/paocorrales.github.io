@@ -6,7 +6,7 @@
     <description>Recent content on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>/collection/day02/01-netlify/</link>
@@ -14,7 +14,7 @@
       
       <guid>/collection/day02/01-netlify/</guid>
       <description>So far, we&amp;rsquo;ve been leveraging GitHub Pages for publishing. This works great, but for blogdown we&amp;rsquo;ll start using Netlify. Let&amp;rsquo;s start RIGHT NOW with a site we&amp;rsquo;ve already built and published.
-Pre-requisitesPick either your postcards site, or your distill site from day 01. Refresh your memory- which repository was it again?</description>
+Pre-requisites     Pick either your postcards site, or your distill site from day 01. Refresh your memory- which repository was it again?</description>
     </item>
     
     <item>
@@ -23,10 +23,10 @@ Pre-requisitesPick either your postcards site, or your distill site from da
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/collection/day01/01-github/</guid>
-      <description>Profilehttps://docs.github.com/en/github/setting-up-and-managing-your-github-profile/personalizing-your-profile
-Pin projects to profilehttps://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile
-Profile READMEThis is new! Let&amp;rsquo;s do it:
-https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme</description>
+      <description>Profile      https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/personalizing-your-profile
+Pin projects to profile      https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/pinning-items-to-your-profile
+Profile README     This is new! Let&amp;rsquo;s do it:
+ https://docs.github.com/en/github/setting-up-and-managing-your-github-profile/managing-your-profile-readme</description>
     </item>
     
     <item>
@@ -36,7 +36,7 @@ Profile READMEThis is new! Let&amp;rsquo;s do it:
       
       <guid>/collection/prework/</guid>
       <description>Welcome to the Introducing Yourself Online workshop! We look forward to meeting you. Before attending the workshop, please complete the following prework.
-Set up RStudio CloudSign up for a free RStudio Cloud account at https://rstudio.cloud/ before the workshop. I recommend logging in with an existing Google or GitHub account, if you have one (rather than creating a new account with another password you have to remember).</description>
+Set up RStudio Cloud     Sign up for a free RStudio Cloud account at https://rstudio.cloud/ before the workshop. I recommend logging in with an existing Google or GitHub account, if you have one (rather than creating a new account with another password you have to remember).</description>
     </item>
     
     <item>
@@ -45,9 +45,9 @@ Set up RStudio CloudSign up for a free RStudio Cloud account at https://rst
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/collection/day01/02-postcards/</guid>
-      <description>Pre-requisitesFirst, make sure you have the latest version of the postcards package installed from CRAN:
-install.packages(&amp;quot;postcards&amp;quot;)Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
- Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  packageVersion(&amp;quot;postcards&amp;quot;)[1] ‘0.2.0’Create GitHub repoOnline.</description>
+      <description>Pre-requisites     First, make sure you have the latest version of the postcards package installed from CRAN:
+install.packages(&amp;quot;postcards&amp;quot;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
+ Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  packageVersion(&amp;quot;postcards&amp;quot;) [1] ‘0.2.0’  Create GitHub repo     Online.</description>
     </item>
     
     <item>
@@ -56,9 +56,9 @@ install.packages(&amp;quot;postcards&amp;quot;)Restart your R session. If you u
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/collection/day02/02-blogdown/</guid>
-      <description>Pre-requisitesFirst, make sure you have the latest version of the blogdown package installed from CRAN:
-install.packages(&amp;quot;blogdoown&amp;quot;)Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
- Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  packageVersion(&amp;quot;blogdown&amp;quot;)[1] ‘1.0’Create GitHub repoOnline.</description>
+      <description>Pre-requisites     First, make sure you have the latest version of the blogdown package installed from CRAN:
+install.packages(&amp;quot;blogdoown&amp;quot;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
+ Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  packageVersion(&amp;quot;blogdown&amp;quot;) [1] ‘1.0’  Create GitHub repo     Online.</description>
     </item>
     
     <item>
@@ -67,9 +67,9 @@ install.packages(&amp;quot;blogdoown&amp;quot;)Restart your R session. If you u
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/collection/day01/03-distill/</guid>
-      <description>Pre-requisitesFirst, make sure you have the latest version of the distill package installed from CRAN:
-install.packages(&amp;quot;distill&amp;quot;) Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
- Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  &amp;lt;!-- --&amp;gt;packageVersion(&amp;quot;distill&amp;quot;)[1] ‘1.2’ Create GitHub repoOnline.</description>
+      <description>Pre-requisites     First, make sure you have the latest version of the distill package installed from CRAN:
+install.packages(&amp;quot;distill&amp;quot;)  Restart your R session. If you use RStudio, use the menu item Session &amp;gt; Restart R or the associated keyboard shortcut:
+ Ctrl + Shift + F10 (Windows and Linux) or Command + Shift + F10 (Mac OS).  &amp;lt;!-- --&amp;gt; packageVersion(&amp;quot;distill&amp;quot;) [1] ‘1.2’  Create GitHub repo     Online.</description>
     </item>
     
     <item>
@@ -78,9 +78,29 @@ install.packages(&amp;quot;distill&amp;quot;) Restart your R session. If you us
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/collection/day02/03-blogdown/</guid>
-      <description>Hi, I&#39;m the here-bot cat!Use me to find your way in your website.
-Here I am:content/collection\day02\03-blogdown\index.mdTo remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
-My content section is:collectionMy layout is:single-series part 2!does this work? now for some very cool thingsmoreget ready!</description>
+      <description>Hi, I&#39;m the here-bot cat! Use me to find your way in your website.
+Here I am: content/collection/day02/03-blogdown/index.md  To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
+My content section is: collection  My layout is: single-series   part 2!     does this work?      now for some very cool things     more     get ready!</description>
+    </item>
+    
+    <item>
+      <title>Developing Software Together: using Git</title>
+      <link>/courses/git-developing-software-together/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/git-developing-software-together/</guid>
+      <description>It is a three-hour course on how to use Git and GitHub to collaboratively develop open source software with the R language. It was organized for the Champions program of rOpenSci.</description>
+    </item>
+    
+    <item>
+      <title>Enseñando Tecnología en Comunidad</title>
+      <link>/courses/enseniando_tecnologia_en_comunidad/</link>
+      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/enseniando_tecnologia_en_comunidad/</guid>
+      <description>¿Para quién es este curso?     El curso está pensado para cualquier persona que esté interesada en mejorar sus habilidades como docente.
+Los cuatro tipos de personas a las que está destinado este curso son enseñantes finales, lo que significa que la enseñanza no es su ocupación primaria, tienen poco o ningún conocimiento sobre pedagogía y posiblemente no enseñan en clases de instituciones educativas formales.
+  Emilia: está entrenada como bibliotecaria y actualmente trabaja como diseñadora web y gestora de proyectos en una pequeña empresa consultora.</description>
     </item>
     
     <item>
@@ -89,7 +109,7 @@ My content section is:collectionMy layout is:single-series part 2!doe
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>/courses/errores-r/</guid>
-      <description>¿De qué se trata este taller?Ilustración de una vaquita de San AntonioDebuggear o depurar los errores de tu código puede ser una tarea frustrante. Tal vez obtuviste un mensaje de error y hay que interpretarlo o tal vez el código devuelve un resultado que no es el esperado. Si bien no existe una herramienta o método mágico para identificar los errores en un código, depurar errores requiere de un proceso sistemático.</description>
+      <description>¿De qué se trata este taller?     Ilustración de una vaquita de San AntonioDebuggear o depurar los errores de tu código puede ser una tarea frustrante. Tal vez obtuviste un mensaje de error y hay que interpretarlo o tal vez el código devuelve un resultado que no es el esperado. Si bien no existe una herramienta o método mágico para identificar los errores en un código, depurar errores requiere de un proceso sistemático.</description>
     </item>
     
     <item>
@@ -98,7 +118,7 @@ My content section is:collectionMy layout is:single-series part 2!doe
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>/courses/programacion-literaria/</guid>
-      <description>¿De qué se trata este curso?Este curso está orientado tanto a personas con experiencia usando R como aquellas re recién comienzan. El foco no estará en correr modelos o utilizar una sintaxis específica para escribir código de R. El objetivo será transformar nuestros análisis usando R en trabajos reproducibles (o al menos desde el punto de vista de R).
+      <description>¿De qué se trata este curso?     Este curso está orientado tanto a personas con experiencia usando R como aquellas re recién comienzan. El foco no estará en correr modelos o utilizar una sintaxis específica para escribir código de R. El objetivo será transformar nuestros análisis usando R en trabajos reproducibles (o al menos desde el punto de vista de R).
 En particular en estos encuentros haremos foco en la programación literaria, en particular aplicando esta definición al análisis de datos.</description>
     </item>
     
@@ -126,7 +146,7 @@ En particular en estos encuentros haremos foco en la programación literaria, en
       <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
       
       <guid>/courses/deplanillasdecalculoar/</guid>
-      <description>De que se trata este curso?Este curso está dirigido a personas que utilizan hojas de cálculo para la manipulación de datos y que nunca han programado, pero que les gustaría aprender a trabajar con R. Por lo tanto, comenzamos por el principio: ¿por qué usar R? y ¿por dónde empezar?
+      <description>De que se trata este curso?     Este curso está dirigido a personas que utilizan hojas de cálculo para la manipulación de datos y que nunca han programado, pero que les gustaría aprender a trabajar con R. Por lo tanto, comenzamos por el principio: ¿por qué usar R? y ¿por dónde empezar?
 Proponemos trabajar con R de forma ordenada y reproducible. Por ello, presentamos un flujo de trabajo que permite a quienes realicen este curso aplicar buenas prácticas de programación, trabajar de forma colaborativa y presentar su trabajo en un único documento que incluya el análisis y los resultados.</description>
     </item>
     
@@ -145,8 +165,8 @@ Proponemos trabajar con R de forma ordenada y reproducible. Por ello, presentamo
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/courses/tutorialesinteractivos_intro/</guid>
-      <description>EspañolObjetivosEl objetivo de este curso es introducir a las personas que participan al paquete {learnr} de R y como utilizarlo para generar tutoriales interactivos que permitan a los y las estudiantes escribir y ejecutar código R directamente desde el tutorial, contestar preguntas y recibir feedback inmediato.
-¿Para quién está pensado este taller?Cada lección debe ser pensada, organizada y generada para una audiencia en particular, estas son las personas tipo en la que pensamos cuando preparamos este taller:</description>
+      <description>Español     Objetivos     El objetivo de este curso es introducir a las personas que participan al paquete {learnr} de R y como utilizarlo para generar tutoriales interactivos que permitan a los y las estudiantes escribir y ejecutar código R directamente desde el tutorial, contestar preguntas y recibir feedback inmediato.
+¿Para quién está pensado este taller?     Cada lección debe ser pensada, organizada y generada para una audiencia en particular, estas son las personas tipo en la que pensamos cuando preparamos este taller:</description>
     </item>
     
     <item>
@@ -239,7 +259,7 @@ Otras funciones como spi() funcionan como wrappers de funciones de otros paquete
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/courses/teach_programming/</guid>
-      <description>Español - Cómo enseñar a programar onlineObjetivosIntroducir técnicas y buenas prácticas para diseñar tus cursos de programación y evaluar a tus estudiantes.
+      <description>Español - Cómo enseñar a programar online     Objetivos     Introducir técnicas y buenas prácticas para diseñar tus cursos de programación y evaluar a tus estudiantes.
 Durante este taller remoto:
   Mostraremos cómo diseñar tus cursos de programación de una manera eficiente y productiva.
   Hablaremos de la utilidad de la revisión entre pares y la importancia de recibir feedback. Discutiremos cómo implementar estas prácticas.</description>
@@ -269,7 +289,7 @@ Durante este taller remoto:
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/courses/rclima/</guid>
-      <description>¿De qué se trata este curso?Este curso está pensado para personas que trabajan con datos meteorológicos y climáticos y realizan análisis aplicados a distintas áreas como agricultura, salud, economía. Tiene algo de experiencia utilizando R o algún otro lenguaje de programación pero buscan organizar mejor su trabajo para automatizar algunas tareas y generar resultados e informes para compartir. Aún así, este curso comienza con un mapa de RStudio y RMarkdown, herramientas que serán imprescindibles.</description>
+      <description>¿De qué se trata este curso?     Este curso está pensado para personas que trabajan con datos meteorológicos y climáticos y realizan análisis aplicados a distintas áreas como agricultura, salud, economía. Tiene algo de experiencia utilizando R o algún otro lenguaje de programación pero buscan organizar mejor su trabajo para automatizar algunas tareas y generar resultados e informes para compartir. Aún así, este curso comienza con un mapa de RStudio y RMarkdown, herramientas que serán imprescindibles.</description>
     </item>
     
     <item>
@@ -278,7 +298,7 @@ Durante este taller remoto:
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/courses/deraexcel/</guid>
-      <description>¿De qué se trata este curso?Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?
+      <description>¿De qué se trata este curso?     Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?
 Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera ordenada y reproducible.</description>
     </item>
     
@@ -288,7 +308,7 @@ Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera o
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/project/rforwards/</guid>
-      <description>About RForwardsThe task force was set up by the R Foundation in December 2015 to address the underrepresentation of women and rebranded in January 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
+      <description>About RForwards     The task force was set up by the R Foundation in December 2015 to address the underrepresentation of women and rebranded in January 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
 The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area of diversity and inclusion, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.</description>
     </item>
     
@@ -299,7 +319,7 @@ The members of the task force were invited to participate based on their interes
       
       <guid>/project/metadocencia/</guid>
       <description>Soy co-fundadora de MetaDocencia y hasta Mayo de 2022 fui parte del core team. Durante estos 2 años ayudé en el desarrollo de materiales y nuevos cursos, colaboré en la traducción de otros materiales, co-coordiné la infraestructura de la comunidad y coordiné el equipo de código de conducta.
-Sobre MetaDocenciaNuestra visiónSomos una comunidad inclusiva y colaborativa que mejora la educación potenciando docentes de países menos favorecidos.</description>
+Sobre MetaDocencia     Nuestra visión     Somos una comunidad inclusiva y colaborativa que mejora la educación potenciando docentes de países menos favorecidos.</description>
     </item>
     
     <item>
@@ -308,7 +328,7 @@ Sobre MetaDocenciaNuestra visiónSomos una comunidad inclusiva y colab
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/project/thecarpentries/</guid>
-      <description>About The CarpentriesVision: Our vision is to be the leading inclusive community teaching data and coding skills.
+      <description>About The Carpentries     Vision: Our vision is to be the leading inclusive community teaching data and coding skills.
 Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices.</description>
     </item>
     
@@ -319,7 +339,7 @@ Mission: The Carpentries builds global capacity in essential data and computatio
       
       <guid>/blog/2019-10-24-un-taller-de-r-desde-cero-en-nerdearla/</guid>
       <description>Hace un par de días tuve la super gran oportunidad de probar algunas prácticas que fui descubriendo en los últimos meses gracias a los materiales de The Carpentries y el workshop de Mine Çetinkaya-Rundel en LatinR.
-¿Dónde?Todos los años se organiza el evento NERDEARLA, una mezcla de charlas, tallares y networking. Y este año desde RLadies Buenos Aires aceptamos la invitación de participar con un taller de R para principiantes.</description>
+¿Dónde?     Todos los años se organiza el evento NERDEARLA, una mezcla de charlas, tallares y networking. Y este año desde RLadies Buenos Aires aceptamos la invitación de participar con un taller de R para principiantes.</description>
     </item>
     
     <item>
@@ -369,7 +389,7 @@ Formspree requires a (free) account and new form to be set up. The link is made 
       
       <guid>/project/rladies/</guid>
       <description>R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community.
-The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users (see recent stats).
+The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users ( see recent stats).
 As a diversity initiative, the mission of R-Ladies is to achieve proportionate representation by encouraging, inspiring, and empowering people of genders currently underrepresented in the R community.</description>
     </item>
     
@@ -382,7 +402,7 @@ As a diversity initiative, the mission of R-Ladies is to achieve proportionate r
       <description>This website is possible to a dozen of people from the R community (See bellow) that made possible to have a very nice looking and easy to use webpage.
 I also took inspiration from Yanina Bellini Saibene and Silvia Canelón.
  Thank you to all the folks who have contributed both technical and creative skills to this project:
-  Desirée De Leon 🦒 (designed 5 of the custom color themes, made illustrations for the workshop, and provided general aesthetic feedback along the way)</description>
+   Desirée De Leon 🦒 (designed 5 of the custom color themes, made illustrations for the workshop, and provided general aesthetic feedback along the way)</description>
     </item>
     
     <item>
