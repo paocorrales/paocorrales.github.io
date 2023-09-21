@@ -6,7 +6,26 @@
     <description>Recent content in Español on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 01 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/espa%C3%B1ol/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/espa%C3%B1ol/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Utilización de datos satelitales para la evaluación y mejora de los pronósticos numéricos en alta resolución a muy corto plazo</title>
+      <link>/publications/tesis-doctorado/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/tesis-doctorado/</guid>
+      <description>Luego de casi 6 años de trabajo, me doctoré! La tesis en cuestión está escrita usando RMarkdown y thesisdown para generar al mismo tiempo un hermoso pdf con el formato que requiere la universidad y una web abierta y disponible para todo el mundo.
+Resumen En la Argentina, los fenómenos meteorológicos extremos producen cuantiosas pérdidas humanas y materiales. Muchos de estos fenómenos, por ejemplo tornados, ráfagas intensas, precipitaciones extremas en cortos períodos de tiempo, granizo de gran tamaño y actividad eléctrica, están asociados a la ocurrencia de convección profunda.</description>
+    </item>
+    
+    <item>
+      <title>Gestión de Datos</title>
+      <link>/courses/gestion_datos/</link>
+      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/gestion_datos/</guid>
+      <description>Español     Materia 186 - Gestión de Datos     Ante la necesidad de cualquier persona que practique la ciencia de datos de manipular distintos volúmenes de datos, la gestión de los mismos cobra gran importancia. En esta materia abordaremos el tema de la gestión de datos desde el punto de vista teórico y práctico, incluyendo estudios de casos y actividades para brindarles las herramientas necesarias para continuar con su formación.</description>
+    </item>
+    
     <item>
       <title>Enseñando Tecnología en Comunidad</title>
       <link>/courses/enseniando_tecnologia_en_comunidad/</link>
@@ -16,6 +35,17 @@
       <description>¿Para quién es este curso?     El curso está pensado para cualquier persona que esté interesada en mejorar sus habilidades como docente.
 Los cuatro tipos de personas a las que está destinado este curso son enseñantes finales, lo que significa que la enseñanza no es su ocupación primaria, tienen poco o ningún conocimiento sobre pedagogía y posiblemente no enseñan en clases de instituciones educativas formales.
   Emilia: está entrenada como bibliotecaria y actualmente trabaja como diseñadora web y gestora de proyectos en una pequeña empresa consultora.</description>
+    </item>
+    
+    <item>
+      <title>Enseñanado Tecnología en Comunidad</title>
+      <link>/courses/t3es/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/t3es/</guid>
+      <description>Español     Enseñando tecnología en comunidad. Consejos prácticos para enseñar aplicando la ciencia del aprendizaje y la enseñanza es un curso que introduce la enseñanza basada en evidencia científica para personas con formación técnica.
+Está basado en los materiales del libro Enseñar Tecnología en Comunidad (Teaching Tech Together) de Greg Wilson (2019).
+Licencia     Esta obra está bajo licencia Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.</description>
     </item>
     
     <item>

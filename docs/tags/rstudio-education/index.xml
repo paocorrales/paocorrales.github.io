@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>RStudio Education on Pao Corrales</title>
+    <link>/tags/rstudio-education/</link>
+    <description>Recent content in RStudio Education on Pao Corrales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 01 Jun 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/rstudio-education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Enseñanado Tecnología en Comunidad</title>
+      <link>/courses/t3es/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/t3es/</guid>
+      <description>Español     Enseñando tecnología en comunidad. Consejos prácticos para enseñar aplicando la ciencia del aprendizaje y la enseñanza es un curso que introduce la enseñanza basada en evidencia científica para personas con formación técnica.
+Está basado en los materiales del libro Enseñar Tecnología en Comunidad (Teaching Tech Together) de Greg Wilson (2019).
+Licencia     Esta obra está bajo licencia Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.</description>
+    </item>
+    
+  </channel>
+</rss>

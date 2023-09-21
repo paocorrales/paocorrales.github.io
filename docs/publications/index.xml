@@ -6,7 +6,17 @@
     <description>Recent content in My publications on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 22 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/publications/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Utilización de datos satelitales para la evaluación y mejora de los pronósticos numéricos en alta resolución a muy corto plazo</title>
+      <link>/publications/tesis-doctorado/</link>
+      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/tesis-doctorado/</guid>
+      <description>Luego de casi 6 años de trabajo, me doctoré! La tesis en cuestión está escrita usando RMarkdown y thesisdown para generar al mismo tiempo un hermoso pdf con el formato que requiere la universidad y una web abierta y disponible para todo el mundo.
+Resumen En la Argentina, los fenómenos meteorológicos extremos producen cuantiosas pérdidas humanas y materiales. Muchos de estos fenómenos, por ejemplo tornados, ráfagas intensas, precipitaciones extremas en cortos períodos de tiempo, granizo de gran tamaño y actividad eléctrica, están asociados a la ocurrencia de convección profunda.</description>
+    </item>
+    
     <item>
       <title>Hourly Assimilation of Different Sources of Observations Including Satellite Radiances in a  Mesoscale Convective System Case During RELAMPAGO campaign</title>
       <link>/publications/hourly-assimilation-of-different-sources-of-observations/</link>
