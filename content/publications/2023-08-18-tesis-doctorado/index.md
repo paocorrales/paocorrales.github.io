@@ -23,7 +23,7 @@ Links:
   url: https://zenodo.org/record/7968629
 ---
 
-Luego de casi 6 años de trabajo, me doctoré! La tesis en cuestión está escrita usando RMarkdown y thesisdown para generar al mismo tiempo un hermoso pdf con el formato que requiere la universidad y una web abierta y disponible para todo el mundo. 
+Luego de casi 6 años de trabajo, me doctoré! La tesis en cuestión está escrita usando RMarkdown y thesisdown para generar al mismo tiempo un hermoso pdf con el formato que requiere la universidad y una [web abierta](https://paocorrales.github.io/Tesis_doctorado/Tesis_doctorado) y disponible para todo el mundo. 
 
 **Resumen** En la Argentina, los fenómenos meteorológicos extremos producen cuantiosas pérdidas humanas y materiales. Muchos de estos fenómenos, por ejemplo tornados, ráfagas intensas, precipitaciones extremas en cortos períodos de tiempo, granizo de gran tamaño y actividad eléctrica, están asociados a la ocurrencia de convección profunda. Es por tal motivo necesario avanzar en el conocimiento de estos fenómenos y en la capacidad de pronosticar la ocurrencia de los mismos. El pronóstico de los fenómenos severos es un desafío científico y tecnológico muy complejo debido a la predictibilidad limitada en la mesoescala y a la dificultad de conocer o diagnosticar el estado de la atmósfera en escalas espaciales pequeñas y tiempos cortos (por ejemplo de 1 a 10 km y del orden de los minutos). La asimilación de datos en la mesoescala es un enfoque que puede proporcionar condiciones iniciales adecuadas para generar pronósticos numéricos de alta resolución y, por tanto, es un área de estudio en constante evolución.
 
