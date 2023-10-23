@@ -6,7 +6,16 @@
     <description>Recent content in Español on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/espa%C3%B1ol/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/espa%C3%B1ol/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lo que aprendí sobre R y reproducibilidad durante mi doctorado</title>
+      <link>/talk/latinr2023/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/talk/latinr2023/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Utilización de datos satelitales para la evaluación y mejora de los pronósticos numéricos en alta resolución a muy corto plazo</title>
       <link>/publications/tesis-doctorado/</link>

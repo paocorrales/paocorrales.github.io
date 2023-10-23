@@ -6,22 +6,31 @@
     <description>Recent content in Categories on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 18 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Español</title>
+      <link>/categories/espa%C3%B1ol/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/espa%C3%B1ol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>talk</title>
+      <link>/categories/talk/</link>
+      <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/talk/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Academic</title>
       <link>/categories/academic/</link>
       <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>/categories/academic/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Español</title>
-      <link>/categories/espa%C3%B1ol/</link>
-      <pubDate>Fri, 18 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/espa%C3%B1ol/</guid>
       <description></description>
     </item>
     
@@ -67,15 +76,6 @@
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>/categories/workshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>talk</title>
-      <link>/categories/talk/</link>
-      <pubDate>Mon, 15 Aug 2022 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/talk/</guid>
       <description></description>
     </item>
     
