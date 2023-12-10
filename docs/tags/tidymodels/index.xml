@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tidymodels on Pao Corrales</title>
+    <link>/tags/tidymodels/</link>
+    <description>Recent content in Tidymodels on Pao Corrales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/tidymodels/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primeros pasos con Tidymodels</title>
+      <link>/courses/intro-tidymodels/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/intro-tidymodels/</guid>
+      <description>Este es un taller introductorio de 2 horas pensado para estudiantes de ciencia de datos aplicada al agro. Está pensando para participantes con algo de experiencia usando R, saber sobre modelado estadístico también ayuda.
+Del lado del docente: el material está pensando para hacer live coding siguiendo el contenido como si fuera un machete. Esto ayuda a ir despacio y que les estudiantes puedan hacer preguntan cuando lo necesitan. Hostear el archivo con {livecode} y ngrok puede ayudar a les estudiantes a no perderse.</description>
+    </item>
+    
+    <item>
+      <title>De Scripts a RMarkdown</title>
+      <link>/courses/scripts-to-rmarkdown/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/scripts-to-rmarkdown/</guid>
+      <description>En mayo de 2022 tenía que dar un taller corto con Yani para r-Ladies Mendoza. En ese momento se me ocurrió la &amp;ldquo;novedosa&amp;rdquo; idea de armar el taller alrededor de la idea de convertir un script existente en un archivo RMarkdown que pueda ser convertido en un informe en distintos formatos.
+Los materiales están son parte de un proyecto de Posit Cloud que tiene todo listo para trabajar:
+  Proyecto  Revisando los materiales para actualizar esta web, descubrí que mi cerebro ya había pensado eso hace más de 5 años atrás para un meetup de R-Ladies Buenos Aires.</description>
+    </item>
+    
+  </channel>
+</rss>

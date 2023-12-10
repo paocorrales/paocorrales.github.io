@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Spacial on Pao Corrales</title>
+    <link>/tags/spacial/</link>
+    <description>Recent content in Spacial on Pao Corrales</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 31 May 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/spacial/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Datos espaciales a lo tidy</title>
+      <link>/courses/datos-espaciales-tidy/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/datos-espaciales-tidy/</guid>
+      <description>Este taller tiene 2 versiones, creamos la versión original como tutorial para useR!2021 y salió muy bien! La segunda versión es una adaptación de la primera pensada para las Jornadas Rosarinas de Ciencia de Datos. La diferencia principal es que en la segunda versión no incluimos como usar el servicio para descargar datos en formato netCDF a traves de la API de Climate Data Store.
+¿De qué se trata este curso?</description>
+    </item>
+    
+  </channel>
+</rss>

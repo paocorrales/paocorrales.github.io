@@ -17,17 +17,6 @@
     </item>
     
     <item>
-      <title>Enseñanado Tecnología en Comunidad</title>
-      <link>/courses/t3es/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/courses/t3es/</guid>
-      <description>Español     Enseñando tecnología en comunidad. Consejos prácticos para enseñar aplicando la ciencia del aprendizaje y la enseñanza es un curso que introduce la enseñanza basada en evidencia científica para personas con formación técnica.
-Está basado en los materiales del libro Enseñar Tecnología en Comunidad (Teaching Tech Together) de Greg Wilson (2019).
-Licencia     Esta obra está bajo licencia Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.</description>
-    </item>
-    
-    <item>
       <title>Generando tutoriales interactivos con el paquete {learnr}</title>
       <link>/courses/tutorialesinteractivos_intro/</link>
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>

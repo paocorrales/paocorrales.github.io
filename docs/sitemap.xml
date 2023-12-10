@@ -29,16 +29,43 @@
     <loc>/collection/day02/03-blogdown/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/tags/agro/</loc>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/categories/</loc>
-    <lastmod>2023-10-18T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/courses/</loc>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/education/</loc>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/espa%C3%B1ol/</loc>
-    <lastmod>2023-10-18T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/talk/latinr2023/</loc>
-    <lastmod>2023-10-18T00:00:00+00:00</lastmod>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/</loc>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/courses/intro-tidymodels/</loc>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/r/</loc>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/</loc>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/tidymodels/</loc>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/workshop/</loc>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/workshop/</loc>
+    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/talk/latinr2023/</loc>
     <lastmod>2023-10-18T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/talk/</loc>
@@ -65,22 +92,13 @@
     <loc>/categories/community/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/courses/</loc>
-    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/tags/data-science/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/education/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/education/</loc>
-    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/courses/gestion_datos/</loc>
-    <lastmod>2023-08-12T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/</loc>
     <lastmod>2023-08-12T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/courses/git-developing-software-together/</loc>
@@ -92,24 +110,6 @@
     <loc>/courses/enseniando_tecnologia_en_comunidad/</loc>
     <lastmod>2023-07-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/r/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/workshop/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/workshop/</loc>
-    <lastmod>2023-07-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/courses/t3es/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/rstudio-education/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/tags/the-carpentries/</loc>
-    <lastmod>2023-06-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/courses/errores-r/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
@@ -118,6 +118,18 @@
   </url><url>
     <loc>/talk/ohw-2022/</loc>
     <lastmod>2022-08-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/courses/datos-espaciales-tidy/</loc>
+    <lastmod>2022-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/meteorology/</loc>
+    <lastmod>2022-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/spacial/</loc>
+    <lastmod>2022-05-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/courses/scripts-to-rmarkdown/</loc>
+    <lastmod>2022-05-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/publications/hourly-assimilation-of-different-sources-of-observations/</loc>
     <lastmod>2022-05-22T00:00:00+00:00</lastmod>

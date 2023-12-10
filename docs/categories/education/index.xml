@@ -6,7 +6,17 @@
     <description>Recent content in Education on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Primeros pasos con Tidymodels</title>
+      <link>/courses/intro-tidymodels/</link>
+      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/intro-tidymodels/</guid>
+      <description>Este es un taller introductorio de 2 horas pensado para estudiantes de ciencia de datos aplicada al agro. Está pensando para participantes con algo de experiencia usando R, saber sobre modelado estadístico también ayuda.
+Del lado del docente: el material está pensando para hacer live coding siguiendo el contenido como si fuera un machete. Esto ayuda a ir despacio y que les estudiantes puedan hacer preguntan cuando lo necesitan. Hostear el archivo con {livecode} y ngrok puede ayudar a les estudiantes a no perderse.</description>
+    </item>
+    
     <item>
       <title>Gestión de Datos</title>
       <link>/courses/gestion_datos/</link>
@@ -37,17 +47,6 @@ Los cuatro tipos de personas a las que está destinado este curso son enseñante
     </item>
     
     <item>
-      <title>Enseñanado Tecnología en Comunidad</title>
-      <link>/courses/t3es/</link>
-      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/courses/t3es/</guid>
-      <description>Español     Enseñando tecnología en comunidad. Consejos prácticos para enseñar aplicando la ciencia del aprendizaje y la enseñanza es un curso que introduce la enseñanza basada en evidencia científica para personas con formación técnica.
-Está basado en los materiales del libro Enseñar Tecnología en Comunidad (Teaching Tech Together) de Greg Wilson (2019).
-Licencia     Esta obra está bajo licencia Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.</description>
-    </item>
-    
-    <item>
       <title>Conquistando errores con R</title>
       <link>/courses/errores-r/</link>
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
@@ -64,6 +63,27 @@ Licencia     Esta obra está bajo licencia Atribución-CompartirIgual 4.0 Intern
       <guid>/courses/programacion-literaria/</guid>
       <description>¿De qué se trata este curso?     Este curso está orientado tanto a personas con experiencia usando R como aquellas re recién comienzan. El foco no estará en correr modelos o utilizar una sintaxis específica para escribir código de R. El objetivo será transformar nuestros análisis usando R en trabajos reproducibles (o al menos desde el punto de vista de R).
 En particular en estos encuentros haremos foco en la programación literaria, en particular aplicando esta definición al análisis de datos.</description>
+    </item>
+    
+    <item>
+      <title>Datos espaciales a lo tidy</title>
+      <link>/courses/datos-espaciales-tidy/</link>
+      <pubDate>Tue, 31 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/datos-espaciales-tidy/</guid>
+      <description>Este taller tiene 2 versiones, creamos la versión original como tutorial para useR!2021 y salió muy bien! La segunda versión es una adaptación de la primera pensada para las Jornadas Rosarinas de Ciencia de Datos. La diferencia principal es que en la segunda versión no incluimos como usar el servicio para descargar datos en formato netCDF a traves de la API de Climate Data Store.
+¿De qué se trata este curso?</description>
+    </item>
+    
+    <item>
+      <title>De Scripts a RMarkdown</title>
+      <link>/courses/scripts-to-rmarkdown/</link>
+      <pubDate>Sat, 28 May 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/scripts-to-rmarkdown/</guid>
+      <description>En mayo de 2022 tenía que dar un taller corto con Yani para r-Ladies Mendoza. En ese momento se me ocurrió la &amp;ldquo;novedosa&amp;rdquo; idea de armar el taller alrededor de la idea de convertir un script existente en un archivo RMarkdown que pueda ser convertido en un informe en distintos formatos.
+Los materiales están son parte de un proyecto de Posit Cloud que tiene todo listo para trabajar:
+  Proyecto  Revisando los materiales para actualizar esta web, descubrí que mi cerebro ya había pensado eso hace más de 5 años atrás para un meetup de R-Ladies Buenos Aires.</description>
     </item>
     
     <item>
