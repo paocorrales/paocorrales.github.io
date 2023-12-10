@@ -39,7 +39,7 @@ links:
 
 Soy co-fundadora de MetaDocencia y hasta Mayo de 2022 fui parte del core team. Durante estos 2 años ayudé en el desarrollo de materiales y nuevos cursos, colaboré en la traducción de otros materiales, co-coordiné la infraestructura de la comunidad y coordiné el equipo de código de conducta.
 
-## Sobre MetaDocencia
+## Sobre MetaDocencia hasta Mayo 2022
 
 ### Nuestra visión
 Somos una comunidad inclusiva y colaborativa que mejora la educación potenciando docentes de países menos favorecidos.
