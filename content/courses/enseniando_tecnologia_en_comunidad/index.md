@@ -44,3 +44,14 @@ Este taller práctico cubre las bases de la psicología de educación, la cienci
 El curso es un conjunto de clases y ejercicios prácticos donde ensayarás dar una lección corta utilizando las herramientas aprendidas e implementando algunas de las técnicas de enseñanza que discutiremos.
 
 Este es un curso para aprender a enseñar tecnología, no necesitas tener experiencia sobre un lenguaje de programación o una herramienta técnica, ya que no lo cubriremos en este curso.
+
+Está basado en los materiales del libro Enseñar Tecnología en Comunidad (Teaching Tech Together) de Greg Wilson (2019).
+
+
+### Licencia
+
+Esta obra está bajo licencia Atribución-CompartirIgual 4.0 Internacional (CC BY-SA 4.0).
+
+### ¿Cómo citar este trabajo?
+
+Yanina Bellini Saibene, & Paola Corrales. (2023, June 29). Enseñando tecnología en comunidad. Consejos prácticos para enseñar aplicando la ciencia del aprendizaje y la enseñanza. Zenodo. https://doi.org/10.5281/zenodo.8097003
