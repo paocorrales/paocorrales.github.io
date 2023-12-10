@@ -113,6 +113,18 @@
     <loc>/courses/errores-r/</loc>
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>/project/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/r/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/project/thecarpentries/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/software/</loc>
+    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>/courses/programacion-literaria/</loc>
     <lastmod>2022-08-29T00:00:00+00:00</lastmod>
   </url><url>
@@ -149,13 +161,7 @@
     <loc>/tags/packages/</loc>
     <lastmod>2022-04-03T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/r/</loc>
-    <lastmod>2022-04-03T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/courses/reproducibility/</loc>
-    <lastmod>2022-03-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/project/</loc>
     <lastmod>2022-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/r-packages/</loc>
@@ -221,7 +227,7 @@
     <loc>/project/metadocencia/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/project/thecarpentries/</loc>
+    <loc>/project/ropensci/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/rladies/</loc>

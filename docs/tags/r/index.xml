@@ -36,6 +36,16 @@ Del lado del docente: el material está pensando para hacer live coding siguiend
     </item>
     
     <item>
+      <title>rOpenSci</title>
+      <link>/project/thecarpentries/</link>
+      <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>/project/thecarpentries/</guid>
+      <description>About rOpenSci     rOpenSci fosters a culture that values open and reproducible research using shared data and reusable software
+My role in the community     I&amp;rsquo;m part of the Multilingual Publishing Project, as a reviewer of the Dev Guide translations project to Spanish. I&amp;rsquo;m also one of the authors of the rOpenSci Localization and Translation Guidelines, that explains all the steps and tools involved in the localization of rOpenSci&amp;rsquo;s materials, including translations.</description>
+    </item>
+    
+    <item>
       <title>Programación literaria con R</title>
       <link>/courses/programacion-literaria/</link>
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
@@ -166,10 +176,10 @@ Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera o
     
     <item>
       <title>The Carpentries</title>
-      <link>/project/thecarpentries/</link>
+      <link>/project/ropensci/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/project/thecarpentries/</guid>
+      <guid>/project/ropensci/</guid>
       <description>About The Carpentries     Vision: Our vision is to be the leading inclusive community teaching data and coding skills.
 Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices.</description>
     </item>

@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.92.2" />
-<title>SISINTAR | Pao Corrales</title>
+<title>The Carpentries | Pao Corrales</title>
 
 
 <meta property="twitter:site" content="@papbcorrales">
@@ -24,30 +24,31 @@
   
     
   
-<meta name="description" content="Paquete de R para procesar y acceder a los datos de SISINTA">
+<meta name="description" content="A teaching community.">
 
 
 <meta property="og:site_name" content="Pao Corrales">
-<meta property="og:title" content="SISINTAR | Pao Corrales">
-<meta property="og:description" content="Paquete de R para procesar y acceder a los datos de SISINTA" />
+<meta property="og:title" content="The Carpentries | Pao Corrales">
+<meta property="og:description" content="A teaching community." />
 <meta property="og:type" content="page" />
-<meta property="og:url" content="/project/sisintar/" />
+<meta property="og:url" content="/project/ropensci/" />
 <meta property="og:locale" content="en">
 
 
 
 
     
-        <meta property="og:image" content="/project/sisintar/featured.png" >
+        <meta property="og:image" content="/project/ropensci/featured.png" >
         <meta property="twitter:card" content="summary_large_image">
-        <meta name="twitter:image" content="/project/sisintar/featured.png" >
+        <meta name="twitter:image" content="/project/ropensci/featured.png" >
     
     
-  <meta itemprop="name" content="SISINTAR">
-<meta itemprop="description" content="El paquete {SISINTAR} incluye una serie de funciones para acceder y procesar los datos dispobibles en SISINTA. Por ejemplo, la función buscar_perfiles() permite buscar perfiles en función de la localización, la fecha y la clase o, si se corre sin argumentos, devolver la lista de perfiles completa. Para descargar lo datos de los perfiles se usa la función get_perfiles(). Ésta toma un vector con los ids de los perfiles a descargar."><meta itemprop="datePublished" content="2022-03-01T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2022-03-01T00:00:00+00:00" />
-<meta itemprop="wordCount" content="169"><meta itemprop="image" content="/project/sisintar/featured.png">
-<meta itemprop="keywords" content="R," />
+  <meta itemprop="name" content="The Carpentries">
+<meta itemprop="description" content="About The Carpentries     Vision: Our vision is to be the leading inclusive community teaching data and coding skills.
+Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices."><meta itemprop="datePublished" content="2020-03-01T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2020-03-01T00:00:00+00:00" />
+<meta itemprop="wordCount" content="387"><meta itemprop="image" content="/project/ropensci/featured.png">
+<meta itemprop="keywords" content="Community,Education,R," />
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-328E3YGZP0"></script>
 <script>
@@ -135,14 +136,53 @@ if (!doNotTrack) {
   <section class="page-content mw7 center">
     <article class="post-content pa0 ph4-l">
       <header class="post-header">
-        <h1 class="f1 lh-solid measure-narrow mb3 fw4">SISINTAR</h1>
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">The Carpentries</h1>
         
-        <p class="f6 measure lh-copy mv1">By Pao Corrales in <a href="/categories/r-packages">R packages</a>  <a href="/categories/espa%C3%B1ol">Español</a>  <a href="/categories/r">R</a> </p>
-        <p class="f7 db mv0 ttu">March 1, 2022</p>
+        <p class="f6 measure lh-copy mv1">By Pao Corrales in <a href="/categories/community">Community</a>  <a href="/categories/education">Education</a>  <a href="/categories/english">English</a>  <a href="/categories/espa%C3%B1ol">Español</a>  <a href="/categories/r">R</a> </p>
+        <p class="f7 db mv0 ttu">March 1, 2020</p>
 
       
       <div class="ph0 pt5">
         
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="https://carpentries.org/" target="_blank" rel="noopener"><i class="fas fa-door-open fa-lg fa-fw mr2"></i>website</a>
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="/" ><i class="fab fa-twitter fa-lg fa-fw mr2"></i>twitter</a>
+
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+      
+  <a class="btn-links mr2 ba dib" href="/" ><i class="fab fa-youtube fa-lg fa-fw mr2"></i>Youtube Channels</a>
+
     
     
     
@@ -167,7 +207,7 @@ if (!doNotTrack) {
     
       
       
-  <a class="btn-links mr2 ba dib" href="https://sisinta.shinyapps.io/sisintar-web/" target="_blank" rel="noopener"><i class="fas fa-door-open fa-lg fa-fw mr2"></i>Website</a>
+  <a class="btn-links mr2 ba dib" href="/" ><i class="fab fa-slack fa-lg fa-fw mr2"></i>Slack Community</a>
 
 
       </div>
@@ -175,36 +215,84 @@ if (!doNotTrack) {
 
       </header>
       <section class="post-body pt5 pb4">
-        <p>El paquete <code>{SISINTAR}</code> incluye una serie de funciones para acceder y procesar los datos dispobibles en 
-<a href="http://sisinta.inta.gob.ar/" target="_blank" rel="noopener">SISINTA</a>. Por ejemplo, la función <code>buscar_perfiles()</code> permite buscar perfiles en función de la localización, la fecha y la clase o, si se corre sin argumentos, devolver la lista de perfiles completa. Para descargar lo datos de los perfiles se usa la función <code>get_perfiles()</code>. Ésta toma un vector con los ids de los perfiles a descargar.</p>
-<p>La documentación del paquete está escrita 100% en español, pensando en les usuaries destino, como así también la viñeta que lo acompaña.</p>
-<p>En conjunto se desarrolló una herramienta web para exportación de datos de SISINTA:</p>
-<p>
-<a href="https://sisinta.shinyapps.io/sisintar-web/" target="_blank" rel="noopener">sisinta.shinyapps.io/sisintar-web/</a></p>
-<p>Esta aplicación permite la descarga de perfiles de suelo disponibles en la base de datos SiSINTA. Es posible buscar y seleccionar perfiles de acuerdo a un área geográfica (ingresando coordenadas o dibujando un polígono) y/o por fecha.</p>
-<p>Previo a la exportación de los datos (en formato CSV o EXCEL) se pueden selecionar variables específicas y procesarlas para obtener datos en horizontes específicos.</p>
+        
+
+
+
+<h2 id="about-the-carpentries">About The Carpentries
+  <a href="#about-the-carpentries"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><strong>Vision:</strong> Our vision is to be the leading inclusive community teaching data and coding skills.</p>
+<p><strong>Mission:</strong> The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices. We focus on people conducting and supporting research.</p>
+
+
+
+
+<h2 id="my-role-in-the-community">My role in the community
+  <a href="#my-role-in-the-community"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>I&rsquo;m a instructor (I can teach programming-related tools) and a trainer (I can teach how to teach the tools) since march 2020. During these years I taught the Instructor Training course in Spanish 3 times, helping the Latin American community to grow. I also organized demo and discussion sessions in Spanish so that Spanish speakers could complete their certification in their language.</p>
+<p>I am currently part of the leadership team of trainers and hope to continue helping the trainer community and in particular Latin America and promoting the use of evidence based teaching tools.</p>
+
+
+
+
+<h1 id="español">Español
+  <a href="#espa%c3%b1ol"></a>
+</h1>
+
+
+
+
+<h2 id="sobre-the-carpentries">Sobre The Carpentries
+  <a href="#sobre-the-carpentries"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p><strong>Visión:</strong> Nuestra visión es ser la comunidad inclusiva líder en la enseñanza de datos y habilidades de programación.</p>
+<p><strong>Misión:</strong> The Carpentries construye una capacidad global en datos esenciales y habilidades computacionales para llevar a cabo una investigación eficiente, abierta y reproducible. Formamos y fomentamos una comunidad activa, inclusiva y diversa de estudiantes e instructores que promueve y modela la importancia del software y los datos en la investigación. Desarrollamos en colaboración lecciones de libre acceso y las impartimos utilizando prácticas de enseñanza basadas en la evidencia. Nos centramos en las personas que realizan y apoyan la investigación.</p>
+
+
+
+
+<h2 id="mi-papel-en-la-comunidad">Mi papel en la comunidad
+  <a href="#mi-papel-en-la-comunidad"><svg class="anchor-symbol" aria-hidden="true" height="26" width="26" viewBox="0 0 22 22" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="currentColor"></path>
+      <path d="M3.9 12c0-1.71 1.39-3.1 3.1-3.1h4V7H7c-2.76.0-5 2.24-5 5s2.24 5 5 5h4v-1.9H7c-1.71.0-3.1-1.39-3.1-3.1zM8 13h8v-2H8v2zm9-6h-4v1.9h4c1.71.0 3.1 1.39 3.1 3.1s-1.39 3.1-3.1 3.1h-4V17h4c2.76.0 5-2.24 5-5s-2.24-5-5-5z"></path>
+    </svg></a>
+</h2>
+<p>Soy instructora (puedo enseñar herramientas relacionadas con la programación) e instructora de instructores (puedo enseñar cómo enseñar las herramientas) desde marzo de 2020.</p>
+<p>Durante estos años enseñe el curso para instructores en español 3 veces, ayudando a que la comunidad de latinoamerica cresca. Además organicé sesiones de demostración y discusion en español para que personas de habla hispana puedan completar su certificación en su idioma.
+Actualmente soy parte del equipo lider de trainers y espero poder seguir ayudando a la comunidad de trainers y en particular a latinoamerica y promoviendo el uso de herramientas de enseñanza basadas en evidencia.</p>
 
         
         <details closed class="f6 fw7 input-reset">
   <dl class="f6 lh-copy">
     <dt class="fw7">Posted on:</dt>
-    <dd class="fw5 ml0">March 1, 2022</dd>
+    <dd class="fw5 ml0">March 1, 2020</dd>
   </dl>
   <dl class="f6 lh-copy">
     <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">1 minute read, 169 words</dd>
+    <dd class="fw5 ml0">2 minute read, 387 words</dd>
   </dl>
   
   <dl class="f6 lh-copy">
     <dt class="fw7">Categories:</dt>
-    <dd class="fw5 ml0"> <a href="/categories/r-packages">R packages</a>  <a href="/categories/espa%C3%B1ol">Español</a>  <a href="/categories/r">R</a> </dd>
+    <dd class="fw5 ml0"> <a href="/categories/community">Community</a>  <a href="/categories/education">Education</a>  <a href="/categories/english">English</a>  <a href="/categories/espa%C3%B1ol">Español</a>  <a href="/categories/r">R</a> </dd>
   </dl>
   
   
   
   <dl class="f6 lh-copy">
     <dt class="fw7">Tags:</dt>
-    <dd class="fw5 ml0"> <a href="/tags/r">R</a> </dd>
+    <dd class="fw5 ml0"> <a href="/tags/community">Community</a>  <a href="/tags/education">Education</a>  <a href="/tags/r">R</a> </dd>
   </dl>
   
   <dl class="f6 lh-copy">
@@ -212,9 +300,9 @@ if (!doNotTrack) {
     
     <dd class="fw5 ml0"><a href="/courses/intro-tidymodels/">Primeros pasos con Tidymodels</a></dd>
     
-    <dd class="fw5 ml0"><a href="/courses/git-developing-software-together/">Developing Software Together: using Git</a></dd>
+    <dd class="fw5 ml0"><a href="/courses/gestion_datos/">Gestión de Datos</a></dd>
     
-    <dd class="fw5 ml0"><a href="/courses/errores-r/">Conquistando errores con R</a></dd>
+    <dd class="fw5 ml0"><a href="/courses/enseniando_tecnologia_en_comunidad/">Enseñando Tecnología en Comunidad</a></dd>
     
   </dl>
 </details>
@@ -225,12 +313,12 @@ if (!doNotTrack) {
   
   
     <a class="prev dtc pr2 tl v-top fw6"
-    href="/project/thecarpentries/">&larr; rOpenSci</a>
+    href="/project/metadocencia/">&larr; MetaDocencia</a>
   
   
   
     <a class="next dtc pl2 tr v-top fw6"
-    href="/project/agromet/">agromet &rarr;</a>
+    href="/project/rladies/">RLadies &rarr;</a>
   
 </div>
 
