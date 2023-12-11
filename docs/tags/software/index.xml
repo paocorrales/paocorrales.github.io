@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 01 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="/tags/software/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>rOpenSci</title>
-      <link>/project/thecarpentries/</link>
+      <link>/project/ropensci/</link>
       <pubDate>Sat, 01 Oct 2022 00:00:00 +0000</pubDate>
       
-      <guid>/project/thecarpentries/</guid>
+      <guid>/project/ropensci/</guid>
       <description>About rOpenSci     rOpenSci fosters a culture that values open and reproducible research using shared data and reusable software
 My role in the community     I&amp;rsquo;m part of the Multilingual Publishing Project, as a reviewer of the Dev Guide translations project to Spanish. I&amp;rsquo;m also one of the authors of the rOpenSci Localization and Translation Guidelines, that explains all the steps and tools involved in the localization of rOpenSci&amp;rsquo;s materials, including translations.</description>
     </item>

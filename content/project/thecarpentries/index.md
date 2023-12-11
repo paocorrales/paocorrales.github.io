@@ -1,17 +1,18 @@
 ---
-title: rOpenSci
-date: 2022-10-01
-excerpt: "Transforming science through open data, software & reproducibility"
+title: The Carpentries
+date: 2020-03-01
+excerpt: "A teaching community."
 author: "Pao Corrales"
 featured: true
 draft: false
 layout: single
 tags:
   - Community
-  - Software
+  - Education
   - R
 categories:
   - Community
+  - Education
   - English
   - Español
   - R
@@ -19,27 +20,48 @@ links:
 - icon: door-open
   icon_pack: fas
   name: website
-  url: https://ropensci.org/
-- icon: mastodon
-  name: mastodon
+  url: https://carpentries.org/
+- icon: twitter
+  name: twitter
   icon_pack: fab
-  link: https://hachyderm.io/@rOpenSci
-- icon: vimeo
+  link: https://twitter.com/thecarpentries
+- icon: youtube
   icon_pack: fab
-  name: Vimeo
-  link: https://vimeo.com/ropensci
+  name: Youtube Channels
+  link: http://www.youtube.com/c/TheCarpentries
 - icon: github
   icon_pack: fab
   name: repo
-  link: https://github.com/ropensci
+  link: https://github.com/carpentries
+- icon: slack
+  icon_pack: fab
+  name: Slack Community
+  link: https://swc-slack-invite.herokuapp.com/
 ---
 
-## About rOpenSci
+## About The Carpentries
 
-rOpenSci fosters a culture that values **open** and **reproducible** research using **shared** data and reusable software
+**Vision:** Our vision is to be the leading inclusive community teaching data and coding skills.
+
+**Mission:** The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices. We focus on people conducting and supporting research.
 
 ## My role in the community
 
-I'm part of the [Multilingual Publishing Project](https://ropensci.org/multilingual-publishing/), as a reviewer of the Dev Guide translations project to Spanish. I'm also one of the authors of the [rOpenSci Localization and Translation Guidelines](https://translationguide.ropensci.org/), that explains all the steps and tools involved in the localization of rOpenSci's materials, including translations.
+I'm a instructor (I can teach programming-related tools) and a trainer (I can teach how to teach the tools) since march 2020. During these years I taught the Instructor Training course in Spanish 3 times, helping the Latin American community to grow. I also organized demo and discussion sessions in Spanish so that Spanish speakers could complete their certification in their language.
 
-During this year (2023), I've been part of the [Champions Program](https://ropensci.org/champions/), as a [champion](https://ropensci.org/blog/2023/04/13/ropensci-champions-program-teams-meet-pao-corrales-and-adam-sparks/). My project is related to the agromet package, that is call now [{agroclimatico}](https://github.com/AgRoMeteorologiaINTA/agroclimatico). The goad is to finish the peer review process of the package by February 2024! 
+I am currently part of the leadership team of trainers and hope to continue helping the trainer community and in particular Latin America and promoting the use of evidence based teaching tools. 
+
+# Español
+
+## Sobre The Carpentries
+
+**Visión:** Nuestra visión es ser la comunidad inclusiva líder en la enseñanza de datos y habilidades de programación.
+
+**Misión:** The Carpentries construye una capacidad global en datos esenciales y habilidades computacionales para llevar a cabo una investigación eficiente, abierta y reproducible. Formamos y fomentamos una comunidad activa, inclusiva y diversa de estudiantes e instructores que promueve y modela la importancia del software y los datos en la investigación. Desarrollamos en colaboración lecciones de libre acceso y las impartimos utilizando prácticas de enseñanza basadas en la evidencia. Nos centramos en las personas que realizan y apoyan la investigación.
+
+## Mi papel en la comunidad
+
+Soy instructora (puedo enseñar herramientas relacionadas con la programación) e instructora de instructores (puedo enseñar cómo enseñar las herramientas) desde marzo de 2020.
+
+Durante estos años enseñe el curso para instructores en español 3 veces, ayudando a que la comunidad de latinoamerica cresca. Además organicé sesiones de demostración y discusion en español para que personas de habla hispana puedan completar su certificación en su idioma.
+Actualmente soy parte del equipo lider de trainers y espero poder seguir ayudando a la comunidad de trainers y en particular a latinoamerica y promoviendo el uso de herramientas de enseñanza basadas en evidencia. 
