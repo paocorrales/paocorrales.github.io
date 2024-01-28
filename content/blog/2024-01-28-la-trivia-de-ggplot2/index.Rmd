@@ -1,0 +1,64 @@
+---
+title: La trivia de ggplot2
+author: Pao Corrales
+date: '2024-01-28'
+slug: "trivia-ggplot2."
+categories:
+  - Education
+  - R
+tags: []
+---
+
+Una de las cosas más difíciles cuando enseñamos es saber si nuestros estudiantes entendieron y aprendieron eso que explicamos. Preguntar ¿se entendió? no es suficiente porque no siempre nos animamos a decir que no pero más importante, no siempre nos damos cuenta que no entendemos hasta que intentamos poner en práctica eso que nos explicaron. Acá es donde entran las [evaluaciones formativas](https://educarencomunidad.tech/es/index.html#s:models-formative-assessment), ejercicios diseñados específicamente para detectar si los estudiantes entendieron y si no lo hicieron, qué conceptos erróneos están en juego. 
+
+Hace varios años enseño Visualización de la Información usando R y ggplot2. A veces les estudiantes ya tuvieron una Introducción a R que seguramente incluye algo de ggplot2. Otras veces, es el primer acercamiento al lenguaje. Pero tarde o temprano, es importante hacer un chequeo general, ver donde estamos parados y revisar lo que sea necesario antes de avanzar con cuestiones más complejas de ggplot2. 
+
+Exactamente para esto existe la Trivia de ggplot2, una serie de preguntas de opción múltiple que buscan detectar algunos conceptos erróneos que, en mi experiencia suelen tener personas novatas. Cómo el nombre lo indica busca ser una actividad distendida que cambia el ritmo de la clase. 
+
+
+## Dinámica 
+
+Antes de comenzar explicamos la dinámica. 
+
+1. Iremos mostrando 1 pregunta por vez
+2. Deben que elegir la respuesta correcta y completar el formulario a medida que avanzamos
+3. Al final, envían el formulario. 
+4. Entre todes vamos a revisar las respuestas agregadas, es decir, que porcentaje de personas eligió cada opción
+
+A pesar de que planteamos esta actividad casi como un juego, les estudiantes suelen tomarlo como un parcial o final por eso hacemos énfasis en varios puntos:
+
+* El resultado de la trivia no influye en la nota final de la materia.
+* No buscamos evaluarlos a ustedes, buscamos saber si necesitamos revisar algún concepto. 
+* En cierto punto, estamos chequeando si nosotras hicimos un buen trabajo. 
+* Si no saben la respuesta, no pasa nada. Mejor responder "D. Paso" que elegir al azar.
+* No hay preguntas tramposas
+
+Al empezar vamos pasando las slides de a una, dando tiempo a que piensen cuál es la respuesta correcta. Les estudiantes ya conocen las bases de datos que se usan pero nunca está mal dar algo de contexto. Por ejemplo, que pinta tiene la base de datos que se usó, qué información contienen las variables que se usaron, etc. 
+
+Al terminar de responder las preguntas, deben enviar el formulario. Y acá es donde comienza lo interesante. Una podría guardar la información para analizarla y hacer cambios en el contenido de las siguientes clases o hasta en la misma clase. Pero la propuesta es otra. 
+
+Usamos Google Forms porque genera una previsualización de las respuestas de manera automática (seguro que hay otras plataformas que hacen lo mismo). Por ejemplo acá vemos que el 93.8% de las personas eligieron la opción B y el 6.3% no tenían mucha idea. Pero para la pregunta 2 las respuestas están mucho más distribuidas, estos casos nos permiten discutir muchas cosas.
+
+![Captura de pantalla que muestra las respuestas a 2 preguntas en gráficos de torta. ](images/respuestas.png)
+
+En la segunda parte de la actividad, analizaremos en conjunto con les estudiantes sus respuestas. Para cada pregunta, primero les pedimos que defiendan la respuesta que eligieron y por qué piensan que es la correcta. Compartimos con ellos los resultados del formulario:
+
+![Captura de pantalla, a la izquierda se ve una slide con la pregunta 2, a la derecha las respuestas recibidas en el formulario a la pregunta 2](images/discusion-respuestas.png)
+
+Luego iremos a R y revisaremos que resultado da el código u opción asociado a cada respuesta para encontrar la correcta. 
+
+![Captura de pantalla que muestra en R el código asociado a cada respuesta ](images/respuestas-r.png)
+
+Esta dinámica permite revisar en detalle por qué una respuesta es correcta y las otras no; no solo si respondieron bien o mal. Es además una oportunidad para que hagan preguntas que se les van ocurriendo en el camino. Si nuestros estudiantes son muy novatos con el uso de R, es posible que la discusión ronde en torno a esos conceptos que intentamos repasar. Si tienen algo más de experiencia, seguramente hagan preguntas que nos den la oportunidad de explicar y demostrar conceptos más avanzados, por ejemplo detalles de cómo funciona internamente ggplot2. En este sentido es importante encontrar el equilibrio entre el repaso y lo nuevo para no perder a nadie en el camino. 
+
+Siempre que incluimos esta actividad en la materia, les estudiantes la destacaron como algo que les gustó mucho. Y del lado de las docentes, siempre es una experiencia enriquecedora.
+
+## Materiales
+
+Si te interesa probar la actividad, espero que te sirvan estos materiales. ¡No dudes en escribirme para contarme cómo salió!
+
+* [Slides con las preguntas](https://docs.google.com/presentation/d/1h3wdhfiqEKfF-iIibWfJi7ZbxAm3kVx6h_sQ3ddr4Xg/edit?usp=sharing)
+* [Formulario para responder](https://forms.gle/MNisQyLh6sxktuM77)
+* [RMarkdown para trabajar sobre las respuestas](https://drive.google.com/file/d/1lBR0C-uj2pOY5OAD6H-5e6mBHT7u5qBw/view?usp=sharing)
+* [RMarkdown con las respuestas correctas](https://drive.google.com/file/d/1KGS_w1xgC2G2H_0_PYJu6XgwzCLeD2wB/view?usp=sharing)
+
