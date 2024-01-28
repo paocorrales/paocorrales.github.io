@@ -2,7 +2,7 @@
 title: La trivia de ggplot2
 author: Pao Corrales
 date: '2024-01-28'
-slug: "trivia-ggplot2."
+slug: "trivia-ggplot2"
 categories:
   - Education
   - R
