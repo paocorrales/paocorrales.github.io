@@ -6,7 +6,7 @@
     <description>Recent content on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>/collection/day02/01-netlify/</link>
@@ -81,6 +81,15 @@ install.packages(&amp;quot;distill&amp;quot;)  Restart your R session. If you us
       <description>Hi, I&#39;m the here-bot cat! Use me to find your way in your website.
 Here I am: content/collection/day02/03-blogdown/index.md  To remove me, delete this line inside that file: {{&amp;lt; here &amp;gt;}}
 My content section is: collection  My layout is: single-series   part 2!     does this work?      now for some very cool things     more     get ready!</description>
+    </item>
+    
+    <item>
+      <title>La trivia de ggplot2</title>
+      <link>/blog/trivia-ggplot2./</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/trivia-ggplot2./</guid>
+      <description>Una de las cosas más difíciles cuando enseñamos es saber si nuestros estudiantes entendieron y aprendieron eso que explicamos. Preguntar ¿se entendió? no es suficiente porque no siempre nos animamos a decir que no pero más importante, no siempre nos damos cuenta que no entendemos hasta que intentamos poner en práctica eso que nos explicaron. Acá es donde entran las evaluaciones formativas, ejercicios diseñados específicamente para detectar si los estudiantes entendieron y si no lo hicieron, qué conceptos erróneos están en juego.</description>
     </item>
     
     <item>

@@ -29,22 +29,31 @@
     <loc>/collection/day02/03-blogdown/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/tags/agro/</loc>
-    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
+    <loc>/blog/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/education/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/blog/trivia-ggplot2./</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/categories/r/</loc>
+    <lastmod>2024-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>/tags/agro/</loc>
     <lastmod>2023-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/courses/</loc>
     <lastmod>2023-10-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>/categories/education/</loc>
-    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>/categories/espa%C3%B1ol/</loc>
-    <lastmod>2023-10-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/</loc>
     <lastmod>2023-10-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/courses/intro-tidymodels/</loc>
@@ -114,9 +123,6 @@
     <lastmod>2022-10-10T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/</loc>
-    <lastmod>2022-10-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/categories/r/</loc>
     <lastmod>2022-10-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/project/ropensci/</loc>
@@ -199,9 +205,6 @@
   </url><url>
     <loc>/talk/pronostico/</loc>
     <lastmod>2020-12-11T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>/blog/</loc>
-    <lastmod>2020-11-28T00:00:00+00:00</lastmod>
   </url><url>
     <loc>/tags/blogdown/</loc>
     <lastmod>2020-11-28T00:00:00+00:00</lastmod>
