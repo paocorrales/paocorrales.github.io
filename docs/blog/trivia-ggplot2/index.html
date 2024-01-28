@@ -9,7 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="generator" content="Hugo 0.92.2" />
-<title>Webs con RMarkdown | Pao Corrales</title>
+<title>La trivia de ggplot2 | Pao Corrales</title>
 
 
 <meta property="twitter:site" content="@papbcorrales">
@@ -28,26 +28,26 @@
 
 
 <meta property="og:site_name" content="Pao Corrales">
-<meta property="og:title" content="Webs con RMarkdown | Pao Corrales">
+<meta property="og:title" content="La trivia de ggplot2 | Pao Corrales">
 <meta property="og:description" content="A modern, beautiful, and easily configurable blog theme for Hugo." />
 <meta property="og:type" content="page" />
-<meta property="og:url" content="/blog/webs-con-rmarkdown/" />
+<meta property="og:url" content="/blog/trivia-ggplot2/" />
 <meta property="og:locale" content="en">
 
 
 
 
     
-        <meta property="og:image" content="/blog/webs-con-rmarkdown/featured.png" >
+        <meta property="og:image" content="/blog/trivia-ggplot2/featured.png" >
         <meta property="twitter:card" content="summary_large_image">
-        <meta name="twitter:image" content="/blog/webs-con-rmarkdown/featured.png" >
+        <meta name="twitter:image" content="/blog/trivia-ggplot2/featured.png" >
     
     
-  <meta itemprop="name" content="Webs con RMarkdown">
-<meta itemprop="description" content="Querés compartir tus resultados y tenés un archivo RMarkdown en el que estuviste trabajando. Podrías compartir la carpeta del proyecto o un link a un repositorio pero sería ideal que cualquier persona pueda ver esos hermosos resultados sin necesidad de correr código. La otra alternativa es knitear el documento para compartir un PDF o archivo de Word. Las opciones no terminan ahí, Rmarkdown abre un mundo de posibilidades para trabajar con código de R, texto y además compartir los resultados (y cualquier otra cosa!"><meta itemprop="datePublished" content="2020-11-28T00:00:00+00:00" />
-<meta itemprop="dateModified" content="2020-11-28T00:00:00+00:00" />
-<meta itemprop="wordCount" content="696"><meta itemprop="image" content="/blog/webs-con-rmarkdown/featured.png">
-<meta itemprop="keywords" content="Blogdown,R,taller," />
+  <meta itemprop="name" content="La trivia de ggplot2">
+<meta itemprop="description" content="Una de las cosas más difíciles cuando enseñamos es saber si nuestros estudiantes entendieron y aprendieron eso que explicamos. Preguntar ¿se entendió? no es suficiente porque no siempre nos animamos a decir que no pero más importante, no siempre nos damos cuenta que no entendemos hasta que intentamos poner en práctica eso que nos explicaron. Acá es donde entran las evaluaciones formativas, ejercicios diseñados específicamente para detectar si los estudiantes entendieron y si no lo hicieron, qué conceptos erróneos están en juego."><meta itemprop="datePublished" content="2024-01-28T00:00:00+00:00" />
+<meta itemprop="dateModified" content="2024-01-28T00:00:00+00:00" />
+<meta itemprop="wordCount" content="791"><meta itemprop="image" content="/blog/trivia-ggplot2/featured.png">
+<meta itemprop="keywords" content="" />
   
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-328E3YGZP0"></script>
 <script>
@@ -135,109 +135,89 @@ if (!doNotTrack) {
   <section class="page-content mw7 center">
     <article class="post-content pa0 ph4-l">
       <header class="post-header">
-        <h1 class="f1 lh-solid measure-narrow mb3 fw4">Webs con RMarkdown</h1>
+        <h1 class="f1 lh-solid measure-narrow mb3 fw4">La trivia de ggplot2</h1>
         
-        <p class="f6 measure lh-copy mv1">By [paocorrales] in <a href="/categories/espa%C3%B1ol">Español</a>  <a href="/categories/workshop">workshop</a> </p>
-        <p class="f7 db mv0 ttu">November 28, 2020</p>
+        <p class="f6 measure lh-copy mv1">By Pao Corrales in <a href="/categories/education">Education</a>  <a href="/categories/r">R</a> </p>
+        <p class="f7 db mv0 ttu">January 28, 2024</p>
 
       
 
       </header>
       <section class="post-body pt5 pb4">
         
-<script src="/blog/webs-con-rmarkdown/index.es_files/header-attrs/header-attrs.js"></script>
 
 
-<p>Querés compartir tus resultados y tenés un archivo RMarkdown en el que estuviste trabajando. Podrías compartir la carpeta del proyecto o un link a un repositorio pero sería ideal que cualquier persona pueda ver esos hermosos resultados sin necesidad de correr código. La otra alternativa es knitear el documento para compartir un PDF o archivo de Word. Las opciones no terminan ahí, Rmarkdown abre un mundo de posibilidades para trabajar con código de R, texto y además compartir los resultados (y cualquier otra cosa!).<br />
-</p>
-<div id="un-único-.rmd" class="section level4">
-<h4>Un único .Rmd</h4>
-<p>Podés publicar como web el contenido de un único archivo .Rmd aprovechando las características y posibilidades de {rmarkdown}. Un ejemplo de eso lo encontras en:</p>
-<p><a href="https://01-webs-rmarkdown.netlify.app/">https://01-webs-rmarkdown.netlify.app/</a></p>
-<p>Y podés revisar el código fuente <a href="https://github.com/paocorrales/01_Webs-RMarkdown">acá</a>.</p>
-<div class="figure">
-<img src="images/01-web.png" alt="" />
-<p class="caption">Ejemplo de web con un solo rmd en <a href="https://01-webs-rmarkdown.netlify.app/" class="uri">https://01-webs-rmarkdown.netlify.app/</a></p>
-</div>
-<p><br />
-</p>
-</div>
-<div id="muchos-.rmd" class="section level4">
-<h4>Muchos .Rmd</h4>
-<p>Pero tal vez el contenido que querés mostrar es más complejo y poner todo en un único .Rmd no termina de funcionar. {rmarkdown} también permite generar una web con estructura compleja (una barra de navegación con botones y menues entre otras maravillas) a partir de un archivo de configuración y todos los .rmd que necesites. El ejemplo de una web de este estilo se encuenta en:</p>
-<p><a href="https://02-webs-rmarkdown.netlify.app/">https://02-webs-rmarkdown.netlify.app/</a></p>
-<p>Y el código fuente <a href="https://github.com/paocorrales/02_Webs-RMarkdown">acá</a>.</p>
-<div class="figure">
-<img src="images/02-web.png" alt="" />
-<p class="caption">Ejemplo de web con muchos rmd en <a href="https://02-webs-rmarkdown.netlify.app/" class="uri">https://02-webs-rmarkdown.netlify.app/</a></p>
-</div>
-<p><br />
-</p>
-</div>
-<div id="un-blog" class="section level4">
-<h4>Un blog</h4>
-<p>La cosa se puso sería y ahora un par de botones y un menú no es suficiente para compartir, por ejemplo, un post por semana o un CV online para mostrar lo que haces. {blogdown} une la mágia de {rmarkdown} con Hugo, un generador de sitios estático con un millar de temas para elegir.</p>
-<p>Ahora la estructura de esa web es más compleja pero igual que antes, hay un archivo de configuración que controla el comportamiento y la aperiencia del sitio final. Este es un ejemplo de blog usando un tema particular:</p>
-<p><a href="https://03-webs-rmarkdown.netlify.app/">https://03-webs-rmarkdown.netlify.app/</a></p>
-<p>Y el código fuente que lo genera <a href="https://github.com/paocorrales/03_Webs-RMarkdown">acá</a>.</p>
-<div class="figure">
-<img src="images/03-web.png" alt="" />
-<p class="caption">Ejemplo de blog con blogdown en <a href="https://03-webs-rmarkdown.netlify.app/" class="uri">https://03-webs-rmarkdown.netlify.app/</a></p>
-</div>
-<p>Todos los ejemplos anteriores contienen en si mismos las instrucciones para generarse a si mismos y publicarlos usando la opción “Drag &amp; Drop” de <a href="https://app.netlify.com/drop">Netlify</a>.</p>
-<p><br />
-</p>
-</div>
-<div id="palabras-finales-sobre-la-publicación" class="section level4">
-<h4>Palabras finales sobre la publicación</h4>
-<p><strong>Netlify</strong></p>
-<p>La opción de arrastrar la carpeta que contiene la web en Netlify puede se útil al principio pero se vuelve trabajoso rápidamente, sería genial que fuera automático. Y se puede.</p>
-<p>Netlify tiene dos habilidades muy útiles, la primera es que se puede conectar con un repositorio en, por ejemplo, GitHub donde viva la página web. La segunda es que puede construir webs usando Hugo desde sus servidores, lo que nos ahorra tener que hacerlo localmente.</p>
-<p>Luego de haber publicado algunas webs así me encontré con algunos problemas y sus soluciones:</p>
+<p>Una de las cosas más difíciles cuando enseñamos es saber si nuestros estudiantes entendieron y aprendieron eso que explicamos. Preguntar ¿se entendió? no es suficiente porque no siempre nos animamos a decir que no pero más importante, no siempre nos damos cuenta que no entendemos hasta que intentamos poner en práctica eso que nos explicaron. Acá es donde entran las <a href="https://educarencomunidad.tech/es/index.html#s:models-formative-assessment">evaluaciones formativas</a>, ejercicios diseñados específicamente para detectar si los estudiantes entendieron y si no lo hicieron, qué conceptos erróneos están en juego.</p>
+<p>Hace varios años enseño Visualización de la Información usando R y ggplot2. A veces les estudiantes ya tuvieron una Introducción a R que seguramente incluye algo de ggplot2. Otras veces, es el primer acercamiento al lenguaje. Pero tarde o temprano, es importante hacer un chequeo general, ver donde estamos parados y revisar lo que sea necesario antes de avanzar con cuestiones más complejas de ggplot2.</p>
+<p>Exactamente para esto existe la Trivia de ggplot2, una serie de preguntas de opción múltiple que buscan detectar algunos conceptos erróneos que, en mi experiencia suelen tener personas novatas. Cómo el nombre lo indica busca ser una actividad distendida que cambia el ritmo de la clase.</p>
+<div id="dinámica" class="section level2">
+<h2>Dinámica</h2>
+<p>Antes de comenzar explicamos la dinámica.</p>
+<ol style="list-style-type: decimal">
+<li>Iremos mostrando 1 pregunta por vez</li>
+<li>Deben que elegir la respuesta correcta y completar el formulario a medida que avanzamos</li>
+<li>Al final, envían el formulario.</li>
+<li>Entre todes vamos a revisar las respuestas agregadas, es decir, que porcentaje de personas eligió cada opción</li>
+</ol>
+<p>A pesar de que planteamos esta actividad casi como un juego, les estudiantes suelen tomarlo como un parcial o final por eso hacemos énfasis en varios puntos:</p>
 <ul>
-<li>Si la web está construida solo con {rmarkdown}, Netlify necesita saber que la carpeta “_site” es la que contiene la web, de otra manera va a dar error. Alternativamente se puede cambiar la configuración de la web desde el “_site.yml” para que construya la web una carpeta que se llame “public”</li>
-<li>Si se traba de un blog con {blogdown}, la versión de Hugo importa. En las nnuevas versiones de {blogdown}, al generar un nuevo blog se crea un archivo que se llama “netlify.toml” donde podemos indicar la versión de Hugo que debe usar Netlify. Pero también podemos modificar esto desde la configuración del sitio en Netlify.</li>
+<li>El resultado de la trivia no influye en la nota final de la materia.</li>
+<li>No buscamos evaluarlos a ustedes, buscamos saber si necesitamos revisar algún concepto.</li>
+<li>En cierto punto, estamos chequeando si nosotras hicimos un buen trabajo.</li>
+<li>Si no saben la respuesta, no pasa nada. Mejor responder “D. Paso” que elegir al azar.</li>
+<li>No hay preguntas tramposas</li>
 </ul>
-<p><strong>GitHub Pages</strong></p>
-<p>Netlify no es el único servicio que permite hostear una web. Hay muchos otros, por ejemplo GitHub Pages. En este caso si o si necesitamos usar un repositorio donde esté, al menos, los htmls que generan la web.</p>
-<p>Una de las diferencias importantes es que GitHub Pages <em>busca</em> la web enla carpeta raíz o alternativamente en una carpeta dentro del repositorio que debe llamarse “docs”. La buena noticia es que tanto usando solo {rmarkdown} como usando {blogdown} se puede indicar en el archivo de configuración que nombre debe tener la carpeta que contenga el sitio construiido.</p>
-<p>La mala noticia es que no construye automáticamente el sitio como si lo hace Netlify. Todo no se puede :)</p>
-<blockquote>
-<p>Todo lo anterior forma parte de una pequeña charla que dí para el <a href="https://twitter.com/club_rrhh">Club de R para RRHH</a>. Pueden encontrar la presentación que hila los 3 ejemplos de webs <a href="https://docs.google.com/presentation/d/116avpwz5U4ptr09N26S3N_PKwU0uW8dJtzTk47SE0A8/edit#slide=id.gaccfc011f0_0_136">acá</a>.</p>
-</blockquote>
+<p>Al empezar vamos pasando las slides de a una, dando tiempo a que piensen cuál es la respuesta correcta. Les estudiantes ya conocen las bases de datos que se usan pero nunca está mal dar algo de contexto. Por ejemplo, que pinta tiene la base de datos que se usó, qué información contienen las variables que se usaron, etc.</p>
+<p>Al terminar de responder las preguntas, deben enviar el formulario. Y acá es donde comienza lo interesante. Una podría guardar la información para analizarla y hacer cambios en el contenido de las siguientes clases o hasta en la misma clase. Pero la propuesta es otra.</p>
+<p>Usamos Google Forms porque genera una previsualización de las respuestas de manera automática (seguro que hay otras plataformas que hacen lo mismo). Por ejemplo acá vemos que el 93.8% de las personas eligieron la opción B y el 6.3% no tenían mucha idea. Pero para la pregunta 2 las respuestas están mucho más distribuidas, estos casos nos permiten discutir muchas cosas.</p>
+<div class="float">
+<img src="images/respuestas.png" alt="Captura de pantalla que muestra las respuestas a 2 preguntas en gráficos de torta." />
+<div class="figcaption">Captura de pantalla que muestra las respuestas a 2 preguntas en gráficos de torta.</div>
+</div>
+<p>En la segunda parte de la actividad, analizaremos en conjunto con les estudiantes sus respuestas. Para cada pregunta, primero les pedimos que defiendan la respuesta que eligieron y por qué piensan que es la correcta. Compartimos con ellos los resultados del formulario:</p>
+<div class="float">
+<img src="images/discusion-respuestas.png" alt="Captura de pantalla, a la izquierda se ve una slide con la pregunta 2, a la derecha las respuestas recibidas en el formulario a la pregunta 2" />
+<div class="figcaption">Captura de pantalla, a la izquierda se ve una slide con la pregunta 2, a la derecha las respuestas recibidas en el formulario a la pregunta 2</div>
+</div>
+<p>Luego iremos a R y revisaremos que resultado da el código u opción asociado a cada respuesta para encontrar la correcta.</p>
+<div class="float">
+<img src="images/respuestas-r.png" alt="Captura de pantalla que muestra en R el código asociado a cada respuesta" />
+<div class="figcaption">Captura de pantalla que muestra en R el código asociado a cada respuesta</div>
+</div>
+<p>Esta dinámica permite revisar en detalle por qué una respuesta es correcta y las otras no; no solo si respondieron bien o mal. Es además una oportunidad para que hagan preguntas que se les van ocurriendo en el camino. Si nuestros estudiantes son muy novatos con el uso de R, es posible que la discusión ronde en torno a esos conceptos que intentamos repasar. Si tienen algo más de experiencia, seguramente hagan preguntas que nos den la oportunidad de explicar y demostrar conceptos más avanzados, por ejemplo detalles de cómo funciona internamente ggplot2. En este sentido es importante encontrar el equilibrio entre el repaso y lo nuevo para no perder a nadie en el camino.</p>
+<p>Siempre que incluimos esta actividad en la materia, les estudiantes la destacaron como algo que les gustó mucho. Y del lado de las docentes, siempre es una experiencia enriquecedora.</p>
+</div>
+<div id="materiales" class="section level2">
+<h2>Materiales</h2>
+<p>Si te interesa probar la actividad, espero que te sirvan estos materiales. ¡No dudes en escribirme para contarme cómo salió!</p>
+<ul>
+<li><a href="https://docs.google.com/presentation/d/1h3wdhfiqEKfF-iIibWfJi7ZbxAm3kVx6h_sQ3ddr4Xg/edit?usp=sharing">Slides con las preguntas</a></li>
+<li><a href="https://forms.gle/MNisQyLh6sxktuM77">Formulario para responder</a></li>
+<li><a href="https://drive.google.com/file/d/1lBR0C-uj2pOY5OAD6H-5e6mBHT7u5qBw/view?usp=sharing">RMarkdown para trabajar sobre las respuestas</a></li>
+<li><a href="https://drive.google.com/file/d/1KGS_w1xgC2G2H_0_PYJu6XgwzCLeD2wB/view?usp=sharing">RMarkdown con las respuestas correctas</a></li>
+</ul>
 </div>
 
         
         <details closed class="f6 fw7 input-reset">
   <dl class="f6 lh-copy">
     <dt class="fw7">Posted on:</dt>
-    <dd class="fw5 ml0">November 28, 2020</dd>
+    <dd class="fw5 ml0">January 28, 2024</dd>
   </dl>
   <dl class="f6 lh-copy">
     <dt class="fw7">Length:</dt>
-    <dd class="fw5 ml0">4 minute read, 696 words</dd>
+    <dd class="fw5 ml0">4 minute read, 791 words</dd>
   </dl>
   
   <dl class="f6 lh-copy">
     <dt class="fw7">Categories:</dt>
-    <dd class="fw5 ml0"> <a href="/categories/espa%C3%B1ol">Español</a>  <a href="/categories/workshop">workshop</a> </dd>
+    <dd class="fw5 ml0"> <a href="/categories/education">Education</a>  <a href="/categories/r">R</a> </dd>
   </dl>
   
   
-  
-  <dl class="f6 lh-copy">
-    <dt class="fw7">Tags:</dt>
-    <dd class="fw5 ml0"> <a href="/tags/blogdown">Blogdown</a>  <a href="/tags/r">R</a>  <a href="/tags/taller">taller</a> </dd>
-  </dl>
   
   <dl class="f6 lh-copy">
     <dt class="fw7">See Also:</dt>
-    
-    <dd class="fw5 ml0"><a href="/courses/intro-tidymodels/">Primeros pasos con Tidymodels</a></dd>
-    
-    <dd class="fw5 ml0"><a href="/courses/git-developing-software-together/">Developing Software Together: using Git</a></dd>
-    
-    <dd class="fw5 ml0"><a href="/courses/errores-r/">Conquistando errores con R</a></dd>
     
   </dl>
 </details>
@@ -247,13 +227,10 @@ if (!doNotTrack) {
         <div class="post-pagination dt w-100 mt4 mb2">
   
   
-    <a class="prev dtc pr2 tl v-top fw6"
-    href="/blog/trivia-ggplot2/">&larr; La trivia de ggplot2</a>
-  
   
   
     <a class="next dtc pl2 tr v-top fw6"
-    href="/blog/2019-10-24-un-taller-de-r-desde-cero-en-nerdearla/">Un taller de R desde cero en nerdearla &rarr;</a>
+    href="/blog/webs-con-rmarkdown/">Webs con RMarkdown &rarr;</a>
   
 </div>
 
