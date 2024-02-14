@@ -16,7 +16,7 @@ Links:
 - icon: door-open
   icon_pack: fas
   name: Web
-  url: https://paocorrales.github.io/Tesis_doctorado/Tesis_doctorado/
+  url: https://paocorrales.github.io/Tesis_doctorado
 - icon: database
   icon_pack: fas
   name: Datos
