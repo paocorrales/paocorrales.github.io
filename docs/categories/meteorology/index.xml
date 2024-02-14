@@ -6,7 +6,17 @@
     <description>Recent content in meteorology on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Aug 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/meteorology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/meteorology/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data assimilation docs</title>
+      <link>/publications/2024-02-14-data-assimilation-docs/</link>
+      <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/2024-02-14-data-assimilation-docs/</guid>
+      <description>Last year I finished my PhD (you can read my dissertation here, in Spanish) and now I finished documenting the technical part of my data assimilation experiments into a website.
+The website compiles a series of examples, tutorials, scripts and in general a comprehensive documentation around the GSI system V3.7 - EnKF V1.3. It focus on the use of GSI as a observation operator along with the EnKF version. It covers everything you need to know from how to deal with observations (in bufr format), how to configure the system to assimilate conventional and radiance observations to how to read and interpret GSI outputs.</description>
+    </item>
+    
     <item>
       <title>Utilización de datos satelitales para la evaluación y mejora de los pronósticos numéricos en alta resolución a muy corto plazo</title>
       <link>/publications/tesis-doctorado/</link>
