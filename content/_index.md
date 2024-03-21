@@ -8,7 +8,7 @@ images:
 - img/forecast_factory.jpg
 show_action_link: true
 show_social_links: true
-subtitle: Doctoral research scientist and educator 
+subtitle: Research scientist and educator 
 text_align_left: false
 title: Pao Corrales
 type: home
