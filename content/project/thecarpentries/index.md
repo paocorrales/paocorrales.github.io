@@ -49,7 +49,9 @@ links:
 
 I'm a instructor (I can teach programming-related tools) and a trainer (I can teach how to teach the tools) since march 2020. During these years I taught the Instructor Training course in Spanish 3 times, helping the Latin American community to grow. I also organized demo and discussion sessions in Spanish so that Spanish speakers could complete their certification in their language.
 
-I am currently part of the leadership team of trainers and hope to continue helping the trainer community and in particular Latin America and promoting the use of evidence based teaching tools. 
+I was part of the leadership team of trainers during 2022-2023. My focus was to help the trainer community and in particular Latin America and promoting the use of evidence based teaching tools. 
+
+I'm currently part of the Board of Directors!
 
 # Español
 
@@ -65,3 +67,7 @@ Soy instructora (puedo enseñar herramientas relacionadas con la programación) 
 
 Durante estos años enseñe el curso para instructores en español 3 veces, ayudando a que la comunidad de latinoamerica cresca. Además organicé sesiones de demostración y discusion en español para que personas de habla hispana puedan completar su certificación en su idioma.
 Actualmente soy parte del equipo lider de trainers y espero poder seguir ayudando a la comunidad de trainers y en particular a latinoamerica y promoviendo el uso de herramientas de enseñanza basadas en evidencia. 
+
+Formé parte del equipo trainers leadership team durante 2022-2023. Mi enfoque ha sido ayudar a la comunidad de trainers y en particular a América Latina, promoviendo el uso de herramientas de enseñanza basadas en evidencia.
+
+¡Actualmente formo parte del directorio de Carpentries!
