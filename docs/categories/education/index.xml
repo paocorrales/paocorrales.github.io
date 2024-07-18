@@ -6,7 +6,17 @@
     <description>Recent content in Education on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Efficient data analysis with data.table</title>
+      <link>/courses/datatable-intro/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/datatable-intro/</guid>
+      <description>At its core, data.table provides an enhanced version of data.frames that are faster, more memory efficient and can be manipulated using a more concise syntax. It also provides a whole set of extra functions for reading from and writing to tabular files, reshaping data between long and wide formats, joining datasets and much more.
+This three-hour tutorial will introduce participants to data.table’s basics. Through live coding sessions and hands-on exercises, we will learn how to use data.</description>
+    </item>
+    
     <item>
       <title>La trivia de ggplot2</title>
       <link>/blog/trivia-ggplot2/</link>
@@ -32,7 +42,7 @@ Del lado del docente: el material está pensando para hacer live coding siguiend
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>/courses/gestion_datos/</guid>
-      <description>Español     Materia 186 - Gestión de Datos     Ante la necesidad de cualquier persona que practique la ciencia de datos de manipular distintos volúmenes de datos, la gestión de los mismos cobra gran importancia. En esta materia abordaremos el tema de la gestión de datos desde el punto de vista teórico y práctico, incluyendo estudios de casos y actividades para brindarles las herramientas necesarias para continuar con su formación.</description>
+      <description>EspañolMateria 186 - Gestión de DatosAnte la necesidad de cualquier persona que practique la ciencia de datos de manipular distintos volúmenes de datos, la gestión de los mismos cobra gran importancia. En esta materia abordaremos el tema de la gestión de datos desde el punto de vista teórico y práctico, incluyendo estudios de casos y actividades para brindarles las herramientas necesarias para continuar con su formación.</description>
     </item>
     
     <item>
@@ -50,7 +60,7 @@ Del lado del docente: el material está pensando para hacer live coding siguiend
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>/courses/enseniando_tecnologia_en_comunidad/</guid>
-      <description>¿Para quién es este curso?     El curso está pensado para cualquier persona que esté interesada en mejorar sus habilidades como docente.
+      <description>¿Para quién es este curso?El curso está pensado para cualquier persona que esté interesada en mejorar sus habilidades como docente.
 Los cuatro tipos de personas a las que está destinado este curso son enseñantes finales, lo que significa que la enseñanza no es su ocupación primaria, tienen poco o ningún conocimiento sobre pedagogía y posiblemente no enseñan en clases de instituciones educativas formales.
   Emilia: está entrenada como bibliotecaria y actualmente trabaja como diseñadora web y gestora de proyectos en una pequeña empresa consultora.</description>
     </item>
@@ -61,7 +71,7 @@ Los cuatro tipos de personas a las que está destinado este curso son enseñante
       <pubDate>Mon, 10 Oct 2022 00:00:00 +0000</pubDate>
       
       <guid>/courses/errores-r/</guid>
-      <description>¿De qué se trata este taller?     Ilustración de una vaquita de San AntonioDebuggear o depurar los errores de tu código puede ser una tarea frustrante. Tal vez obtuviste un mensaje de error y hay que interpretarlo o tal vez el código devuelve un resultado que no es el esperado. Si bien no existe una herramienta o método mágico para identificar los errores en un código, depurar errores requiere de un proceso sistemático.</description>
+      <description>¿De qué se trata este taller?Ilustración de una vaquita de San AntonioDebuggear o depurar los errores de tu código puede ser una tarea frustrante. Tal vez obtuviste un mensaje de error y hay que interpretarlo o tal vez el código devuelve un resultado que no es el esperado. Si bien no existe una herramienta o método mágico para identificar los errores en un código, depurar errores requiere de un proceso sistemático.</description>
     </item>
     
     <item>
@@ -70,7 +80,7 @@ Los cuatro tipos de personas a las que está destinado este curso son enseñante
       <pubDate>Mon, 29 Aug 2022 00:00:00 +0000</pubDate>
       
       <guid>/courses/programacion-literaria/</guid>
-      <description>¿De qué se trata este curso?     Este curso está orientado tanto a personas con experiencia usando R como aquellas re recién comienzan. El foco no estará en correr modelos o utilizar una sintaxis específica para escribir código de R. El objetivo será transformar nuestros análisis usando R en trabajos reproducibles (o al menos desde el punto de vista de R).
+      <description>¿De qué se trata este curso?Este curso está orientado tanto a personas con experiencia usando R como aquellas re recién comienzan. El foco no estará en correr modelos o utilizar una sintaxis específica para escribir código de R. El objetivo será transformar nuestros análisis usando R en trabajos reproducibles (o al menos desde el punto de vista de R).
 En particular en estos encuentros haremos foco en la programación literaria, en particular aplicando esta definición al análisis de datos.</description>
     </item>
     
@@ -92,7 +102,7 @@ En particular en estos encuentros haremos foco en la programación literaria, en
       <guid>/courses/scripts-to-rmarkdown/</guid>
       <description>En mayo de 2022 tenía que dar un taller corto con Yani para r-Ladies Mendoza. En ese momento se me ocurrió la &amp;ldquo;novedosa&amp;rdquo; idea de armar el taller alrededor de la idea de convertir un script existente en un archivo RMarkdown que pueda ser convertido en un informe en distintos formatos.
 Los materiales están son parte de un proyecto de Posit Cloud que tiene todo listo para trabajar:
-  Proyecto  Revisando los materiales para actualizar esta web, descubrí que mi cerebro ya había pensado eso hace más de 5 años atrás para un meetup de R-Ladies Buenos Aires.</description>
+ Proyecto  Revisando los materiales para actualizar esta web, descubrí que mi cerebro ya había pensado eso hace más de 5 años atrás para un meetup de R-Ladies Buenos Aires.</description>
     </item>
     
     <item>
@@ -101,7 +111,7 @@ Los materiales están son parte de un proyecto de Posit Cloud que tiene todo lis
       <pubDate>Tue, 17 May 2022 00:00:00 +0000</pubDate>
       
       <guid>/courses/deplanillasdecalculoar/</guid>
-      <description>De que se trata este curso?     Este curso está dirigido a personas que utilizan hojas de cálculo para la manipulación de datos y que nunca han programado, pero que les gustaría aprender a trabajar con R. Por lo tanto, comenzamos por el principio: ¿por qué usar R? y ¿por dónde empezar?
+      <description>De que se trata este curso?Este curso está dirigido a personas que utilizan hojas de cálculo para la manipulación de datos y que nunca han programado, pero que les gustaría aprender a trabajar con R. Por lo tanto, comenzamos por el principio: ¿por qué usar R? y ¿por dónde empezar?
 Proponemos trabajar con R de forma ordenada y reproducible. Por ello, presentamos un flujo de trabajo que permite a quienes realicen este curso aplicar buenas prácticas de programación, trabajar de forma colaborativa y presentar su trabajo en un único documento que incluya el análisis y los resultados.</description>
     </item>
     
@@ -111,8 +121,8 @@ Proponemos trabajar con R de forma ordenada y reproducible. Por ello, presentamo
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/courses/tutorialesinteractivos_intro/</guid>
-      <description>Español     Objetivos     El objetivo de este curso es introducir a las personas que participan al paquete {learnr} de R y como utilizarlo para generar tutoriales interactivos que permitan a los y las estudiantes escribir y ejecutar código R directamente desde el tutorial, contestar preguntas y recibir feedback inmediato.
-¿Para quién está pensado este taller?     Cada lección debe ser pensada, organizada y generada para una audiencia en particular, estas son las personas tipo en la que pensamos cuando preparamos este taller:</description>
+      <description>EspañolObjetivosEl objetivo de este curso es introducir a las personas que participan al paquete {learnr} de R y como utilizarlo para generar tutoriales interactivos que permitan a los y las estudiantes escribir y ejecutar código R directamente desde el tutorial, contestar preguntas y recibir feedback inmediato.
+¿Para quién está pensado este taller?Cada lección debe ser pensada, organizada y generada para una audiencia en particular, estas son las personas tipo en la que pensamos cuando preparamos este taller:</description>
     </item>
     
     <item>
@@ -140,7 +150,7 @@ En este taller y documento técnico realizaremos una introducción al concepto d
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/courses/teach_programming/</guid>
-      <description>Español - Cómo enseñar a programar online     Objetivos     Introducir técnicas y buenas prácticas para diseñar tus cursos de programación y evaluar a tus estudiantes.
+      <description>Español - Cómo enseñar a programar onlineObjetivosIntroducir técnicas y buenas prácticas para diseñar tus cursos de programación y evaluar a tus estudiantes.
 Durante este taller remoto:
   Mostraremos cómo diseñar tus cursos de programación de una manera eficiente y productiva.
   Hablaremos de la utilidad de la revisión entre pares y la importancia de recibir feedback. Discutiremos cómo implementar estas prácticas.</description>
@@ -152,7 +162,7 @@ Durante este taller remoto:
       <pubDate>Sun, 01 Nov 2020 00:00:00 +0000</pubDate>
       
       <guid>/courses/rclima/</guid>
-      <description>¿De qué se trata este curso?     Este curso está pensado para personas que trabajan con datos meteorológicos y climáticos y realizan análisis aplicados a distintas áreas como agricultura, salud, economía. Tiene algo de experiencia utilizando R o algún otro lenguaje de programación pero buscan organizar mejor su trabajo para automatizar algunas tareas y generar resultados e informes para compartir. Aún así, este curso comienza con un mapa de RStudio y RMarkdown, herramientas que serán imprescindibles.</description>
+      <description>¿De qué se trata este curso?Este curso está pensado para personas que trabajan con datos meteorológicos y climáticos y realizan análisis aplicados a distintas áreas como agricultura, salud, economía. Tiene algo de experiencia utilizando R o algún otro lenguaje de programación pero buscan organizar mejor su trabajo para automatizar algunas tareas y generar resultados e informes para compartir. Aún así, este curso comienza con un mapa de RStudio y RMarkdown, herramientas que serán imprescindibles.</description>
     </item>
     
     <item>
@@ -161,7 +171,7 @@ Durante este taller remoto:
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/courses/deraexcel/</guid>
-      <description>¿De qué se trata este curso?     Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?
+      <description>¿De qué se trata este curso?Este curso está pensado para personas que usan Excel para la manipulación y análisis de datos pero les gustaría aprender a trabajar con R y nunca programaron. Por eso los contenidos comienzan desde el principio: ¿por qué usar R? y ¿por dónde empezar?
 Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera ordenada y reproducible.</description>
     </item>
     
@@ -171,7 +181,7 @@ Al mismo tiempo que proponemos trabajar con R, nos gustaría que sea de manera o
       <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/project/rforwards/</guid>
-      <description>About RForwards     The task force was set up by the R Foundation in December 2015 to address the underrepresentation of women and rebranded in January 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
+      <description>About RForwardsThe task force was set up by the R Foundation in December 2015 to address the underrepresentation of women and rebranded in January 2017 to accommodate more under-represented groups such as LGBT, minority ethnic groups, and people with disabilities in the R community.
 The members of the task force were invited to participate based on their interest in routing for specific under-represented groups and their contributions in the area of diversity and inclusion, to reflect different genders, ethnic groups, work contexts, career stages and aspects of the R project (e.</description>
     </item>
     
@@ -182,7 +192,7 @@ The members of the task force were invited to participate based on their interes
       
       <guid>/project/metadocencia/</guid>
       <description>Soy co-fundadora de MetaDocencia y hasta Mayo de 2022 fui parte del core team. Durante estos 2 años ayudé en el desarrollo de materiales y nuevos cursos, colaboré en la traducción de otros materiales, co-coordiné la infraestructura de la comunidad y coordiné el equipo de código de conducta.
-Sobre MetaDocencia hasta Mayo 2022     Nuestra visión     Somos una comunidad inclusiva y colaborativa que mejora la educación potenciando docentes de países menos favorecidos.</description>
+Sobre MetaDocencia hasta Mayo 2022Nuestra visiónSomos una comunidad inclusiva y colaborativa que mejora la educación potenciando docentes de países menos favorecidos.</description>
     </item>
     
     <item>
@@ -191,7 +201,7 @@ Sobre MetaDocencia hasta Mayo 2022     Nuestra visión     Somos una comunidad i
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
       <guid>/project/thecarpentries/</guid>
-      <description>About The Carpentries     Vision: Our vision is to be the leading inclusive community teaching data and coding skills.
+      <description>About The CarpentriesVision: Our vision is to be the leading inclusive community teaching data and coding skills.
 Mission: The Carpentries builds global capacity in essential data and computational skills for conducting efficient, open, and reproducible research. We train and foster an active, inclusive, diverse community of learners and instructors that promotes and models the importance of software and data in research. We collaboratively develop openly-available lessons and deliver these lessons using evidence-based teaching practices.</description>
     </item>
     
@@ -202,7 +212,7 @@ Mission: The Carpentries builds global capacity in essential data and computatio
       
       <guid>/project/rladies/</guid>
       <description>R-Ladies is a worldwide organization whose mission is to promote gender diversity in the R community.
-The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users ( see recent stats).
+The R community suffers from an underrepresentation of minority genders (including but not limited to cis/trans women, trans men, non-binary, genderqueer, agender) in every role and area of participation, whether as leaders, package developers, conference speakers, conference participants, educators, or users (see recent stats).
 As a diversity initiative, the mission of R-Ladies is to achieve proportionate representation by encouraging, inspiring, and empowering people of genders currently underrepresented in the R community.</description>
     </item>
     

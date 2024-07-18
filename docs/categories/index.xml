@@ -6,7 +6,34 @@
     <description>Recent content in Categories on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 14 Feb 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Education</title>
+      <link>/categories/education/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/education/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>/categories/english/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>workshop</title>
+      <link>/categories/workshop/</link>
+      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/workshop/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Academic</title>
       <link>/categories/academic/</link>
@@ -22,15 +49,6 @@
       <pubDate>Wed, 14 Feb 2024 00:00:00 +0000</pubDate>
       
       <guid>/categories/meteorology/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Education</title>
-      <link>/categories/education/</link>
-      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/education/</guid>
       <description></description>
     </item>
     
@@ -53,15 +71,6 @@
     </item>
     
     <item>
-      <title>workshop</title>
-      <link>/categories/workshop/</link>
-      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/workshop/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>talk</title>
       <link>/categories/talk/</link>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
@@ -76,15 +85,6 @@
       <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
       
       <guid>/categories/community/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>English</title>
-      <link>/categories/english/</link>
-      <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/english/</guid>
       <description></description>
     </item>
     

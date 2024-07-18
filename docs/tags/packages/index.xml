@@ -13,8 +13,8 @@
       <pubDate>Sun, 03 Apr 2022 00:00:00 +0000</pubDate>
       
       <guid>/courses/tutorialesinteractivos_intro/</guid>
-      <description>Español     Objetivos     El objetivo de este curso es introducir a las personas que participan al paquete {learnr} de R y como utilizarlo para generar tutoriales interactivos que permitan a los y las estudiantes escribir y ejecutar código R directamente desde el tutorial, contestar preguntas y recibir feedback inmediato.
-¿Para quién está pensado este taller?     Cada lección debe ser pensada, organizada y generada para una audiencia en particular, estas son las personas tipo en la que pensamos cuando preparamos este taller:</description>
+      <description>EspañolObjetivosEl objetivo de este curso es introducir a las personas que participan al paquete {learnr} de R y como utilizarlo para generar tutoriales interactivos que permitan a los y las estudiantes escribir y ejecutar código R directamente desde el tutorial, contestar preguntas y recibir feedback inmediato.
+¿Para quién está pensado este taller?Cada lección debe ser pensada, organizada y generada para una audiencia en particular, estas son las personas tipo en la que pensamos cuando preparamos este taller:</description>
     </item>
     
     <item>
@@ -23,7 +23,7 @@
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
       <guid>/courses/teach_programming/</guid>
-      <description>Español - Cómo enseñar a programar online     Objetivos     Introducir técnicas y buenas prácticas para diseñar tus cursos de programación y evaluar a tus estudiantes.
+      <description>Español - Cómo enseñar a programar onlineObjetivosIntroducir técnicas y buenas prácticas para diseñar tus cursos de programación y evaluar a tus estudiantes.
 Durante este taller remoto:
   Mostraremos cómo diseñar tus cursos de programación de una manera eficiente y productiva.
   Hablaremos de la utilidad de la revisión entre pares y la importancia de recibir feedback. Discutiremos cómo implementar estas prácticas.</description>
