@@ -6,11 +6,29 @@
     <description>Recent content in Tags on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Community</title>
+      <link>/tags/community/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/community/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data Science</title>
+      <link>/tags/data-science/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-science/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Education</title>
       <link>/tags/education/</link>
-      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>/tags/education/</guid>
       <description></description>
@@ -49,24 +67,6 @@
       <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>/tags/tidymodels/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Community</title>
-      <link>/tags/community/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/community/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Data Science</title>
-      <link>/tags/data-science/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/data-science/</guid>
       <description></description>
     </item>
     

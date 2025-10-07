@@ -6,22 +6,40 @@
     <description>Recent content in Categories on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>English</title>
+      <link>/categories/english/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/english/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>/categories/community/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/community/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Education</title>
       <link>/categories/education/</link>
-      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
       <guid>/categories/education/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>English</title>
-      <link>/categories/english/</link>
-      <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
+      <title>Español</title>
+      <link>/categories/espa%C3%B1ol/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
       
-      <guid>/categories/english/</guid>
+      <guid>/categories/espa%C3%B1ol/</guid>
       <description></description>
     </item>
     
@@ -62,29 +80,11 @@
     </item>
     
     <item>
-      <title>Español</title>
-      <link>/categories/espa%C3%B1ol/</link>
-      <pubDate>Sat, 28 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/espa%C3%B1ol/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>talk</title>
       <link>/categories/talk/</link>
       <pubDate>Wed, 18 Oct 2023 00:00:00 +0000</pubDate>
       
       <guid>/categories/talk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Community</title>
-      <link>/categories/community/</link>
-      <pubDate>Sat, 12 Aug 2023 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/community/</guid>
       <description></description>
     </item>
     

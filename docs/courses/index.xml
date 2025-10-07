@@ -6,7 +6,16 @@
     <description>Recent content in Courses on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="/courses/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/courses/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducción a la programación</title>
+      <link>/courses/intro_programacion/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/intro_programacion/</guid>
+      <description>Los conocimientos en programación son esenciales para la práctica de la ciencia de datos, que implica el manejo de grandes conjuntos de datos, junto con la creciente demanda de que los estudios sean reproducibles y abiertos. Con estas exigencias, quienes hacen ciencia de datos necesitan a menudo crear, utilizar y compartir software. Este software tiene características particulares, que están relacionadas en gran medida con la exploración de problemas y la respuesta a preguntas.</description>
+    </item>
+    
     <item>
       <title>Efficient data analysis with data.table</title>
       <link>/courses/datatable-intro/</link>
@@ -42,7 +51,8 @@ Del lado del docente: el material está pensando para hacer live coding siguiend
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>/courses/git-developing-software-together/</guid>
-      <description>It is a three-hour course on how to use Git and GitHub to collaboratively develop open source software with the R language. It was organized for the Champions program of rOpenSci.</description>
+      <description>It is a three-hour course on how to use Git and GitHub to collaboratively develop open source software with the R language. It was organized for the Champions program of rOpenSci.
+Y ahora existe la versión ACTUALIZADA en español!</description>
     </item>
     
     <item>

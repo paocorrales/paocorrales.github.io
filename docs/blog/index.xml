@@ -6,7 +6,17 @@
     <description>Recent content in A Blog on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 28 Jan 2024 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My experience at RSAA25</title>
+      <link>/blog/2025-09-26-my-experience-at-rsaa25/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2025-09-26-my-experience-at-rsaa25/</guid>
+      <description>This year I joined again the Research Software Asia Australia Conference from the 17th to the 19th of September 2025 as a speaker and chair in one of the sessions. And, like last year, it was one of the best online conference I&amp;rsquo;ve been part of.
+This is an online conference that invite research software people around Asia, Australia and New Zealand to talk about success, challenges, new tools, how the research software looks like and, this year, &amp;ldquo;Connecting with Community&amp;rdquo;.</description>
+    </item>
+    
     <item>
       <title>La trivia de ggplot2</title>
       <link>/blog/trivia-ggplot2/</link>

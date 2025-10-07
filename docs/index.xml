@@ -6,7 +6,7 @@
     <description>Recent content on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jul 2024 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Sep 2025 00:00:00 +0000</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Netlify</title>
       <link>/collection/day02/01-netlify/</link>
@@ -84,6 +84,25 @@ My content section is: collection  My layout is: single-series   part 2!     doe
     </item>
     
     <item>
+      <title>My experience at RSAA25</title>
+      <link>/blog/2025-09-26-my-experience-at-rsaa25/</link>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>/blog/2025-09-26-my-experience-at-rsaa25/</guid>
+      <description>This year I joined again the Research Software Asia Australia Conference from the 17th to the 19th of September 2025 as a speaker and chair in one of the sessions. And, like last year, it was one of the best online conference I&amp;rsquo;ve been part of.
+This is an online conference that invite research software people around Asia, Australia and New Zealand to talk about success, challenges, new tools, how the research software looks like and, this year, &amp;ldquo;Connecting with Community&amp;rdquo;.</description>
+    </item>
+    
+    <item>
+      <title>Introducción a la programación</title>
+      <link>/courses/intro_programacion/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/intro_programacion/</guid>
+      <description>Los conocimientos en programación son esenciales para la práctica de la ciencia de datos, que implica el manejo de grandes conjuntos de datos, junto con la creciente demanda de que los estudios sean reproducibles y abiertos. Con estas exigencias, quienes hacen ciencia de datos necesitan a menudo crear, utilizar y compartir software. Este software tiene características particulares, que están relacionadas en gran medida con la exploración de problemas y la respuesta a preguntas.</description>
+    </item>
+    
+    <item>
       <title>Efficient data analysis with data.table</title>
       <link>/courses/datatable-intro/</link>
       <pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate>
@@ -156,7 +175,8 @@ Resumen En la Argentina, los fenómenos meteorológicos extremos producen cuanti
       <pubDate>Sat, 01 Jul 2023 00:00:00 +0000</pubDate>
       
       <guid>/courses/git-developing-software-together/</guid>
-      <description>It is a three-hour course on how to use Git and GitHub to collaboratively develop open source software with the R language. It was organized for the Champions program of rOpenSci.</description>
+      <description>It is a three-hour course on how to use Git and GitHub to collaboratively develop open source software with the R language. It was organized for the Champions program of rOpenSci.
+Y ahora existe la versión ACTUALIZADA en español!</description>
     </item>
     
     <item>

@@ -6,7 +6,16 @@
     <description>Recent content in Español on Pao Corrales</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 28 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/espa%C3%B1ol/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 01 Dec 2024 00:00:00 +0000</lastBuildDate><atom:link href="/categories/espa%C3%B1ol/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introducción a la programación</title>
+      <link>/courses/intro_programacion/</link>
+      <pubDate>Sun, 01 Dec 2024 00:00:00 +0000</pubDate>
+      
+      <guid>/courses/intro_programacion/</guid>
+      <description>Los conocimientos en programación son esenciales para la práctica de la ciencia de datos, que implica el manejo de grandes conjuntos de datos, junto con la creciente demanda de que los estudios sean reproducibles y abiertos. Con estas exigencias, quienes hacen ciencia de datos necesitan a menudo crear, utilizar y compartir software. Este software tiene características particulares, que están relacionadas en gran medida con la exploración de problemas y la respuesta a preguntas.</description>
+    </item>
+    
     <item>
       <title>Primeros pasos con Tidymodels</title>
       <link>/courses/intro-tidymodels/</link>
